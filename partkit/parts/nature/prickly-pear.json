@@ -1,0 +1,104 @@
+{
+  "id": "prickly-pear",
+  "name": "Prickly Pear",
+  "category": "nature",
+  "variant": "role-nature-prickly-pear",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: prickly-pear with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.cactus",
+    "nature.leafDark",
+    "flower.gold",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.6,
+      "y": 0,
+      "z": -0.6,
+      "w": 1.2,
+      "h": 1.5,
+      "d": 1.2,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": -1.6,
+      "y": 1.2,
+      "z": -0.3,
+      "w": 2.4,
+      "h": 2.6,
+      "d": 0.6,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": 0.4,
+      "y": 1.6,
+      "z": -0.3,
+      "w": 2.2,
+      "h": 2.4,
+      "d": 0.6,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -0.8,
+      "y": 3,
+      "z": 0.2,
+      "w": 2,
+      "h": 2.2,
+      "d": 0.6,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -1.4,
+      "y": 3.4,
+      "z": -0.2,
+      "w": 0.6,
+      "h": 0.6,
+      "d": 0.5,
+      "mat": "flower.gold"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

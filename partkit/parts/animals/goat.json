@@ -1,0 +1,129 @@
+{
+  "id": "goat",
+  "name": "Goat",
+  "category": "animal",
+  "variant": "role-animal-goat",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built animal: goat placed as a living town detail with yard/wildlife role cue and photo-readable base.",
+  "palette_tokens": [
+    "animal.hide",
+    "animal.goat",
+    "animal.hoof",
+    "ground.dirt",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.58,
+      "y": 0,
+      "z": -1.05,
+      "w": 0.33,
+      "h": 1.4,
+      "d": 0.33,
+      "mat": "animal.hide"
+    },
+    {
+      "x": -0.58,
+      "y": 0,
+      "z": 0.72,
+      "w": 0.33,
+      "h": 1.4,
+      "d": 0.33,
+      "mat": "animal.hide"
+    },
+    {
+      "x": 0.26,
+      "y": 0,
+      "z": -1.05,
+      "w": 0.33,
+      "h": 1.4,
+      "d": 0.33,
+      "mat": "animal.hide"
+    },
+    {
+      "x": 0.26,
+      "y": 0,
+      "z": 0.72,
+      "w": 0.33,
+      "h": 1.4,
+      "d": 0.33,
+      "mat": "animal.hide"
+    },
+    {
+      "x": -0.58,
+      "y": 1.2,
+      "z": -1.25,
+      "w": 1.17,
+      "h": 1.17,
+      "d": 2.5,
+      "mat": "animal.goat"
+    },
+    {
+      "x": -0.37,
+      "y": 1.55,
+      "z": -2.25,
+      "w": 0.75,
+      "h": 0.88,
+      "d": 1.2,
+      "mat": "animal.goat"
+    },
+    {
+      "x": -0.33,
+      "y": 2.31,
+      "z": -1.9,
+      "w": 0.22,
+      "h": 0.7,
+      "d": 0.22,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": 0.14,
+      "y": 2.31,
+      "z": -1.9,
+      "w": 0.22,
+      "h": 0.7,
+      "d": 0.22,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": -0.13,
+      "y": 1.67,
+      "z": 1.25,
+      "w": 0.26,
+      "h": 0.9,
+      "d": 0.3,
+      "mat": "animal.goat"
+    },
+    {
+      "x": -0.95,
+      "y": 0.02,
+      "z": -1.25,
+      "w": 1.9,
+      "h": 0.14,
+      "d": 0.42,
+      "mat": "ground.dirt"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 0.95,
+      "z": -1.55,
+      "w": 1.8,
+      "h": 0.6,
+      "face": "front",
+      "title": "LIFE",
+      "subtitle": "YARD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

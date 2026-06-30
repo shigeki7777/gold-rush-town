@@ -1,0 +1,210 @@
+{
+  "id": "wagon-wheel",
+  "name": "Wagon Wheel",
+  "category": "prop",
+  "variant": "role-prop-wagon-wheel",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.3,
+  "description": "Purpose-built prop asset: wagon-wheel with Gold Rush Town role cue (MOVE/GOODS), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.base",
+    "metal.iron",
+    "metal.rail",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": 1.4,
+      "y": 1.6,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0.68,
+      "y": 2.48,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": 0.93,
+      "y": 2.73,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0.45,
+      "y": 3.05,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -0.2,
+      "y": 3.2,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.12,
+      "y": 3.28,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.33,
+      "y": 2.73,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.69,
+      "y": 3.05,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.92,
+      "y": 2.48,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.33,
+      "y": 0.47,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.69,
+      "y": 1.91,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -0.2,
+      "y": 0,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.12,
+      "y": 1.68,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": 0.93,
+      "y": 0.47,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0.45,
+      "y": 1.91,
+      "z": -0.05,
+      "w": 0.24,
+      "h": 0.24,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -0.4,
+      "y": 1.4,
+      "z": -0.1,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 0.3,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "metal.rail"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "MOVE",
+      "subtitle": "GOODS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

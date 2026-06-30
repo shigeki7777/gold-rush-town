@@ -1,0 +1,144 @@
+{
+  "id": "founders-monument",
+  "name": "Founders' Gold Monument",
+  "category": "prop",
+  "variant": "role-landmark-founders-monument",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built Gold Rush Town landmark: founders-monument with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4,
+      "y": 0,
+      "z": -4,
+      "w": 8,
+      "h": 0.8,
+      "d": 8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3,
+      "y": 0.8,
+      "z": -3,
+      "w": 6,
+      "h": 0.8,
+      "d": 6,
+      "mat": "stone.base"
+    },
+    {
+      "x": -2,
+      "y": 1.6,
+      "z": -2,
+      "w": 4,
+      "h": 0.8,
+      "d": 4,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.3,
+      "y": 2.4,
+      "z": -1.3,
+      "w": 2.6,
+      "h": 12,
+      "d": 2.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.3,
+      "y": 14.4,
+      "z": -1.3,
+      "w": 2.6,
+      "h": 1,
+      "d": 2.6,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -1,
+      "y": 15.4,
+      "z": -1,
+      "w": 2,
+      "h": 1,
+      "d": 2,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -0.7,
+      "y": 16.4,
+      "z": -0.7,
+      "w": 1.4,
+      "h": 1,
+      "d": 1.4,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -0.4,
+      "y": 17.4,
+      "z": -0.4,
+      "w": 0.8,
+      "h": 1,
+      "d": 0.8,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -2.2,
+      "y": 0.3,
+      "z": -3.2,
+      "w": 4.4,
+      "h": 0.35,
+      "d": 1,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.6,
+      "y": 0.65,
+      "z": -3.1,
+      "w": 1.2,
+      "h": 0.25,
+      "d": 0.75,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -2.1,
+      "w": 4,
+      "h": 1.4,
+      "face": "front",
+      "title": "FOUNDERS",
+      "subtitle": "GOLD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -3.5,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "PHOTO",
+      "subtitle": "SPOT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "dead-pine",
+  "name": "Dead Pine",
+  "category": "nature",
+  "variant": "role-nature-dead-pine",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: dead-pine with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.dead",
+    "wood.dark",
+    "nature.leafBase",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.6,
+      "y": 0,
+      "z": -0.6,
+      "w": 1.2,
+      "h": 12,
+      "d": 1.2,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -1.7,
+      "y": 3,
+      "z": -0.3,
+      "w": 3.4,
+      "h": 0.5,
+      "d": 0.6,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.3,
+      "y": 2.6,
+      "z": -1.7,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 3.4,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -1.4,
+      "y": 5,
+      "z": -0.3,
+      "w": 2.8,
+      "h": 0.5,
+      "d": 0.6,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.3,
+      "y": 4.6,
+      "z": -1.4,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 2.8,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -1.1,
+      "y": 6.6,
+      "z": -0.3,
+      "w": 2.2,
+      "h": 0.5,
+      "d": 0.6,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.3,
+      "y": 6.2,
+      "z": -1.1,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 2.2,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.85,
+      "y": 8.2,
+      "z": -0.3,
+      "w": 1.7,
+      "h": 0.5,
+      "d": 0.6,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.3,
+      "y": 7.8,
+      "z": -0.85,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 1.7,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.6,
+      "y": 9.6,
+      "z": -0.3,
+      "w": 1.2,
+      "h": 0.5,
+      "d": 0.6,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.3,
+      "y": 9.2,
+      "z": -0.6,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 1.2,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

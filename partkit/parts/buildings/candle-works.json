@@ -1,0 +1,274 @@
+{
+  "id": "candle-works",
+  "name": "Candle Works",
+  "category": "building",
+  "variant": "role-gable-candle-works",
+  "footprint": [
+    5,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke CANDLE WORKS: candle works — a dipping rack of tapers and a wax vat. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.shingle",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "flower.gold",
+    "metal.iron",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5.5,
+      "y": 0,
+      "z": -6.5,
+      "w": 11,
+      "h": 1,
+      "d": 13,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -6,
+      "w": 10,
+      "h": 7,
+      "d": 12,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5.3,
+      "y": 8,
+      "z": -6.7,
+      "w": 10.6,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -4.59,
+      "y": 8.6,
+      "z": -6.7,
+      "w": 9.17,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.87,
+      "y": 9.2,
+      "z": -6.7,
+      "w": 7.74,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.16,
+      "y": 9.8,
+      "z": -6.7,
+      "w": 6.31,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.44,
+      "y": 10.4,
+      "z": -6.7,
+      "w": 4.89,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.73,
+      "y": 11,
+      "z": -6.7,
+      "w": 3.46,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.01,
+      "y": 11.6,
+      "z": -6.7,
+      "w": 2.03,
+      "h": 0.95,
+      "d": 13.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.4,
+      "y": 12.2,
+      "z": -6.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 13.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -6.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.3,
+      "y": 2.5,
+      "z": -4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 4.9,
+      "y": 2.5,
+      "z": -4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -5.3,
+      "y": 2.5,
+      "z": 4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 4.9,
+      "y": 2.5,
+      "z": 4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -5.5,
+      "y": 0.18,
+      "z": -9.2,
+      "w": 11,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.4,
+      "y": 1,
+      "z": -8.6,
+      "w": 2.4,
+      "h": 0.2,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.2,
+      "y": 0.4,
+      "z": -8.6,
+      "w": 0.16,
+      "h": 0.6,
+      "d": 0.16,
+      "mat": "flower.gold"
+    },
+    {
+      "x": -2.6,
+      "y": 0.4,
+      "z": -8.6,
+      "w": 0.16,
+      "h": 0.6,
+      "d": 0.16,
+      "mat": "flower.gold"
+    },
+    {
+      "x": -2,
+      "y": 0.4,
+      "z": -8.6,
+      "w": 0.16,
+      "h": 0.6,
+      "d": 0.16,
+      "mat": "flower.gold"
+    },
+    {
+      "x": 2.6,
+      "y": 0.3,
+      "z": -8.6,
+      "w": 1.4,
+      "h": 1,
+      "d": 1.2,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.7,
+      "y": 1.2,
+      "z": -8.6,
+      "w": 1.2,
+      "h": 0.18,
+      "d": 1,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 9.68,
+      "z": -6.8,
+      "w": 8,
+      "h": 2.2,
+      "face": "front",
+      "title": "CANDLE WORKS",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -3.8,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "CANDLE",
+      "subtitle": "WORKS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 3.8,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "TALLOW",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

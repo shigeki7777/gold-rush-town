@@ -1,0 +1,161 @@
+{
+  "id": "miners-tent",
+  "name": "Miner's Tent",
+  "category": "building",
+  "variant": "role-tent-miners-tent",
+  "footprint": [
+    2,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke miners-tent: a flagged claim stake, a gold pan and a pick. Distinct tent landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "ground.dirt",
+    "canvas.light",
+    "canvas.base",
+    "canvas.shade",
+    "wood.base",
+    "flower.red",
+    "metal.iron",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": -3,
+      "w": 4,
+      "h": 0.4,
+      "d": 6,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -2.25,
+      "y": 0.4,
+      "z": -3.3,
+      "w": 4.5,
+      "h": 1,
+      "d": 6.6,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1.85,
+      "y": 1,
+      "z": -3.3,
+      "w": 3.7,
+      "h": 1,
+      "d": 6.6,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -1.45,
+      "y": 1.6,
+      "z": -3.3,
+      "w": 2.9,
+      "h": 1,
+      "d": 6.6,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1.05,
+      "y": 2.2,
+      "z": -3.3,
+      "w": 2.1,
+      "h": 1,
+      "d": 6.6,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -0.65,
+      "y": 2.8,
+      "z": -3.3,
+      "w": 1.3,
+      "h": 1,
+      "d": 6.6,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": -3.2,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 0.3,
+      "mat": "canvas.shade"
+    },
+    {
+      "x": -2.5,
+      "y": 0.18,
+      "z": -6.2,
+      "w": 5,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": 1.6,
+      "y": 0,
+      "z": -4.8,
+      "w": 0.16,
+      "h": 1.8,
+      "d": 0.16,
+      "mat": "wood.base"
+    },
+    {
+      "x": 1.65,
+      "y": 1.5,
+      "z": -4.8,
+      "w": 0.6,
+      "h": 0.35,
+      "d": 0.16,
+      "mat": "flower.red"
+    },
+    {
+      "x": -1.4,
+      "y": 0.3,
+      "z": -4.8,
+      "w": 1,
+      "h": 0.2,
+      "d": 1,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -1.2,
+      "y": 0.5,
+      "z": -4.8,
+      "w": 0.6,
+      "h": 0.15,
+      "d": 0.6,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.6,
+      "y": 0,
+      "z": -5,
+      "w": 0.14,
+      "h": 2,
+      "d": 0.14,
+      "mat": "wood.base"
+    }
+  ],
+  "signs": [
+    {
+      "x": -0.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "MINER",
+      "subtitle": "CLAIM",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

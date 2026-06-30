@@ -1,0 +1,274 @@
+{
+  "id": "rock-cluster",
+  "name": "Rock Cluster",
+  "category": "nature",
+  "variant": "role-nature-rock-cluster",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: rock-cluster with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "stone.dark",
+    "wood.dark",
+    "nature.leafBase",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2.4,
+      "y": -0.4,
+      "z": -1.4,
+      "w": 2.8,
+      "h": 2.8,
+      "d": 2.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.14,
+      "y": 0.24,
+      "z": -1.43,
+      "w": 2.02,
+      "h": 2.02,
+      "d": 2.02,
+      "mat": "stone.base"
+    },
+    {
+      "x": -2.74,
+      "y": 0.16,
+      "z": -0.42,
+      "w": 2.02,
+      "h": 2.02,
+      "d": 2.02,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.59,
+      "y": 1.06,
+      "z": -0.64,
+      "w": 1.79,
+      "h": 1.79,
+      "d": 1.79,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.26,
+      "y": 1.03,
+      "z": -1.4,
+      "w": 1.62,
+      "h": 1.62,
+      "d": 1.62,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.25,
+      "y": -0.23,
+      "z": -0.14,
+      "w": 1.68,
+      "h": 1.68,
+      "d": 1.68,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -2.62,
+      "y": -0.06,
+      "z": -1.43,
+      "w": 1.57,
+      "h": 1.57,
+      "d": 1.57,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -1.63,
+      "y": 1.63,
+      "z": -0.84,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.3,
+      "y": -0.3,
+      "z": -1.7,
+      "w": 2.2,
+      "h": 2.2,
+      "d": 2.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.29,
+      "y": 0.21,
+      "z": -1.72,
+      "w": 1.58,
+      "h": 1.58,
+      "d": 1.58,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.04,
+      "y": 0.14,
+      "z": -0.93,
+      "w": 1.58,
+      "h": 1.58,
+      "d": 1.58,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.94,
+      "y": 0.84,
+      "z": -1.11,
+      "w": 1.41,
+      "h": 1.41,
+      "d": 1.41,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.41,
+      "y": 0.82,
+      "z": -1.7,
+      "w": 1.28,
+      "h": 1.28,
+      "d": 1.28,
+      "mat": "stone.light"
+    },
+    {
+      "x": 1.2,
+      "y": -0.17,
+      "z": -0.71,
+      "w": 1.32,
+      "h": 1.32,
+      "d": 1.32,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 0.12,
+      "y": -0.04,
+      "z": -1.72,
+      "w": 1.23,
+      "h": 1.23,
+      "d": 1.23,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 0.9,
+      "y": 1.3,
+      "z": -1.26,
+      "w": 1.1,
+      "h": 1.1,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.7,
+      "y": -0.2,
+      "z": 0.3,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 1.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.11,
+      "y": 0.21,
+      "z": 0.28,
+      "w": 1.3,
+      "h": 1.3,
+      "d": 1.3,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.92,
+      "y": 0.16,
+      "z": 0.93,
+      "w": 1.3,
+      "h": 1.3,
+      "d": 1.3,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.18,
+      "y": 0.74,
+      "z": 0.79,
+      "w": 1.15,
+      "h": 1.15,
+      "d": 1.15,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.61,
+      "y": 0.72,
+      "z": 0.3,
+      "w": 1.04,
+      "h": 1.04,
+      "d": 1.04,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.04,
+      "y": -0.09,
+      "z": 1.11,
+      "w": 1.08,
+      "h": 1.08,
+      "d": 1.08,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -0.84,
+      "y": 0.02,
+      "z": 0.28,
+      "w": 1.01,
+      "h": 1.01,
+      "d": 1.01,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -0.2,
+      "y": 1.11,
+      "z": 0.66,
+      "w": 0.9,
+      "h": 0.9,
+      "d": 0.9,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

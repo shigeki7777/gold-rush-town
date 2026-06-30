@@ -1,0 +1,123 @@
+{
+  "id": "station-platform",
+  "name": "Station Platform",
+  "category": "building",
+  "variant": "role-rail-station-platform",
+  "footprint": [
+    5,
+    2
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built rail asset: station-platform with stronger station/logistics identity for the arriving Gold Rush Line.",
+  "palette_tokens": [
+    "wood.base",
+    "wood.dark",
+    "roof.tin",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5,
+      "y": 0,
+      "z": -2.5,
+      "w": 10,
+      "h": 0.8,
+      "d": 5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.5,
+      "y": 0.8,
+      "z": -2,
+      "w": 0.5,
+      "h": 5,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.5,
+      "y": 0.8,
+      "z": 1.5,
+      "w": 0.5,
+      "h": 5,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4,
+      "y": 0.8,
+      "z": -2,
+      "w": 0.5,
+      "h": 5,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4,
+      "y": 0.8,
+      "z": 1.5,
+      "w": 0.5,
+      "h": 5,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.4,
+      "y": 5.6,
+      "z": -3,
+      "w": 10.8,
+      "h": 0.8,
+      "d": 6,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -0.5,
+      "w": 4,
+      "h": 0.3,
+      "d": 1.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.8,
+      "y": 0.35,
+      "z": -3.8,
+      "w": 9.6,
+      "h": 0.3,
+      "d": 1,
+      "mat": "wood.dark"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2.6,
+      "w": 7,
+      "h": 1.8,
+      "face": "front",
+      "title": "DEPOT",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -4.2,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "ARRIVALS",
+      "subtitle": "AGENTS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "ore-bin",
+  "name": "Elevated Ore Bin",
+  "category": "building",
+  "variant": "role-mine-ore-bin",
+  "footprint": [
+    3,
+    2
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built mine infrastructure: ore-bin with operational props, visible work area, and gold-rush utility signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.base",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3,
+      "y": 3,
+      "z": -2,
+      "w": 6,
+      "h": 6,
+      "d": 4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "w": 6,
+      "h": 3,
+      "d": 4,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "w": 4,
+      "h": 3,
+      "d": 4,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "w": 2,
+      "h": 3,
+      "d": 4,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.3,
+      "y": 0,
+      "z": -2.3,
+      "w": 0.6,
+      "h": 9,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2.7,
+      "y": 0,
+      "z": -2.3,
+      "w": 0.6,
+      "h": 9,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.3,
+      "y": 0,
+      "z": 1.7,
+      "w": 0.6,
+      "h": 9,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2.7,
+      "y": 0,
+      "z": 1.7,
+      "w": 0.6,
+      "h": 9,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.6,
+      "y": 0.4,
+      "z": -3,
+      "w": 5.2,
+      "h": 0.35,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0.8,
+      "z": -2.9,
+      "w": 1.2,
+      "h": 0.35,
+      "d": 0.75,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -3.2,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "ORE",
+      "subtitle": "BIN",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

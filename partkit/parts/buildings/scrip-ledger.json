@@ -1,0 +1,281 @@
+{
+  "id": "scrip-ledger",
+  "name": "Scrip Ledger",
+  "category": "building",
+  "variant": "role-stone-civic-scrip-ledger",
+  "footprint": [
+    5,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke SCRIP LEDGER: token bank — giant ledger books, a posted scrip note and a coin chest. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "raw.umber",
+    "raw.cocoa",
+    "raw.maroon",
+    "accent.sage",
+    "canvas.light",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -6.4,
+      "y": 0,
+      "z": -7,
+      "w": 12.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5.7,
+      "y": 0.6,
+      "z": -6.3,
+      "w": 11.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5,
+      "y": 1.2,
+      "z": -5.6,
+      "w": 10,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5,
+      "y": 1.6,
+      "z": -5,
+      "w": 10,
+      "h": 8,
+      "d": 10,
+      "mat": "stone.base"
+    },
+    {
+      "x": -4.15,
+      "y": 1.6,
+      "z": -6.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 3.05,
+      "y": 1.6,
+      "z": -6.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.6,
+      "y": 8.6,
+      "z": -7,
+      "w": 11.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.5,
+      "y": 10,
+      "z": -7,
+      "w": 11,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.12,
+      "y": 10.8,
+      "z": -7,
+      "w": 8.25,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.75,
+      "y": 11.6,
+      "z": -7,
+      "w": 5.5,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.37,
+      "y": 12.4,
+      "z": -7,
+      "w": 2.75,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -5.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -5.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -5.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 11,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.6,
+      "y": 0.4,
+      "z": -7.8,
+      "w": 2,
+      "h": 0.5,
+      "d": 1.4,
+      "mat": "raw.umber"
+    },
+    {
+      "x": -3.5,
+      "y": 0.9,
+      "z": -7.8,
+      "w": 1.8,
+      "h": 0.5,
+      "d": 1.3,
+      "mat": "raw.cocoa"
+    },
+    {
+      "x": -3.4,
+      "y": 1.4,
+      "z": -7.8,
+      "w": 1.6,
+      "h": 0.5,
+      "d": 1.2,
+      "mat": "raw.maroon"
+    },
+    {
+      "x": 3,
+      "y": 1.4,
+      "z": -7.8,
+      "w": 1.8,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "accent.sage"
+    },
+    {
+      "x": 3.2,
+      "y": 1.7,
+      "z": -7.9,
+      "w": 1.2,
+      "h": 0.8,
+      "d": 0.12,
+      "mat": "canvas.light"
+    },
+    {
+      "x": 3.6,
+      "y": 1.9,
+      "z": -7.95,
+      "w": 0.5,
+      "h": 0.4,
+      "d": 0.1,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 3.2,
+      "y": 0.3,
+      "z": -7.8,
+      "w": 1.2,
+      "h": 0.9,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 3.3,
+      "y": 1.1,
+      "z": -7.75,
+      "w": 1,
+      "h": 0.25,
+      "d": 0.7,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -0.7,
+      "y": 8.4,
+      "z": -7,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.3,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 10.88,
+      "z": -7.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "SCRIP LEDGER",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -3.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "SCRIP",
+      "subtitle": "LEDGER",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 3.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "TOKEN",
+      "subtitle": "BANK",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

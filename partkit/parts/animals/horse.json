@@ -1,0 +1,129 @@
+{
+  "id": "horse",
+  "name": "Horse",
+  "category": "animal",
+  "variant": "role-animal-horse",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built animal: horse placed as a living town detail with yard/wildlife role cue and photo-readable base.",
+  "palette_tokens": [
+    "animal.horseDk",
+    "animal.horse",
+    "animal.crow",
+    "ground.dirt",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.75,
+      "y": 0,
+      "z": -1.4,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": -0.75,
+      "y": 0,
+      "z": 0.98,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": 0.33,
+      "y": 0,
+      "z": -1.4,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": 0.33,
+      "y": 0,
+      "z": 0.98,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": -0.75,
+      "y": 2.6,
+      "z": -1.6,
+      "w": 1.5,
+      "h": 1.5,
+      "d": 3.2,
+      "mat": "animal.horse"
+    },
+    {
+      "x": -0.42,
+      "y": 3.13,
+      "z": -2.4,
+      "w": 0.84,
+      "h": 1.42,
+      "d": 1,
+      "mat": "animal.horse"
+    },
+    {
+      "x": -0.48,
+      "y": 3.95,
+      "z": -3.2,
+      "w": 0.96,
+      "h": 1.13,
+      "d": 1.2,
+      "mat": "animal.horse"
+    },
+    {
+      "x": -0.12,
+      "y": 3.85,
+      "z": -2.2,
+      "w": 0.26,
+      "h": 1.5,
+      "d": 1.6,
+      "mat": "animal.crow"
+    },
+    {
+      "x": -0.13,
+      "y": 3.2,
+      "z": 1.6,
+      "w": 0.26,
+      "h": 1.7,
+      "d": 0.3,
+      "mat": "animal.crow"
+    },
+    {
+      "x": -0.95,
+      "y": 0.02,
+      "z": -1.25,
+      "w": 1.9,
+      "h": 0.14,
+      "d": 0.42,
+      "mat": "ground.dirt"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 0.95,
+      "z": -1.55,
+      "w": 1.8,
+      "h": 0.6,
+      "face": "front",
+      "title": "LIFE",
+      "subtitle": "YARD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

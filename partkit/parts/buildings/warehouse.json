@@ -1,0 +1,367 @@
+{
+  "id": "warehouse",
+  "name": "Warehouse",
+  "category": "building",
+  "variant": "bespoke-warehouse-twin-bay",
+  "footprint": [
+    10,
+    12
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke Warehouse: huge utilitarian volume, twin freight doors, side loading awning, crate wall, and rail-adjacent massing. Bespoke architecture pass: warehouse has a distinct silhouette and role-specific yard/frontage.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.tin",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "canvas.dirty",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -10.5,
+      "y": 0,
+      "z": -12.5,
+      "w": 21,
+      "h": 1,
+      "d": 25,
+      "mat": "stone.base"
+    },
+    {
+      "x": -10,
+      "y": 1,
+      "z": -12,
+      "w": 20,
+      "h": 8,
+      "d": 24,
+      "mat": "wood.base"
+    },
+    {
+      "x": -10.3,
+      "y": 9,
+      "z": -12.7,
+      "w": 20.6,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -9.59,
+      "y": 9.6,
+      "z": -12.7,
+      "w": 19.17,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -8.87,
+      "y": 10.2,
+      "z": -12.7,
+      "w": 17.74,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -8.16,
+      "y": 10.8,
+      "z": -12.7,
+      "w": 16.31,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -7.44,
+      "y": 11.4,
+      "z": -12.7,
+      "w": 14.89,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -6.73,
+      "y": 12,
+      "z": -12.7,
+      "w": 13.46,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -6.01,
+      "y": 12.6,
+      "z": -12.7,
+      "w": 12.03,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -5.3,
+      "y": 13.2,
+      "z": -12.7,
+      "w": 10.6,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -4.59,
+      "y": 13.8,
+      "z": -12.7,
+      "w": 9.17,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -3.87,
+      "y": 14.4,
+      "z": -12.7,
+      "w": 7.74,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -3.16,
+      "y": 15,
+      "z": -12.7,
+      "w": 6.31,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -2.44,
+      "y": 15.6,
+      "z": -12.7,
+      "w": 4.89,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -1.73,
+      "y": 16.2,
+      "z": -12.7,
+      "w": 3.46,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -1.01,
+      "y": 16.8,
+      "z": -12.7,
+      "w": 2.03,
+      "h": 0.95,
+      "d": 25.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -0.4,
+      "y": 17.4,
+      "z": -12.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 25.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -12.4,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -12.5,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.3,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -10.3,
+      "y": 2.5,
+      "z": -10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 9.9,
+      "y": 2.5,
+      "z": -10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -10.3,
+      "y": 2.5,
+      "z": 10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 9.9,
+      "y": 2.5,
+      "z": 10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -10,
+      "y": 0.7,
+      "z": -14.5,
+      "w": 5,
+      "h": 5.6,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 5,
+      "y": 0.7,
+      "z": -14.5,
+      "w": 5,
+      "h": 5.6,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -11,
+      "y": 0.8,
+      "z": -15.5,
+      "w": 1.5,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -8.8,
+      "y": 0.8,
+      "z": -15.5,
+      "w": 1.5,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 0.8,
+      "z": -15.5,
+      "w": 1.5,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -4.4,
+      "y": 0.8,
+      "z": -15.5,
+      "w": 1.5,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2.2,
+      "y": 0.8,
+      "z": -15.5,
+      "w": 1.5,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -12,
+      "y": 0.6,
+      "z": -16,
+      "w": 24,
+      "h": 0.45,
+      "d": 2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -12,
+      "y": 6.3,
+      "z": -16.2,
+      "w": 24,
+      "h": 0.45,
+      "d": 2.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -3,
+      "y": 0.18,
+      "z": -16.3,
+      "w": 6,
+      "h": 0.28,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -16.22,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.78,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 12.36,
+      "z": -12.8,
+      "w": 8,
+      "h": 2.2,
+      "face": "front",
+      "title": "WAREHOUSE",
+      "subtitle": "GOODS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "z": -16.65,
+      "w": 4.2,
+      "h": 1.05,
+      "face": "front",
+      "title": "BULK",
+      "subtitle": "STOCK",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

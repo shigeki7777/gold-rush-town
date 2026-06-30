@@ -1,0 +1,84 @@
+{
+  "id": "door-double",
+  "name": "Double Door",
+  "category": "attachment",
+  "variant": "role-attachment-door-double",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built attachment asset: door-double with Gold Rush Town role cue (BUILD/DETAIL), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.trim",
+    "accent.gold",
+    "wood.base",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.6,
+      "y": 0,
+      "z": 0,
+      "w": 3.2,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.1,
+      "y": 0,
+      "z": 0.1,
+      "w": 0.2,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.8,
+      "y": 5,
+      "z": -0.1,
+      "w": 3.6,
+      "h": 0.5,
+      "d": 0.5,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.85,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.82,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "wood.base"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.08,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "BUILD",
+      "subtitle": "DETAIL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

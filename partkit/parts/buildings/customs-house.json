@@ -1,0 +1,287 @@
+{
+  "id": "customs-house",
+  "name": "Customs House",
+  "category": "building",
+  "variant": "role-stone-civic-customs-house",
+  "footprint": [
+    6,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke CUSTOMS HOUSE: duties — stamped cargo crates, a duty scale and an anchor emblem. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "wood.base",
+    "canvas.dirty",
+    "accent.brick",
+    "metal.iron",
+    "metal.brass",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -7.4,
+      "y": 0,
+      "z": -8,
+      "w": 14.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.7,
+      "y": 0.6,
+      "z": -7.3,
+      "w": 13.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6,
+      "y": 1.2,
+      "z": -6.6,
+      "w": 12,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6,
+      "y": 1.6,
+      "z": -6,
+      "w": 12,
+      "h": 8,
+      "d": 12,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5.15,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.08,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.98,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 4.05,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -6.6,
+      "y": 8.6,
+      "z": -8,
+      "w": 13.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -6.5,
+      "y": 10,
+      "z": -8,
+      "w": 13,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.87,
+      "y": 10.96,
+      "z": -8,
+      "w": 9.75,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.25,
+      "y": 11.92,
+      "z": -8,
+      "w": 6.5,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.62,
+      "y": 12.88,
+      "z": -8,
+      "w": 3.25,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -6.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -6.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -6.5,
+      "y": 0.18,
+      "z": -9.2,
+      "w": 13,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -4.6,
+      "y": 0.4,
+      "z": -8.8,
+      "w": 1.6,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2.9,
+      "y": 0.4,
+      "z": -8.8,
+      "w": 1.5,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -4.2,
+      "y": 1,
+      "z": -8.85,
+      "w": 0.8,
+      "h": 0.4,
+      "d": 0.5,
+      "mat": "accent.brick"
+    },
+    {
+      "x": 3.6,
+      "y": 0,
+      "z": -8.8,
+      "w": 0.2,
+      "h": 2.8,
+      "d": 0.2,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.8,
+      "y": 2.6,
+      "z": -8.8,
+      "w": 1.8,
+      "h": 0.2,
+      "d": 0.2,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.9,
+      "y": 2.2,
+      "z": -8.8,
+      "w": 0.5,
+      "h": 0.2,
+      "d": 0.5,
+      "mat": "metal.brass"
+    },
+    {
+      "x": 4.4,
+      "y": 2.2,
+      "z": -8.8,
+      "w": 0.5,
+      "h": 0.2,
+      "d": 0.5,
+      "mat": "metal.brass"
+    },
+    {
+      "x": -0.7,
+      "y": 9.4,
+      "z": -8.1,
+      "w": 1.4,
+      "h": 1.6,
+      "d": 0.3,
+      "mat": "metal.iron"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.14,
+      "z": -8.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "CUSTOMS HOUSE",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "CUSTOMS",
+      "subtitle": "HOUSE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "DUTIES",
+      "subtitle": "PAID",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": "log-cabin-large",
+  "name": "Large Log Cabin",
+  "category": "building",
+  "variant": "role-log-cabin-log-cabin-large",
+  "footprint": [
+    6,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke log-cabin-large: porch rockers, antlers over the door and a rain barrel. Distinct log-cabin landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "wood.base",
+    "roof.wood",
+    "light.window",
+    "stone.dark",
+    "ground.dirt",
+    "raw.tan",
+    "water.shallow",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -6.4,
+      "y": 0,
+      "z": -5.4,
+      "w": 12.8,
+      "h": 1,
+      "d": 10.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -5,
+      "w": 12,
+      "h": 0.95,
+      "d": 10,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.6,
+      "y": 1,
+      "z": -5.6,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.6,
+      "y": 1,
+      "z": 5.1,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6,
+      "y": 2,
+      "z": -5,
+      "w": 12,
+      "h": 0.95,
+      "d": 10,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 2,
+      "z": -5.6,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 2,
+      "z": 5.1,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6,
+      "y": 3,
+      "z": -5,
+      "w": 12,
+      "h": 0.95,
+      "d": 10,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.6,
+      "y": 3,
+      "z": -5.6,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.6,
+      "y": 3,
+      "z": 5.1,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6,
+      "y": 4,
+      "z": -5,
+      "w": 12,
+      "h": 0.95,
+      "d": 10,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 4,
+      "z": -5.6,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 4,
+      "z": 5.1,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": -5,
+      "w": 12,
+      "h": 0.95,
+      "d": 10,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.6,
+      "y": 5,
+      "z": -5.6,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.6,
+      "y": 5,
+      "z": 5.1,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6,
+      "y": 6,
+      "z": -5,
+      "w": 12,
+      "h": 0.95,
+      "d": 10,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 6,
+      "z": -5.6,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.6,
+      "y": 6,
+      "z": 5.1,
+      "w": 13.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.3,
+      "y": 7,
+      "z": -5.7,
+      "w": 12.6,
+      "h": 1.55,
+      "d": 11.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -4.8,
+      "y": 8.2,
+      "z": -5.7,
+      "w": 9.6,
+      "h": 1.55,
+      "d": 11.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -3.3,
+      "y": 9.4,
+      "z": -5.7,
+      "w": 6.6,
+      "h": 1.55,
+      "d": 11.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.8,
+      "y": 10.6,
+      "z": -5.7,
+      "w": 3.6,
+      "h": 1.55,
+      "d": 11.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -5.3,
+      "w": 2.4,
+      "h": 3.6,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 3.6,
+      "y": 2,
+      "z": -5.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.4,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 5.8,
+      "y": 0,
+      "z": 0,
+      "w": 1.6,
+      "h": 13.8,
+      "d": 1.6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 5.6,
+      "y": 13.8,
+      "z": -0.2,
+      "w": 2,
+      "h": 1,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 13,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -7.2,
+      "w": 0.6,
+      "h": 1,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -7.2,
+      "w": 0.6,
+      "h": 1,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.8,
+      "y": 3,
+      "z": -6.4,
+      "w": 1.6,
+      "h": 0.8,
+      "d": 0.3,
+      "mat": "raw.tan"
+    },
+    {
+      "x": -4.4,
+      "y": 0.3,
+      "z": -7.2,
+      "w": 1,
+      "h": 1.2,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.4,
+      "y": 1.4,
+      "z": -7.2,
+      "w": 1.1,
+      "h": 0.2,
+      "d": 1.1,
+      "mat": "water.shallow",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "LOG",
+      "subtitle": "HOUSE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "BIG",
+      "subtitle": "CABIN",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

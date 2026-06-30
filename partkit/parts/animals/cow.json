@@ -1,0 +1,157 @@
+{
+  "id": "cow",
+  "name": "Cow",
+  "category": "animal",
+  "variant": "role-animal-cow",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built animal: cow placed as a living town detail with yard/wildlife role cue and photo-readable base.",
+  "palette_tokens": [
+    "animal.hide",
+    "animal.cow",
+    "animal.cowSpot",
+    "animal.hoof",
+    "ground.dirt",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.75,
+      "y": 0,
+      "z": -1.4,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.hide"
+    },
+    {
+      "x": -0.75,
+      "y": 0,
+      "z": 0.98,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.hide"
+    },
+    {
+      "x": 0.33,
+      "y": 0,
+      "z": -1.4,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.hide"
+    },
+    {
+      "x": 0.33,
+      "y": 0,
+      "z": 0.98,
+      "w": 0.42,
+      "h": 2.8,
+      "d": 0.42,
+      "mat": "animal.hide"
+    },
+    {
+      "x": -0.75,
+      "y": 2.6,
+      "z": -1.6,
+      "w": 1.5,
+      "h": 1.5,
+      "d": 3.2,
+      "mat": "animal.cow"
+    },
+    {
+      "x": -0.78,
+      "y": 2.9,
+      "z": -0.58,
+      "w": 0.68,
+      "h": 0.75,
+      "d": 0.9,
+      "mat": "animal.cowSpot"
+    },
+    {
+      "x": 0.12,
+      "y": 2.85,
+      "z": 0.38,
+      "w": 0.6,
+      "h": 0.75,
+      "d": 0.77,
+      "mat": "animal.cowSpot"
+    },
+    {
+      "x": -0.42,
+      "y": 3.13,
+      "z": -2.4,
+      "w": 0.84,
+      "h": 1.42,
+      "d": 1,
+      "mat": "animal.cow"
+    },
+    {
+      "x": -0.48,
+      "y": 3.95,
+      "z": -3.2,
+      "w": 0.96,
+      "h": 1.13,
+      "d": 1.2,
+      "mat": "animal.cow"
+    },
+    {
+      "x": -0.42,
+      "y": 4.93,
+      "z": -2.85,
+      "w": 0.22,
+      "h": 0.7,
+      "d": 0.22,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": 0.18,
+      "y": 4.93,
+      "z": -2.85,
+      "w": 0.22,
+      "h": 0.7,
+      "d": 0.22,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": -0.13,
+      "y": 3.2,
+      "z": 1.6,
+      "w": 0.26,
+      "h": 1.7,
+      "d": 0.3,
+      "mat": "animal.cowSpot"
+    },
+    {
+      "x": -0.95,
+      "y": 0.02,
+      "z": -1.25,
+      "w": 1.9,
+      "h": 0.14,
+      "d": 0.42,
+      "mat": "ground.dirt"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 0.95,
+      "z": -1.55,
+      "w": 1.8,
+      "h": 0.6,
+      "face": "front",
+      "title": "LIFE",
+      "subtitle": "YARD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

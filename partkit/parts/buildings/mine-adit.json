@@ -1,0 +1,231 @@
+{
+  "id": "mine-adit",
+  "name": "Mine Adit",
+  "category": "building",
+  "variant": "role-mine-mine-adit",
+  "footprint": [
+    3,
+    4
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built mine infrastructure: mine-adit with operational props, visible work area, and gold-rush utility signage.",
+  "palette_tokens": [
+    "stone.light",
+    "stone.dark",
+    "ground.diggings",
+    "wood.dark",
+    "shadow.deep",
+    "wood.base",
+    "metal.rail",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5,
+      "y": -2,
+      "z": -2,
+      "w": 10,
+      "h": 10,
+      "d": 10,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.5,
+      "y": 0.3,
+      "z": -2.1,
+      "w": 7.2,
+      "h": 7.2,
+      "d": 7.2,
+      "mat": "stone.light"
+    },
+    {
+      "x": -6.2,
+      "y": 0,
+      "z": 1.5,
+      "w": 7.2,
+      "h": 7.2,
+      "d": 7.2,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.1,
+      "y": 3.2,
+      "z": 0.7,
+      "w": 6.4,
+      "h": 6.4,
+      "d": 6.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.5,
+      "y": 3.1,
+      "z": -2,
+      "w": 5.8,
+      "h": 5.8,
+      "d": 5.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.9,
+      "y": -1.4,
+      "z": 2.5,
+      "w": 6,
+      "h": 6,
+      "d": 6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -5.8,
+      "y": -0.8,
+      "z": -2.1,
+      "w": 5.6,
+      "h": 5.6,
+      "d": 5.6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -2.25,
+      "y": 5.25,
+      "z": 0,
+      "w": 5,
+      "h": 5,
+      "d": 5,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "w": 4,
+      "h": 0.5,
+      "d": 6,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -1.6,
+      "y": 0,
+      "z": 0,
+      "w": 0.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "w": 0.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 5,
+      "z": 0,
+      "w": 3.8,
+      "h": 0.8,
+      "d": 0.8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.2,
+      "y": 0.5,
+      "z": 0.3,
+      "w": 2.4,
+      "h": 4.4,
+      "d": 1,
+      "mat": "shadow.deep"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -1,
+      "w": 0.3,
+      "h": 0.2,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -0.7,
+      "y": 0.5,
+      "z": -2.2,
+      "w": 0.3,
+      "h": 0.2,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": 0,
+      "y": 0.5,
+      "z": -3.4,
+      "w": 0.3,
+      "h": 0.2,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": 0.7,
+      "y": 0.5,
+      "z": -4.6,
+      "w": 0.3,
+      "h": 0.2,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.1,
+      "y": 0.6,
+      "z": -6,
+      "w": 0.2,
+      "h": 0.3,
+      "d": 5,
+      "mat": "metal.rail"
+    },
+    {
+      "x": 0.9,
+      "y": 0.6,
+      "z": -6,
+      "w": 0.2,
+      "h": 0.3,
+      "d": 5,
+      "mat": "metal.rail"
+    },
+    {
+      "x": -2.2,
+      "y": 0.35,
+      "z": -6.4,
+      "w": 4.4,
+      "h": 0.3,
+      "d": 1,
+      "mat": "metal.rail"
+    },
+    {
+      "x": 2.2,
+      "y": 0.6,
+      "z": -5.8,
+      "w": 1,
+      "h": 0.9,
+      "d": 0.8,
+      "mat": "wood.dark"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -6.6,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "ADIT",
+      "subtitle": "ENTRY",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "stone-jail",
+  "name": "County Jail",
+  "category": "building",
+  "variant": "role-stone-civic-stone-jail",
+  "footprint": [
+    5,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke JAIL: county jail — a barred cell window, a ball-and-chain, iron-door bars. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "stone.dark",
+    "metal.iron",
+    "metal.steel",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -6.4,
+      "y": 0,
+      "z": -7,
+      "w": 12.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5.7,
+      "y": 0.6,
+      "z": -6.3,
+      "w": 11.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5,
+      "y": 1.2,
+      "z": -5.6,
+      "w": 10,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5,
+      "y": 1.6,
+      "z": -5,
+      "w": 10,
+      "h": 8,
+      "d": 10,
+      "mat": "stone.base"
+    },
+    {
+      "x": -4.15,
+      "y": 1.6,
+      "z": -6.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 3.05,
+      "y": 1.6,
+      "z": -6.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.6,
+      "y": 8.6,
+      "z": -7,
+      "w": 11.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.5,
+      "y": 10,
+      "z": -7,
+      "w": 11,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.12,
+      "y": 10.8,
+      "z": -7,
+      "w": 8.25,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.75,
+      "y": 11.6,
+      "z": -7,
+      "w": 5.5,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.37,
+      "y": 12.4,
+      "z": -7,
+      "w": 2.75,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -5.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -5.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -5.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 11,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.2,
+      "y": 2.4,
+      "z": -7.8,
+      "w": 1.6,
+      "h": 1.8,
+      "d": 0.2,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -3,
+      "y": 2.6,
+      "z": -7.9,
+      "w": 0.16,
+      "h": 1.4,
+      "d": 0.12,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.6,
+      "y": 2.6,
+      "z": -7.9,
+      "w": 0.16,
+      "h": 1.4,
+      "d": 0.12,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.2,
+      "y": 2.6,
+      "z": -7.9,
+      "w": 0.16,
+      "h": 1.4,
+      "d": 0.12,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 3,
+      "y": 0.3,
+      "z": -7.8,
+      "w": 1,
+      "h": 1,
+      "d": 1,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.5,
+      "y": 0.5,
+      "z": -7.8,
+      "w": 0.6,
+      "h": 0.2,
+      "d": 0.2,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -0.8,
+      "y": 8,
+      "z": -7.1,
+      "w": 1.6,
+      "h": 1.4,
+      "d": 0.3,
+      "mat": "metal.iron"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 10.88,
+      "z": -7.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "JAIL",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -3.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "COUNTY",
+      "subtitle": "JAIL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 3.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "NO",
+      "subtitle": "BAIL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

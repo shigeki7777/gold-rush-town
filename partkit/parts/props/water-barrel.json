@@ -1,0 +1,102 @@
+{
+  "id": "water-barrel",
+  "name": "Rain Barrel",
+  "category": "prop",
+  "variant": "role-prop-water-barrel",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.4,
+  "description": "Purpose-built prop asset: water-barrel with Gold Rush Town role cue (MOVE/GOODS), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "metal.iron",
+    "water.shallow",
+    "metal.rail",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.7,
+      "y": 0,
+      "z": -0.7,
+      "w": 1.4,
+      "h": 2,
+      "d": 1.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.8,
+      "y": 0.3,
+      "z": -0.3,
+      "w": 1.6,
+      "h": 0.3,
+      "d": 0.6,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -0.3,
+      "y": 0.3,
+      "z": -0.8,
+      "w": 0.6,
+      "h": 0.3,
+      "d": 1.6,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -0.8,
+      "y": 1.4,
+      "z": -0.3,
+      "w": 1.6,
+      "h": 0.3,
+      "d": 0.6,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -0.8,
+      "y": 2,
+      "z": -0.8,
+      "w": 1.6,
+      "h": 0.15,
+      "d": 1.6,
+      "mat": "water.shallow"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "metal.rail"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "MOVE",
+      "subtitle": "GOODS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

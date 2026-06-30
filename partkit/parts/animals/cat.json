@@ -1,0 +1,128 @@
+{
+  "id": "cat",
+  "name": "Cat",
+  "category": "animal",
+  "variant": "role-animal-cat",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built animal: cat placed as a living town detail with yard/wildlife role cue and photo-readable base.",
+  "palette_tokens": [
+    "animal.hide",
+    "animal.cat",
+    "ground.dirt",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.41,
+      "y": 0,
+      "z": -0.68,
+      "w": 0.23,
+      "h": 1.4,
+      "d": 0.23,
+      "mat": "animal.hide"
+    },
+    {
+      "x": -0.41,
+      "y": 0,
+      "z": 0.45,
+      "w": 0.23,
+      "h": 1.4,
+      "d": 0.23,
+      "mat": "animal.hide"
+    },
+    {
+      "x": 0.18,
+      "y": 0,
+      "z": -0.68,
+      "w": 0.23,
+      "h": 1.4,
+      "d": 0.23,
+      "mat": "animal.hide"
+    },
+    {
+      "x": 0.18,
+      "y": 0,
+      "z": 0.45,
+      "w": 0.23,
+      "h": 1.4,
+      "d": 0.23,
+      "mat": "animal.hide"
+    },
+    {
+      "x": -0.41,
+      "y": 1.2,
+      "z": -0.88,
+      "w": 0.83,
+      "h": 0.83,
+      "d": 1.76,
+      "mat": "animal.cat"
+    },
+    {
+      "x": -0.26,
+      "y": 1.45,
+      "z": -1.88,
+      "w": 0.53,
+      "h": 0.62,
+      "d": 1.2,
+      "mat": "animal.cat"
+    },
+    {
+      "x": -0.25,
+      "y": 1.98,
+      "z": -1.63,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "animal.cat"
+    },
+    {
+      "x": 0.04,
+      "y": 1.98,
+      "z": -1.63,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "animal.cat"
+    },
+    {
+      "x": -0.13,
+      "y": 1.53,
+      "z": 0.88,
+      "w": 0.26,
+      "h": 0.9,
+      "d": 0.3,
+      "mat": "animal.cat"
+    },
+    {
+      "x": -0.95,
+      "y": 0.02,
+      "z": -1.25,
+      "w": 1.9,
+      "h": 0.14,
+      "d": 0.42,
+      "mat": "ground.dirt"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 0.95,
+      "z": -1.55,
+      "w": 1.8,
+      "h": 0.6,
+      "face": "front",
+      "title": "LIFE",
+      "subtitle": "YARD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

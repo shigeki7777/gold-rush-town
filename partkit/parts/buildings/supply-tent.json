@@ -1,0 +1,181 @@
+{
+  "id": "supply-tent",
+  "name": "Supply Tent",
+  "category": "building",
+  "variant": "role-tent-supply-tent",
+  "footprint": [
+    4,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke supply-tent: stacked crates, supply barrels and grain sacks. Distinct tent landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "ground.dirt",
+    "canvas.base",
+    "canvas.light",
+    "canvas.shade",
+    "wood.base",
+    "wood.dark",
+    "canvas.dirty",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4,
+      "y": 0,
+      "z": -5,
+      "w": 8,
+      "h": 0.4,
+      "d": 10,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -4,
+      "y": 0.4,
+      "z": -5,
+      "w": 8,
+      "h": 3.5,
+      "d": 10,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -4.2,
+      "y": 3.9,
+      "z": -5.4,
+      "w": 8.4,
+      "h": 0.9,
+      "d": 10.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -3.2,
+      "y": 4.5,
+      "z": -5.4,
+      "w": 6.4,
+      "h": 0.9,
+      "d": 10.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -2.2,
+      "y": 5.1,
+      "z": -5.4,
+      "w": 4.4,
+      "h": 0.9,
+      "d": 10.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1.2,
+      "y": 5.7,
+      "z": -5.4,
+      "w": 2.4,
+      "h": 0.9,
+      "d": 10.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1,
+      "y": 0.4,
+      "z": -5.2,
+      "w": 2,
+      "h": 3,
+      "d": 0.3,
+      "mat": "canvas.shade"
+    },
+    {
+      "x": -4.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 9,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -2.6,
+      "y": 0.3,
+      "z": -7.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 1.1,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1,
+      "y": 0.3,
+      "z": -7.2,
+      "w": 1.3,
+      "h": 1.2,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.7,
+      "z": -7.15,
+      "w": 1.4,
+      "h": 1.2,
+      "d": 1,
+      "mat": "wood.base"
+    },
+    {
+      "x": 2.6,
+      "y": 0.3,
+      "z": -7.2,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 3.8,
+      "y": 0.3,
+      "z": -7.2,
+      "w": 1.1,
+      "h": 1.2,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1.2,
+      "y": 0.3,
+      "z": -7.6,
+      "w": 1,
+      "h": 1,
+      "d": 0.9,
+      "mat": "canvas.dirty"
+    }
+  ],
+  "signs": [
+    {
+      "x": -2.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "SUPPLY",
+      "subtitle": "TENT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 2.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "STORES",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

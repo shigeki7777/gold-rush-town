@@ -1,0 +1,184 @@
+{
+  "id": "mess-tent",
+  "name": "Mess Tent",
+  "category": "building",
+  "variant": "role-tent-mess-tent",
+  "footprint": [
+    5,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke mess-tent: a long mess table with benches, cook pots and a cook fire. Distinct tent landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "ground.dirt",
+    "canvas.base",
+    "canvas.light",
+    "canvas.shade",
+    "wood.dark",
+    "wood.base",
+    "metal.iron",
+    "stone.base",
+    "coal.ember",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5,
+      "y": 0,
+      "z": -6,
+      "w": 10,
+      "h": 0.4,
+      "d": 12,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -5,
+      "y": 0.4,
+      "z": -6,
+      "w": 10,
+      "h": 3.5,
+      "d": 12,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -5.2,
+      "y": 3.9,
+      "z": -6.4,
+      "w": 10.4,
+      "h": 1.05,
+      "d": 12.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -3.95,
+      "y": 4.65,
+      "z": -6.4,
+      "w": 7.9,
+      "h": 1.05,
+      "d": 12.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -2.7,
+      "y": 5.4,
+      "z": -6.4,
+      "w": 5.4,
+      "h": 1.05,
+      "d": 12.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1.45,
+      "y": 6.15,
+      "z": -6.4,
+      "w": 2.9,
+      "h": 1.05,
+      "d": 12.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1,
+      "y": 0.4,
+      "z": -6.2,
+      "w": 2,
+      "h": 3,
+      "d": 0.3,
+      "mat": "canvas.shade"
+    },
+    {
+      "x": -5.5,
+      "y": 0.18,
+      "z": -9.2,
+      "w": 11,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3,
+      "y": 0.6,
+      "z": -8.4,
+      "w": 6,
+      "h": 0.25,
+      "d": 1.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -9,
+      "w": 6,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.4,
+      "y": 0.85,
+      "z": -8.4,
+      "w": 0.8,
+      "h": 0.6,
+      "d": 0.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.8,
+      "y": 0.85,
+      "z": -8.4,
+      "w": 0.8,
+      "h": 0.6,
+      "d": 0.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 4,
+      "y": 0.1,
+      "z": -8.8,
+      "w": 1.2,
+      "h": 0.3,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 4.2,
+      "y": 0.4,
+      "z": -8.8,
+      "w": 0.8,
+      "h": 0.5,
+      "d": 0.8,
+      "mat": "coal.ember",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": -3.8,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "MESS",
+      "subtitle": "TENT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 3.8,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "CHOW",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

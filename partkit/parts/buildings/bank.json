@@ -1,0 +1,290 @@
+{
+  "id": "bank",
+  "name": "Miners' Bank",
+  "category": "building",
+  "variant": "bespoke-bank-vault",
+  "footprint": [
+    7,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke Miners Bank: symmetrical stone vault-house with deep steps, barred counting windows, and visible bullion counter. Bespoke architecture pass: bank has a distinct silhouette and role-specific yard/frontage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "stone.dark",
+    "metal.iron",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.4,
+      "y": 0,
+      "z": -8,
+      "w": 16.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7.7,
+      "y": 0.6,
+      "z": -7.3,
+      "w": 15.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.2,
+      "z": -6.6,
+      "w": 14,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.6,
+      "z": -6,
+      "w": 14,
+      "h": 8,
+      "d": 12,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.15,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.42,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 1.32,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 5.05,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.6,
+      "y": 8.6,
+      "z": -8,
+      "w": 15.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.5,
+      "y": 10,
+      "z": -8,
+      "w": 15,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.62,
+      "y": 11.12,
+      "z": -8,
+      "w": 11.25,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.75,
+      "y": 12.24,
+      "z": -8,
+      "w": 7.5,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.87,
+      "y": 13.36,
+      "z": -8,
+      "w": 3.75,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -6.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -6.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -5.6,
+      "y": 1.8,
+      "z": -7.6,
+      "w": 11.2,
+      "h": 0.7,
+      "d": 2.2,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -4.8,
+      "y": 2.5,
+      "z": -7.1,
+      "w": 9.6,
+      "h": 0.55,
+      "d": 1.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.5,
+      "y": 4,
+      "z": -8.1,
+      "w": 0.22,
+      "h": 3.2,
+      "d": 0.18,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.7,
+      "y": 4,
+      "z": -8.1,
+      "w": 0.22,
+      "h": 3.2,
+      "d": 0.18,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.7,
+      "y": 4,
+      "z": -8.1,
+      "w": 0.22,
+      "h": 3.2,
+      "d": 0.18,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 4.5,
+      "y": 4,
+      "z": -8.1,
+      "w": 0.22,
+      "h": 3.2,
+      "d": 0.18,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.8,
+      "y": 1.8,
+      "z": -8.2,
+      "w": 2.2,
+      "h": 1.25,
+      "d": 1.05,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 3.15,
+      "y": 3.05,
+      "z": -8.1,
+      "w": 1.5,
+      "h": 0.28,
+      "d": 0.75,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -4.5,
+      "y": 1.8,
+      "z": -8.2,
+      "w": 2,
+      "h": 1,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 0.18,
+      "z": -8.7,
+      "w": 6,
+      "h": 0.28,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -8.62,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.78,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.39,
+      "z": -8.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "MINERS BANK",
+      "subtitle": "GOLD & SILVER",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "z": -9.05,
+      "w": 4.2,
+      "h": 1.05,
+      "face": "front",
+      "title": "VAULT",
+      "subtitle": "BULLION",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

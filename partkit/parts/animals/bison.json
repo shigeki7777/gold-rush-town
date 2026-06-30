@@ -1,0 +1,147 @@
+{
+  "id": "bison",
+  "name": "Bison",
+  "category": "animal",
+  "variant": "role-animal-bison",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built animal: bison placed as a living town detail with yard/wildlife role cue and photo-readable base.",
+  "palette_tokens": [
+    "animal.hoof",
+    "animal.horseDk",
+    "animal.crow",
+    "ground.dirt",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.9,
+      "y": 0,
+      "z": -1.72,
+      "w": 0.5,
+      "h": 2.4,
+      "d": 0.5,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": -0.9,
+      "y": 0,
+      "z": 1.22,
+      "w": 0.5,
+      "h": 2.4,
+      "d": 0.5,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": 0.4,
+      "y": 0,
+      "z": -1.72,
+      "w": 0.5,
+      "h": 2.4,
+      "d": 0.5,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": 0.4,
+      "y": 0,
+      "z": 1.22,
+      "w": 0.5,
+      "h": 2.4,
+      "d": 0.5,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": -0.9,
+      "y": 2.2,
+      "z": -1.92,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 3.84,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": -0.9,
+      "y": 3.7,
+      "z": -1.72,
+      "w": 1.8,
+      "h": 1.26,
+      "d": 1.73,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": -0.5,
+      "y": 2.83,
+      "z": -2.72,
+      "w": 1.01,
+      "h": 1.71,
+      "d": 1,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": -0.58,
+      "y": 3.82,
+      "z": -3.52,
+      "w": 1.15,
+      "h": 1.35,
+      "d": 1.2,
+      "mat": "animal.horseDk"
+    },
+    {
+      "x": -0.5,
+      "y": 4.99,
+      "z": -3.17,
+      "w": 0.22,
+      "h": 0.7,
+      "d": 0.22,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": 0.22,
+      "y": 4.99,
+      "z": -3.17,
+      "w": 0.22,
+      "h": 0.7,
+      "d": 0.22,
+      "mat": "animal.hoof"
+    },
+    {
+      "x": -0.13,
+      "y": 2.92,
+      "z": 1.92,
+      "w": 0.26,
+      "h": 0.9,
+      "d": 0.3,
+      "mat": "animal.crow"
+    },
+    {
+      "x": -0.95,
+      "y": 0.02,
+      "z": -1.25,
+      "w": 1.9,
+      "h": 0.14,
+      "d": 0.42,
+      "mat": "ground.dirt"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 0.95,
+      "z": -1.55,
+      "w": 1.8,
+      "h": 0.6,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

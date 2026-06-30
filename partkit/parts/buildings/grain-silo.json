@@ -1,0 +1,228 @@
+{
+  "id": "grain-silo",
+  "name": "Grain Silo",
+  "category": "building",
+  "variant": "role-tower-grain-silo",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built tower infrastructure: grain-silo with service board, visible base props, and clearer town utility role.",
+  "palette_tokens": [
+    "metal.iron",
+    "metal.steel",
+    "roof.tin",
+    "canvas.dirty",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2.4,
+      "y": 0,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 1.1,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.4,
+      "y": 2.2,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 3.3,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.4,
+      "y": 4.4,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 5.5,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.4,
+      "y": 6.6,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 7.7,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.4,
+      "y": 8.8,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 9.9,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.4,
+      "y": 11,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 12.1,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.4,
+      "y": 13.2,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 14.3,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.05,
+      "d": 4.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -2.7,
+      "y": 0,
+      "z": -0.6,
+      "w": 5.4,
+      "h": 14,
+      "d": 1.2,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -0.6,
+      "y": 0,
+      "z": -2.7,
+      "w": 1.2,
+      "h": 14,
+      "d": 5.4,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 15.4,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1,
+      "d": 4.8,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -1.7,
+      "y": 16.4,
+      "z": -1.7,
+      "w": 3.4,
+      "h": 1,
+      "d": 3.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -1,
+      "y": 17.4,
+      "z": -1,
+      "w": 2,
+      "h": 1,
+      "d": 2,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -2.6,
+      "y": 0.4,
+      "z": -3.2,
+      "w": 1.3,
+      "h": 1.2,
+      "d": 1,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -1,
+      "y": 0.4,
+      "z": -3.2,
+      "w": 1.3,
+      "h": 1.2,
+      "d": 1,
+      "mat": "canvas.dirty"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -3.5,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "GRAIN",
+      "subtitle": "STORE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

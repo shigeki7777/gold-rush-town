@@ -1,0 +1,13 @@
+{
+  "name": "gold-rush-town-community",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Community design/visual layer for SaSame's Gold Rush Town — the look, the voxel parts, the palette. Backend (functions, money) stays with SaSame.",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "guard": "node guard.mjs"
+  },
+  "license": "CC-BY-4.0",
+  "homepage": "https://live-vps.sasame.online/world/"
+}

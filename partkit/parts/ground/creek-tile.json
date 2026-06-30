@@ -1,0 +1,113 @@
+{
+  "id": "creek-tile",
+  "name": "Creek",
+  "category": "ground",
+  "variant": "role-ground-creek-tile",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built ground tile: creek-tile with clearer Gold Rush Town navigation/terrain role.",
+  "palette_tokens": [
+    "ground.dirt",
+    "stone.light",
+    "stone.base",
+    "water.deep",
+    "water.shallow",
+    "water.foam"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "w": 2,
+      "h": 0.4,
+      "d": 2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": -0.9,
+      "w": 0.5,
+      "h": 0.22,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": 0.1,
+      "w": 0.5,
+      "h": 0.22,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.4,
+      "y": 0.4,
+      "z": -0.9,
+      "w": 0.5,
+      "h": 0.22,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.4,
+      "y": 0.4,
+      "z": 0.1,
+      "w": 0.5,
+      "h": 0.22,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": -1,
+      "w": 1.8,
+      "h": 0.16,
+      "d": 2,
+      "mat": "water.deep"
+    },
+    {
+      "x": -0.7,
+      "y": 0.5,
+      "z": -1,
+      "w": 1.4,
+      "h": 0.12,
+      "d": 2,
+      "mat": "water.shallow"
+    },
+    {
+      "x": -0.3,
+      "y": 0.6,
+      "z": -1.2,
+      "w": 0.35,
+      "h": 0.1,
+      "d": 0.35,
+      "mat": "water.foam"
+    },
+    {
+      "x": 0.4,
+      "y": 0.6,
+      "z": 0.4,
+      "w": 0.35,
+      "h": 0.1,
+      "d": 0.35,
+      "mat": "water.foam"
+    },
+    {
+      "x": -0.1,
+      "y": 0.6,
+      "z": 1.5,
+      "w": 0.35,
+      "h": 0.1,
+      "d": 0.35,
+      "mat": "water.foam"
+    }
+  ]
+}

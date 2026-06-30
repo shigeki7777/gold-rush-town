@@ -1,0 +1,93 @@
+{
+  "id": "hay-stack",
+  "name": "Haystack",
+  "category": "prop",
+  "variant": "role-prop-hay-stack",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built prop asset: hay-stack with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.leafBase",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "w": 6,
+      "h": 1.4,
+      "d": 6,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -2.4,
+      "y": 1.3,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 1.4,
+      "d": 4.8,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -1.8,
+      "y": 2.6,
+      "z": -1.8,
+      "w": 3.6,
+      "h": 1.4,
+      "d": 3.6,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -1.2,
+      "y": 3.9,
+      "z": -1.2,
+      "w": 2.4,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

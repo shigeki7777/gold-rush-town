@@ -1,0 +1,241 @@
+{
+  "id": "cottonwood",
+  "name": "Frontier Cottonwood",
+  "category": "nature",
+  "variant": "role-nature-cottonwood",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: cottonwood with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.trunk",
+    "nature.branch",
+    "nature.leafBase",
+    "nature.leafLight",
+    "nature.leafDark",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.2,
+      "y": 0,
+      "z": -1.2,
+      "w": 2.4,
+      "h": 4.2,
+      "d": 2.4,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -0.9,
+      "y": 3.5,
+      "z": -0.9,
+      "w": 1.8,
+      "h": 4.2,
+      "d": 1.8,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -2.6,
+      "y": 6,
+      "z": -0.4,
+      "w": 2.4,
+      "h": 0.9,
+      "d": 0.9,
+      "mat": "nature.branch"
+    },
+    {
+      "x": 1,
+      "y": 6.6,
+      "z": -0.4,
+      "w": 2.2,
+      "h": 0.9,
+      "d": 0.9,
+      "mat": "nature.branch"
+    },
+    {
+      "x": -5,
+      "y": 5.5,
+      "z": -5,
+      "w": 10,
+      "h": 10,
+      "d": 10,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -0.5,
+      "y": 7.8,
+      "z": -5.1,
+      "w": 7.2,
+      "h": 7.2,
+      "d": 7.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -6.2,
+      "y": 7.5,
+      "z": -1.5,
+      "w": 7.2,
+      "h": 7.2,
+      "d": 7.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -2.1,
+      "y": 10.7,
+      "z": -2.3,
+      "w": 6.4,
+      "h": 6.4,
+      "d": 6.4,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -4.5,
+      "y": 10.6,
+      "z": -5,
+      "w": 5.8,
+      "h": 5.8,
+      "d": 5.8,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -0.9,
+      "y": 6.1,
+      "z": -0.5,
+      "w": 6,
+      "h": 6,
+      "d": 6,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -5.8,
+      "y": 6.7,
+      "z": -5.1,
+      "w": 5.6,
+      "h": 5.6,
+      "d": 5.6,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -2.25,
+      "y": 12.75,
+      "z": -3,
+      "w": 5,
+      "h": 5,
+      "d": 5,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -0.5,
+      "y": 9,
+      "z": -4.5,
+      "w": 6,
+      "h": 6,
+      "d": 6,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 2.2,
+      "y": 10.38,
+      "z": -4.56,
+      "w": 4.32,
+      "h": 4.32,
+      "d": 4.32,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -1.22,
+      "y": 10.2,
+      "z": -2.4,
+      "w": 4.32,
+      "h": 4.32,
+      "d": 4.32,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 1.24,
+      "y": 12.12,
+      "z": -2.88,
+      "w": 3.84,
+      "h": 3.84,
+      "d": 3.84,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -0.2,
+      "y": 12.06,
+      "z": -4.5,
+      "w": 3.48,
+      "h": 3.48,
+      "d": 3.48,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": 1.96,
+      "y": 9.36,
+      "z": -1.8,
+      "w": 3.6,
+      "h": 3.6,
+      "d": 3.6,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -0.98,
+      "y": 9.72,
+      "z": -4.56,
+      "w": 3.36,
+      "h": 3.36,
+      "d": 3.36,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": 1.15,
+      "y": 13.35,
+      "z": -3.3,
+      "w": 3,
+      "h": 3,
+      "d": 3,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

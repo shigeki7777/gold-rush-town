@@ -1,0 +1,278 @@
+{
+  "id": "masonic-hall",
+  "name": "Masonic Hall",
+  "category": "building",
+  "variant": "role-stone-civic-masonic-hall",
+  "footprint": [
+    6,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke MASONIC HALL: lodge — compass-and-square emblem, twin pillars, a checker mat. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "accent.teal",
+    "stone.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -7.4,
+      "y": 0,
+      "z": -8,
+      "w": 14.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.7,
+      "y": 0.6,
+      "z": -7.3,
+      "w": 13.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6,
+      "y": 1.2,
+      "z": -6.6,
+      "w": 12,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6,
+      "y": 1.6,
+      "z": -6,
+      "w": 12,
+      "h": 8,
+      "d": 12,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5.15,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.08,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.98,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 4.05,
+      "y": 1.6,
+      "z": -7.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -6.6,
+      "y": 8.6,
+      "z": -8,
+      "w": 13.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -6.5,
+      "y": 10,
+      "z": -8,
+      "w": 13,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.87,
+      "y": 10.96,
+      "z": -8,
+      "w": 9.75,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.25,
+      "y": 11.92,
+      "z": -8,
+      "w": 6.5,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.62,
+      "y": 12.88,
+      "z": -8,
+      "w": 3.25,
+      "h": 1.26,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -6.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -6.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -6.5,
+      "y": 0.18,
+      "z": -9.2,
+      "w": 13,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -1,
+      "y": 9.4,
+      "z": -8.1,
+      "w": 2,
+      "h": 2,
+      "d": 0.3,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -0.6,
+      "y": 9.8,
+      "z": -8.2,
+      "w": 1.2,
+      "h": 1.2,
+      "d": 0.2,
+      "mat": "accent.teal"
+    },
+    {
+      "x": -4.4,
+      "y": 0,
+      "z": -8.8,
+      "w": 1,
+      "h": 4,
+      "d": 1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.3,
+      "y": 4,
+      "z": -8.8,
+      "w": 1.2,
+      "h": 0.7,
+      "d": 1.2,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 3.4,
+      "y": 0,
+      "z": -8.8,
+      "w": 1,
+      "h": 4,
+      "d": 1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 3.5,
+      "y": 4,
+      "z": -8.8,
+      "w": 1.2,
+      "h": 0.7,
+      "d": 1.2,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -2,
+      "y": 0.05,
+      "z": -9,
+      "w": 4,
+      "h": 0.2,
+      "d": 1.4,
+      "mat": "stone.dark"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.14,
+      "z": -8.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "MASONIC HALL",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "MASONIC",
+      "subtitle": "LODGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "A.F.&",
+      "subtitle": "A.M.",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

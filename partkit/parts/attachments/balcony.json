@@ -1,0 +1,154 @@
+{
+  "id": "balcony",
+  "name": "Balcony",
+  "category": "attachment",
+  "variant": "role-attachment-balcony",
+  "footprint": [
+    4,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built attachment asset: balcony with Gold Rush Town role cue (BUILD/DETAIL), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.base",
+    "wood.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4,
+      "y": 3,
+      "z": -1.5,
+      "w": 8,
+      "h": 0.4,
+      "d": 1.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 3,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4,
+      "y": 3.4,
+      "z": -1.5,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4,
+      "y": 4.8,
+      "z": -1.5,
+      "w": 8,
+      "h": 0.3,
+      "d": 0.3,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.85,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.82,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "wood.base"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.08,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "BUILD",
+      "subtitle": "DETAIL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

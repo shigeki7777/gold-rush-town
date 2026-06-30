@@ -1,0 +1,104 @@
+{
+  "id": "well-head",
+  "name": "Roofed Well-Head",
+  "category": "attachment",
+  "variant": "role-attachment-well-head",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built attachment asset: well-head with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "roof.wood",
+    "wood.base",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.6,
+      "y": 0,
+      "z": -1.6,
+      "w": 3.2,
+      "h": 2,
+      "d": 3.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.4,
+      "y": 2,
+      "z": -0.2,
+      "w": 0.4,
+      "h": 4,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": -0.2,
+      "w": 0.4,
+      "h": 4,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.6,
+      "y": 6,
+      "z": -0.4,
+      "w": 3.6,
+      "h": 0.5,
+      "d": 1.2,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -0.6,
+      "y": 4,
+      "z": -0.4,
+      "w": 1.2,
+      "h": 1,
+      "d": 0.8,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.85,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.82,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.08,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

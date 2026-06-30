@@ -1,0 +1,76 @@
+{
+  "id": "washtub",
+  "name": "Washtub",
+  "category": "prop",
+  "variant": "role-prop-washtub",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built prop asset: washtub with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "metal.steel",
+    "water.shallow",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.9,
+      "y": 0,
+      "z": -0.9,
+      "w": 1.8,
+      "h": 1.1,
+      "d": 1.8,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -0.7,
+      "y": 1.1,
+      "z": -0.7,
+      "w": 1.4,
+      "h": 0.2,
+      "d": 1.4,
+      "mat": "water.shallow"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

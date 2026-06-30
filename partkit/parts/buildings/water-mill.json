@@ -1,0 +1,291 @@
+{
+  "id": "water-mill",
+  "name": "Water Mill",
+  "category": "building",
+  "variant": "role-gable-water-mill",
+  "footprint": [
+    6,
+    7
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke MILL: water mill — a turning wheel, a sluice and meal sacks. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.shingle",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "water.shallow",
+    "canvas.dirty",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -6.5,
+      "y": 0,
+      "z": -7.5,
+      "w": 13,
+      "h": 1,
+      "d": 15,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -7,
+      "w": 12,
+      "h": 7,
+      "d": 14,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6.3,
+      "y": 8,
+      "z": -7.7,
+      "w": 12.6,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -5.63,
+      "y": 8.56,
+      "z": -7.7,
+      "w": 11.27,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -4.97,
+      "y": 9.12,
+      "z": -7.7,
+      "w": 9.93,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -4.3,
+      "y": 9.68,
+      "z": -7.7,
+      "w": 8.6,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.63,
+      "y": 10.24,
+      "z": -7.7,
+      "w": 7.27,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.97,
+      "y": 10.8,
+      "z": -7.7,
+      "w": 5.93,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.3,
+      "y": 11.36,
+      "z": -7.7,
+      "w": 4.6,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.63,
+      "y": 11.92,
+      "z": -7.7,
+      "w": 3.27,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.97,
+      "y": 12.48,
+      "z": -7.7,
+      "w": 1.93,
+      "h": 0.91,
+      "d": 15.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.4,
+      "y": 13.04,
+      "z": -7.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 15.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -7.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6.3,
+      "y": 2.5,
+      "z": -5,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 5.9,
+      "y": 2.5,
+      "z": -5,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -6.3,
+      "y": 2.5,
+      "z": 5,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 5.9,
+      "y": 2.5,
+      "z": 5,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -6.5,
+      "y": 0.18,
+      "z": -10.2,
+      "w": 13,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": 4.2,
+      "y": 0.4,
+      "z": -9,
+      "w": 2,
+      "h": 2,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4.7,
+      "y": 1,
+      "z": -9.1,
+      "w": 1,
+      "h": 0.2,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": 4.7,
+      "y": 2.2,
+      "z": -9.1,
+      "w": 1,
+      "h": 0.2,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": -9.2,
+      "w": 1.8,
+      "h": 0.3,
+      "d": 0.8,
+      "mat": "wood.base"
+    },
+    {
+      "x": 3.1,
+      "y": 2.3,
+      "z": -9.2,
+      "w": 1.6,
+      "h": 0.12,
+      "d": 0.7,
+      "mat": "water.shallow",
+      "emissive": true
+    },
+    {
+      "x": -3.4,
+      "y": 0.3,
+      "z": -9.6,
+      "w": 1,
+      "h": 1,
+      "d": 0.9,
+      "mat": "canvas.dirty"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 10.02,
+      "z": -7.8,
+      "w": 8,
+      "h": 2.2,
+      "face": "front",
+      "title": "MILL",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -10.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "WATER",
+      "subtitle": "MILL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -10.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "FLOUR",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

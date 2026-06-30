@@ -1,0 +1,65 @@
+{
+  "id": "water-tile",
+  "name": "Water",
+  "category": "ground",
+  "variant": "role-ground-water-tile",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built ground tile: water-tile with clearer Gold Rush Town navigation/terrain role.",
+  "palette_tokens": [
+    "water.deep",
+    "water.shallow",
+    "water.foam"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "w": 2,
+      "h": 0.4,
+      "d": 2,
+      "mat": "water.deep"
+    },
+    {
+      "x": -1,
+      "y": 0.4,
+      "z": -1,
+      "w": 2,
+      "h": 0.15,
+      "d": 2,
+      "mat": "water.shallow"
+    },
+    {
+      "x": -1,
+      "y": 0.55,
+      "z": 0.5,
+      "w": 0.6,
+      "h": 0.1,
+      "d": 0.6,
+      "mat": "water.foam"
+    },
+    {
+      "x": 0.8,
+      "y": 0.55,
+      "z": -0.7,
+      "w": 0.6,
+      "h": 0.1,
+      "d": 0.6,
+      "mat": "water.foam"
+    },
+    {
+      "x": 0.2,
+      "y": 0.55,
+      "z": 1,
+      "w": 0.6,
+      "h": 0.1,
+      "d": 0.6,
+      "mat": "water.foam"
+    }
+  ]
+}

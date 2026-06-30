@@ -1,0 +1,17 @@
+name: leak-guard
+# Every PR runs the publish leak-guard: no backend code, secrets, or money-logic may
+# enter the community design repo. This is what lets the design layer stay open.
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run leak-guard
+        run: node guard.mjs

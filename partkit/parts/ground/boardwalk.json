@@ -1,0 +1,47 @@
+{
+  "id": "boardwalk",
+  "name": "Boardwalk",
+  "category": "ground",
+  "variant": "role-ground-boardwalk",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built ground tile: boardwalk with clearer Gold Rush Town navigation/terrain role.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.light",
+    "wood.base"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "w": 2,
+      "h": 0.4,
+      "d": 2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.94,
+      "y": 0.4,
+      "z": -1,
+      "w": 0.88,
+      "h": 0.18,
+      "d": 2,
+      "mat": "wood.light"
+    },
+    {
+      "x": 0.06,
+      "y": 0.4,
+      "z": -1,
+      "w": 0.88,
+      "h": 0.18,
+      "d": 2,
+      "mat": "wood.base"
+    }
+  ]
+}

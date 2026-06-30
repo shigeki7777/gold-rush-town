@@ -1,0 +1,161 @@
+{
+  "id": "ore-rock",
+  "name": "Gold Ore Boulder",
+  "category": "nature",
+  "variant": "role-nature-ore-rock",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: ore-rock with Gold Rush Town role cue (DIG/SITE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "stone.dark",
+    "accent.gold",
+    "wood.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2.4,
+      "y": -0.8,
+      "z": -2.4,
+      "w": 4.8,
+      "h": 4.8,
+      "d": 4.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.24,
+      "y": 0.3,
+      "z": -2.45,
+      "w": 3.46,
+      "h": 3.46,
+      "d": 3.46,
+      "mat": "stone.base"
+    },
+    {
+      "x": -2.98,
+      "y": 0.16,
+      "z": -0.72,
+      "w": 3.46,
+      "h": 3.46,
+      "d": 3.46,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.01,
+      "y": 1.7,
+      "z": -1.1,
+      "w": 3.07,
+      "h": 3.07,
+      "d": 3.07,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.16,
+      "y": 1.65,
+      "z": -2.4,
+      "w": 2.78,
+      "h": 2.78,
+      "d": 2.78,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.43,
+      "y": -0.51,
+      "z": -0.24,
+      "w": 2.88,
+      "h": 2.88,
+      "d": 2.88,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -2.78,
+      "y": -0.22,
+      "z": -2.45,
+      "w": 2.69,
+      "h": 2.69,
+      "d": 2.69,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -1.08,
+      "y": 2.68,
+      "z": -1.44,
+      "w": 2.4,
+      "h": 2.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.6,
+      "y": 2.4,
+      "z": 1,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1,
+      "y": 1.4,
+      "z": 1.2,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 1.4,
+      "y": 1,
+      "z": 0.4,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

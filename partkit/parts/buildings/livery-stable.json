@@ -1,0 +1,351 @@
+{
+  "id": "livery-stable",
+  "name": "Livery Stable",
+  "category": "building",
+  "variant": "bespoke-livery-corral",
+  "footprint": [
+    8,
+    9
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke Livery Stable: open central bay, side stall rhythm, corral fencing, trough, and hay yard. Bespoke architecture pass: livery-stable has a distinct silhouette and role-specific yard/frontage.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.shingle",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "water.shallow",
+    "nature.leafBase",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.5,
+      "y": 0,
+      "z": -9.5,
+      "w": 17,
+      "h": 1,
+      "d": 19,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": -9,
+      "w": 16,
+      "h": 6,
+      "d": 18,
+      "mat": "wood.base"
+    },
+    {
+      "x": -8.3,
+      "y": 7,
+      "z": -9.7,
+      "w": 16.6,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -7.57,
+      "y": 7.61,
+      "z": -9.7,
+      "w": 15.15,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -6.85,
+      "y": 8.22,
+      "z": -9.7,
+      "w": 13.69,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -6.12,
+      "y": 8.83,
+      "z": -9.7,
+      "w": 12.24,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -5.39,
+      "y": 9.44,
+      "z": -9.7,
+      "w": 10.78,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -4.66,
+      "y": 10.05,
+      "z": -9.7,
+      "w": 9.33,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.94,
+      "y": 10.67,
+      "z": -9.7,
+      "w": 7.87,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.21,
+      "y": 11.28,
+      "z": -9.7,
+      "w": 6.42,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.48,
+      "y": 11.89,
+      "z": -9.7,
+      "w": 4.96,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.75,
+      "y": 12.5,
+      "z": -9.7,
+      "w": 3.51,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.03,
+      "y": 13.11,
+      "z": -9.7,
+      "w": 2.05,
+      "h": 0.96,
+      "d": 19.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.4,
+      "y": 13.72,
+      "z": -9.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 19.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -9.4,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -9.5,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.3,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": -7,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": -7,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": 7,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": 7,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -8,
+      "y": 0.4,
+      "z": -10.2,
+      "w": 0.3,
+      "h": 2.3,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5,
+      "y": 0.4,
+      "z": -10.2,
+      "w": 0.3,
+      "h": 2.3,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2,
+      "y": 0.4,
+      "z": -10.2,
+      "w": 0.3,
+      "h": 2.3,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1,
+      "y": 0.4,
+      "z": -10.2,
+      "w": 0.3,
+      "h": 2.3,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4,
+      "y": 0.4,
+      "z": -10.2,
+      "w": 0.3,
+      "h": 2.3,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 7,
+      "y": 0.4,
+      "z": -10.2,
+      "w": 0.3,
+      "h": 2.3,
+      "d": 0.3,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -8,
+      "y": 1.5,
+      "z": -10.2,
+      "w": 15.5,
+      "h": 0.25,
+      "d": 0.25,
+      "mat": "wood.base"
+    },
+    {
+      "x": -8,
+      "y": 0.7,
+      "z": -10.2,
+      "w": 15.5,
+      "h": 0.25,
+      "d": 0.25,
+      "mat": "wood.base"
+    },
+    {
+      "x": -6,
+      "y": 0.5,
+      "z": -9.4,
+      "w": 3.5,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "water.shallow",
+      "emissive": true
+    },
+    {
+      "x": 3.5,
+      "y": 0.5,
+      "z": -9.4,
+      "w": 2.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -3,
+      "y": 0.18,
+      "z": -10.8,
+      "w": 6,
+      "h": 0.28,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -10.72,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.78,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 9.69,
+      "z": -9.8,
+      "w": 8,
+      "h": 2.2,
+      "face": "front",
+      "title": "LIVERY",
+      "subtitle": "STABLE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "z": -11.15,
+      "w": 4.2,
+      "h": 1.05,
+      "face": "front",
+      "title": "HORSES",
+      "subtitle": "CORRAL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

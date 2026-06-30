@@ -1,0 +1,161 @@
+{
+  "id": "wall-tent",
+  "name": "Wall Tent",
+  "category": "building",
+  "variant": "role-tent-wall-tent",
+  "footprint": [
+    3,
+    4
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke wall-tent: a camp cot, a lantern post and a footlocker. Distinct tent landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "ground.dirt",
+    "canvas.base",
+    "canvas.light",
+    "canvas.shade",
+    "wood.dark",
+    "canvas.dirty",
+    "light.lamp",
+    "wood.base",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3,
+      "y": 0,
+      "z": -4,
+      "w": 6,
+      "h": 0.4,
+      "d": 8,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3,
+      "y": 0.4,
+      "z": -4,
+      "w": 6,
+      "h": 3.5,
+      "d": 8,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -3.2,
+      "y": 3.9,
+      "z": -4.4,
+      "w": 6.4,
+      "h": 0.75,
+      "d": 8.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -2.45,
+      "y": 4.35,
+      "z": -4.4,
+      "w": 4.9,
+      "h": 0.75,
+      "d": 8.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1.7,
+      "y": 4.8,
+      "z": -4.4,
+      "w": 3.4,
+      "h": 0.75,
+      "d": 8.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -0.95,
+      "y": 5.25,
+      "z": -4.4,
+      "w": 1.9,
+      "h": 0.75,
+      "d": 8.8,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1,
+      "y": 0.4,
+      "z": -4.2,
+      "w": 2,
+      "h": 3,
+      "d": 0.3,
+      "mat": "canvas.shade"
+    },
+    {
+      "x": -3.5,
+      "y": 0.18,
+      "z": -7.2,
+      "w": 7,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -1.8,
+      "y": 0.4,
+      "z": -6,
+      "w": 2.2,
+      "h": 0.5,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.7,
+      "y": 0.8,
+      "z": -6,
+      "w": 2,
+      "h": 0.2,
+      "d": 0.9,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": 2.2,
+      "y": 0,
+      "z": -6,
+      "w": 0.15,
+      "h": 2.2,
+      "d": 0.15,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": -6,
+      "w": 0.5,
+      "h": 0.6,
+      "d": 0.5,
+      "mat": "light.lamp",
+      "emissive": true
+    },
+    {
+      "x": 2,
+      "y": 0.3,
+      "z": -6.6,
+      "w": 1.2,
+      "h": 0.6,
+      "d": 0.8,
+      "mat": "wood.base"
+    }
+  ],
+  "signs": [
+    {
+      "x": -1.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "WALL",
+      "subtitle": "TENT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

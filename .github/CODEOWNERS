@@ -1,0 +1,3 @@
+# SaSame reviews every change for look + safety before it ships to the live town.
+# The leak-guard (guard.mjs / CI) is the hard gate; this requests a human design review.
+* @shigeki7777

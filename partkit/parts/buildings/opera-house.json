@@ -1,0 +1,328 @@
+{
+  "id": "opera-house",
+  "name": "Opera House",
+  "category": "building",
+  "variant": "role-stone-civic-opera-house",
+  "footprint": [
+    8,
+    9
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke OPERA HOUSE: grand opera — a lamp marquee, statue niches, a red carpet, a lyre emblem. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "metal.brass",
+    "light.lamp",
+    "raw.maroon",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -9.4,
+      "y": 0,
+      "z": -11,
+      "w": 18.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8.7,
+      "y": 0.6,
+      "z": -10.3,
+      "w": 17.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8,
+      "y": 1.2,
+      "z": -9.6,
+      "w": 16,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8,
+      "y": 1.6,
+      "z": -9,
+      "w": 16,
+      "h": 8,
+      "d": 18,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7.15,
+      "y": 1.6,
+      "z": -10.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.51,
+      "y": 1.6,
+      "z": -10.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.87,
+      "y": 1.6,
+      "z": -10.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.77,
+      "y": 1.6,
+      "z": -10.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 3.41,
+      "y": 1.6,
+      "z": -10.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 6.05,
+      "y": 1.6,
+      "z": -10.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -8.6,
+      "y": 8.6,
+      "z": -11,
+      "w": 17.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -8.5,
+      "y": 10,
+      "z": -11,
+      "w": 17,
+      "h": 1.58,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -6.37,
+      "y": 11.28,
+      "z": -11,
+      "w": 12.75,
+      "h": 1.58,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.25,
+      "y": 12.56,
+      "z": -11,
+      "w": 8.5,
+      "h": 1.58,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.12,
+      "y": 13.84,
+      "z": -11,
+      "w": 4.25,
+      "h": 1.58,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -9.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -9.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -8.5,
+      "y": 0.18,
+      "z": -12.2,
+      "w": 17,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -5.6,
+      "y": 5,
+      "z": -11.9,
+      "w": 11.2,
+      "h": 0.5,
+      "d": 1.6,
+      "mat": "metal.brass",
+      "emissive": true
+    },
+    {
+      "x": -5,
+      "y": 5.5,
+      "z": -12,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "light.lamp",
+      "emissive": true
+    },
+    {
+      "x": -2.6,
+      "y": 5.5,
+      "z": -12,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "light.lamp",
+      "emissive": true
+    },
+    {
+      "x": 0,
+      "y": 5.5,
+      "z": -12,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "light.lamp",
+      "emissive": true
+    },
+    {
+      "x": 2.6,
+      "y": 5.5,
+      "z": -12,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "light.lamp",
+      "emissive": true
+    },
+    {
+      "x": 5,
+      "y": 5.5,
+      "z": -12,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.3,
+      "mat": "light.lamp",
+      "emissive": true
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -11.8,
+      "w": 1,
+      "h": 3.2,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": -11.8,
+      "w": 1,
+      "h": 3.2,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 0.05,
+      "z": -12.3,
+      "w": 3.2,
+      "h": 0.2,
+      "d": 2,
+      "mat": "raw.maroon"
+    },
+    {
+      "x": -0.8,
+      "y": 11,
+      "z": -11.1,
+      "w": 1.6,
+      "h": 1.6,
+      "d": 0.3,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.65,
+      "z": -11.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "OPERA HOUSE",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -12.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "OPERA",
+      "subtitle": "HOUSE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -12.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "TONIGHT",
+      "subtitle": "8 PM",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

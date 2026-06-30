@@ -1,0 +1,289 @@
+{
+  "id": "courthouse",
+  "name": "Court House",
+  "category": "building",
+  "variant": "bespoke-courthouse-clock",
+  "footprint": [
+    7,
+    7
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke Courthouse: wide civic facade, clock pediment, docket steps, witness boards, and law-court symmetry. Bespoke architecture pass: courthouse has a distinct silhouette and role-specific yard/frontage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "canvas.light",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.4,
+      "y": 0,
+      "z": -9,
+      "w": 16.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7.7,
+      "y": 0.6,
+      "z": -8.3,
+      "w": 15.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.2,
+      "z": -7.6,
+      "w": 14,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.6,
+      "z": -7,
+      "w": 14,
+      "h": 8,
+      "d": 14,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.15,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.91,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.67,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.57,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 2.81,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 5.05,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.6,
+      "y": 8.6,
+      "z": -9,
+      "w": 15.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.5,
+      "y": 10,
+      "z": -9,
+      "w": 15,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.62,
+      "y": 11.12,
+      "z": -9,
+      "w": 11.25,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.75,
+      "y": 12.24,
+      "z": -9,
+      "w": 7.5,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.87,
+      "y": 13.36,
+      "z": -9,
+      "w": 3.75,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -7.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -7.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -1.4,
+      "y": 6.2,
+      "z": -8.9,
+      "w": 2.8,
+      "h": 2.8,
+      "d": 0.4,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -1.9,
+      "y": 12.4,
+      "z": -8,
+      "w": 3.8,
+      "h": 4.8,
+      "d": 1.3,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.4,
+      "y": 13.3,
+      "z": -8.35,
+      "w": 2.8,
+      "h": 2.8,
+      "d": 0.35,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -6.4,
+      "y": 2.4,
+      "z": -8.2,
+      "w": 2.2,
+      "h": 2.9,
+      "d": 0.25,
+      "mat": "canvas.light"
+    },
+    {
+      "x": 4.2,
+      "y": 2.4,
+      "z": -8.2,
+      "w": 2.2,
+      "h": 2.9,
+      "d": 0.25,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -6.1,
+      "y": 5.4,
+      "z": -8.3,
+      "w": 1.6,
+      "h": 0.3,
+      "d": 0.25,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4.5,
+      "y": 5.4,
+      "z": -8.3,
+      "w": 1.6,
+      "h": 0.3,
+      "d": 0.25,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 0.18,
+      "z": -8.9,
+      "w": 6,
+      "h": 0.28,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -8.82,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.78,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.39,
+      "z": -9.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "COURT HOUSE",
+      "subtitle": "DOCKET",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "z": -9.25,
+      "w": 4.2,
+      "h": 1.05,
+      "face": "front",
+      "title": "LAW",
+      "subtitle": "DOCKET",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

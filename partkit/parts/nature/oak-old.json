@@ -1,0 +1,239 @@
+{
+  "id": "oak-old",
+  "name": "Old Oak",
+  "category": "nature",
+  "variant": "role-nature-oak-old",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: oak-old with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.trunk",
+    "nature.branch",
+    "nature.leafBase",
+    "nature.leafLight",
+    "nature.leafDark",
+    "wood.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.56,
+      "y": 0,
+      "z": -1.56,
+      "w": 3.12,
+      "h": 3,
+      "d": 3.12,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -1.17,
+      "y": 2.5,
+      "z": -1.17,
+      "w": 2.34,
+      "h": 3,
+      "d": 2.34,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -3.38,
+      "y": 4,
+      "z": -0.4,
+      "w": 3.12,
+      "h": 0.9,
+      "d": 0.9,
+      "mat": "nature.branch"
+    },
+    {
+      "x": 1.3,
+      "y": 4.6,
+      "z": -0.4,
+      "w": 2.86,
+      "h": 0.9,
+      "d": 0.9,
+      "mat": "nature.branch"
+    },
+    {
+      "x": -7.15,
+      "y": 2.85,
+      "z": -7.15,
+      "w": 14.3,
+      "h": 14.3,
+      "d": 14.3,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -0.71,
+      "y": 6.14,
+      "z": -7.29,
+      "w": 10.3,
+      "h": 10.3,
+      "d": 10.3,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -8.87,
+      "y": 5.72,
+      "z": -2.14,
+      "w": 10.3,
+      "h": 10.3,
+      "d": 10.3,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -3,
+      "y": 10.29,
+      "z": -3.29,
+      "w": 9.15,
+      "h": 9.15,
+      "d": 9.15,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -6.43,
+      "y": 10.15,
+      "z": -7.15,
+      "w": 8.29,
+      "h": 8.29,
+      "d": 8.29,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -1.29,
+      "y": 3.71,
+      "z": -0.71,
+      "w": 8.58,
+      "h": 8.58,
+      "d": 8.58,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -8.29,
+      "y": 4.57,
+      "z": -7.29,
+      "w": 8.01,
+      "h": 8.01,
+      "d": 8.01,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -3.22,
+      "y": 13.22,
+      "z": -4.29,
+      "w": 7.15,
+      "h": 7.15,
+      "d": 7.15,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -0.71,
+      "y": 7.86,
+      "z": -6.43,
+      "w": 8.58,
+      "h": 8.58,
+      "d": 8.58,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 3.15,
+      "y": 9.83,
+      "z": -6.52,
+      "w": 6.18,
+      "h": 6.18,
+      "d": 6.18,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -1.74,
+      "y": 9.58,
+      "z": -3.43,
+      "w": 6.18,
+      "h": 6.18,
+      "d": 6.18,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 1.77,
+      "y": 12.32,
+      "z": -4.12,
+      "w": 5.49,
+      "h": 5.49,
+      "d": 5.49,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -0.29,
+      "y": 12.24,
+      "z": -6.43,
+      "w": 4.98,
+      "h": 4.98,
+      "d": 4.98,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": 2.8,
+      "y": 8.37,
+      "z": -2.57,
+      "w": 5.15,
+      "h": 5.15,
+      "d": 5.15,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -1.4,
+      "y": 8.89,
+      "z": -6.52,
+      "w": 4.8,
+      "h": 4.8,
+      "d": 4.8,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": 1.64,
+      "y": 14.08,
+      "z": -4.72,
+      "w": 4.29,
+      "h": 4.29,
+      "d": 4.29,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "stamp-mill",
+  "name": "Stamp Mill",
+  "category": "building",
+  "variant": "role-mine-stamp-mill",
+  "footprint": [
+    5,
+    4
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built mine infrastructure: stamp-mill with operational props, visible work area, and gold-rush utility signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.base",
+    "metal.iron",
+    "roof.tin",
+    "coal.ash",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5,
+      "y": 0,
+      "z": -4,
+      "w": 10,
+      "h": 4,
+      "d": 5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.8,
+      "y": 0,
+      "z": -2,
+      "w": 7.6,
+      "h": 6.5,
+      "d": 5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2.6,
+      "y": 0,
+      "z": 0,
+      "w": 5.2,
+      "h": 9,
+      "d": 5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0,
+      "z": 2,
+      "w": 2.8,
+      "h": 11.5,
+      "d": 5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": -3,
+      "w": 0.7,
+      "h": 8,
+      "d": 0.7,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.2,
+      "y": 6,
+      "z": -3,
+      "w": 0.7,
+      "h": 8,
+      "d": 0.7,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -0.4,
+      "y": 6,
+      "z": -3,
+      "w": 0.7,
+      "h": 8,
+      "d": 0.7,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 1.4,
+      "y": 6,
+      "z": -3,
+      "w": 0.7,
+      "h": 8,
+      "d": 0.7,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 3.2,
+      "y": 6,
+      "z": -3,
+      "w": 0.7,
+      "h": 8,
+      "d": 0.7,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -4.5,
+      "y": 14,
+      "z": -3.5,
+      "w": 9,
+      "h": 1,
+      "d": 6,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -4.5,
+      "y": 0.4,
+      "z": -5,
+      "w": 9,
+      "h": 0.35,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.8,
+      "y": 0.8,
+      "z": -4.8,
+      "w": 7.6,
+      "h": 0.25,
+      "d": 0.75,
+      "mat": "coal.ash"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -5.2,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "STAMP",
+      "subtitle": "MILL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

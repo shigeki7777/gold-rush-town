@@ -1,0 +1,75 @@
+{
+  "id": "stovepipe",
+  "name": "Stovepipe Flue",
+  "category": "attachment",
+  "variant": "role-attachment-stovepipe",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built attachment asset: stovepipe with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "metal.iron",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.4,
+      "y": 0,
+      "z": -0.4,
+      "w": 0.8,
+      "h": 6,
+      "d": 0.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -0.6,
+      "y": 6,
+      "z": -0.6,
+      "w": 1.2,
+      "h": 0.6,
+      "d": 1.2,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.85,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.82,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.08,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

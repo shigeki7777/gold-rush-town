@@ -1,0 +1,94 @@
+{
+  "id": "barrel-cactus",
+  "name": "Barrel Cactus",
+  "category": "nature",
+  "variant": "role-nature-barrel-cactus",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: barrel-cactus with Gold Rush Town role cue (MOVE/GOODS), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.cactus",
+    "nature.leafDark",
+    "flower.gold",
+    "wood.dark",
+    "metal.rail",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.4,
+      "y": 0,
+      "z": -1.4,
+      "w": 2.8,
+      "h": 3,
+      "d": 2.8,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": -1.5,
+      "y": 0.2,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 2.6,
+      "d": 0.4,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": 1.2,
+      "y": 0.2,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 2.6,
+      "d": 0.4,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -0.8,
+      "y": 3,
+      "z": -0.8,
+      "w": 1.6,
+      "h": 0.6,
+      "d": 1.6,
+      "mat": "flower.gold"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "metal.rail"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "MOVE",
+      "subtitle": "GOODS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

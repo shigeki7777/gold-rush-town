@@ -1,0 +1,337 @@
+{
+  "id": "homestead-cabin",
+  "name": "Homestead Cabin",
+  "category": "building",
+  "variant": "role-log-cabin-homestead-cabin",
+  "footprint": [
+    5,
+    4
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke homestead-cabin: a tilled garden patch, a roofed well and a washtub. Distinct log-cabin landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "wood.base",
+    "roof.wood",
+    "light.window",
+    "stone.dark",
+    "ground.dirt",
+    "nature.leafBase",
+    "metal.steel",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5.4,
+      "y": 0,
+      "z": -4.4,
+      "w": 10.8,
+      "h": 1,
+      "d": 8.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -4,
+      "w": 10,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.6,
+      "y": 1,
+      "z": -4.6,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.6,
+      "y": 1,
+      "z": 4.1,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5,
+      "y": 2,
+      "z": -4,
+      "w": 10,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5.6,
+      "y": 2,
+      "z": -4.6,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5.6,
+      "y": 2,
+      "z": 4.1,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5,
+      "y": 3,
+      "z": -4,
+      "w": 10,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.6,
+      "y": 3,
+      "z": -4.6,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.6,
+      "y": 3,
+      "z": 4.1,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5,
+      "y": 4,
+      "z": -4,
+      "w": 10,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5.6,
+      "y": 4,
+      "z": -4.6,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5.6,
+      "y": 4,
+      "z": 4.1,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": -4,
+      "w": 10,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.6,
+      "y": 5,
+      "z": -4.6,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.6,
+      "y": 5,
+      "z": 4.1,
+      "w": 11.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.3,
+      "y": 6,
+      "z": -4.7,
+      "w": 10.6,
+      "h": 1.35,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -4.05,
+      "y": 7,
+      "z": -4.7,
+      "w": 8.1,
+      "h": 1.35,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -2.8,
+      "y": 8,
+      "z": -4.7,
+      "w": 5.6,
+      "h": 1.35,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.55,
+      "y": 9,
+      "z": -4.7,
+      "w": 3.1,
+      "h": 1.35,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -4.3,
+      "w": 2.4,
+      "h": 3.6,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2.6,
+      "y": 2,
+      "z": -4.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.4,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 4.8,
+      "y": 0,
+      "z": 0,
+      "w": 1.6,
+      "h": 12,
+      "d": 1.6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 4.6,
+      "y": 12,
+      "z": -0.2,
+      "w": 2,
+      "h": 1,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -5.5,
+      "y": 0.18,
+      "z": -7.2,
+      "w": 11,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.6,
+      "y": 0.1,
+      "z": -6.4,
+      "w": 2.4,
+      "h": 0.3,
+      "d": 1.4,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.4,
+      "y": 0.4,
+      "z": -6.4,
+      "w": 0.4,
+      "h": 0.5,
+      "d": 0.4,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -2.6,
+      "y": 0.4,
+      "z": -6.4,
+      "w": 0.4,
+      "h": 0.5,
+      "d": 0.4,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -6.4,
+      "w": 1.2,
+      "h": 1.6,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 3,
+      "y": 1.8,
+      "z": -6.4,
+      "w": 1.4,
+      "h": 0.3,
+      "d": 1.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1,
+      "y": 0.3,
+      "z": -6.2,
+      "w": 1,
+      "h": 0.6,
+      "d": 1,
+      "mat": "metal.steel"
+    }
+  ],
+  "signs": [
+    {
+      "x": -3.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "HOME",
+      "subtitle": "STEAD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 3.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "FAMILY",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

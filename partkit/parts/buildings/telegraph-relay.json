@@ -1,0 +1,156 @@
+{
+  "id": "telegraph-relay",
+  "name": "Telegraph Relay Pole",
+  "category": "building",
+  "variant": "role-tower-telegraph-relay",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built tower infrastructure: telegraph-relay with service board, visible base props, and clearer town utility role.",
+  "palette_tokens": [
+    "wood.dark",
+    "metal.copper",
+    "accent.teal",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.3,
+      "y": 0,
+      "z": -0.3,
+      "w": 0.6,
+      "h": 13,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.2,
+      "w": 6,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.6,
+      "y": 9.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": -1.3,
+      "y": 9.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": 1,
+      "y": 9.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": 2.3,
+      "y": 9.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": -3,
+      "y": 11,
+      "z": -0.2,
+      "w": 6,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.6,
+      "y": 11.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": -1.3,
+      "y": 11.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": 1,
+      "y": 11.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": 2.3,
+      "y": 11.4,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 0.6,
+      "d": 0.3,
+      "mat": "metal.copper"
+    },
+    {
+      "x": -2.8,
+      "y": 0.2,
+      "z": -2.2,
+      "w": 1.8,
+      "h": 0.6,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.4,
+      "y": 0.8,
+      "z": -2,
+      "w": 1,
+      "h": 0.18,
+      "d": 0.7,
+      "mat": "accent.teal",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -2.7,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "RELAY",
+      "subtitle": "LINE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

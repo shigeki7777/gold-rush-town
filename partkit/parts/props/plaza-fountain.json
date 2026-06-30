@@ -1,0 +1,167 @@
+{
+  "id": "plaza-fountain",
+  "name": "Plaza Fountain",
+  "category": "prop",
+  "variant": "role-landmark-plaza-fountain",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built Gold Rush Town landmark: plaza-fountain with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "stone.base",
+    "water.shallow",
+    "stone.light",
+    "water.foam",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": 2.4,
+      "y": 0,
+      "z": -0.6,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.52,
+      "y": 0,
+      "z": 1.52,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.6,
+      "y": 0,
+      "z": 2.4,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -2.72,
+      "y": 0,
+      "z": 1.52,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3.6,
+      "y": 0,
+      "z": -0.6,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -2.72,
+      "y": 0,
+      "z": -2.72,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.6,
+      "y": 0,
+      "z": -3.6,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.52,
+      "y": 0,
+      "z": -2.72,
+      "w": 1.2,
+      "h": 1.4,
+      "d": 1.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3,
+      "y": 0.4,
+      "z": -3,
+      "w": 6,
+      "h": 0.6,
+      "d": 6,
+      "mat": "water.shallow"
+    },
+    {
+      "x": -0.8,
+      "y": 0.6,
+      "z": -0.8,
+      "w": 1.6,
+      "h": 3,
+      "d": 1.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.4,
+      "y": 3.2,
+      "z": -1.4,
+      "w": 2.8,
+      "h": 0.6,
+      "d": 2.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.5,
+      "y": 3.8,
+      "z": -0.5,
+      "w": 1,
+      "h": 1.6,
+      "d": 1,
+      "mat": "water.foam"
+    },
+    {
+      "x": -2.2,
+      "y": 0.3,
+      "z": -3.2,
+      "w": 4.4,
+      "h": 0.35,
+      "d": 1,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.6,
+      "y": 0.65,
+      "z": -3.1,
+      "w": 1.2,
+      "h": 0.25,
+      "d": 0.75,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -3.5,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "PHOTO",
+      "subtitle": "SPOT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

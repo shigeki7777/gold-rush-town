@@ -1,0 +1,191 @@
+{
+  "id": "gold-vein",
+  "name": "Gold Vein (rich)",
+  "category": "nature",
+  "variant": "role-landmark-gold-vein",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.4,
+  "description": "Purpose-built Gold Rush Town landmark: gold-vein with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "stone.dark",
+    "accent.gold",
+    "wood.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3,
+      "y": -0.9,
+      "z": -3,
+      "w": 6,
+      "h": 6,
+      "d": 6,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.3,
+      "y": 0.48,
+      "z": -3.06,
+      "w": 4.32,
+      "h": 4.32,
+      "d": 4.32,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3.72,
+      "y": 0.3,
+      "z": -0.9,
+      "w": 4.32,
+      "h": 4.32,
+      "d": 4.32,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.26,
+      "y": 2.22,
+      "z": -1.38,
+      "w": 3.84,
+      "h": 3.84,
+      "d": 3.84,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.7,
+      "y": 2.16,
+      "z": -3,
+      "w": 3.48,
+      "h": 3.48,
+      "d": 3.48,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.54,
+      "y": -0.54,
+      "z": -0.3,
+      "w": 3.6,
+      "h": 3.6,
+      "d": 3.6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -3.48,
+      "y": -0.18,
+      "z": -3.06,
+      "w": 3.36,
+      "h": 3.36,
+      "d": 3.36,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -1.35,
+      "y": 3.45,
+      "z": -1.8,
+      "w": 3,
+      "h": 3,
+      "d": 3,
+      "mat": "stone.light"
+    },
+    {
+      "x": 1.8,
+      "y": 1.8,
+      "z": 1.8,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 0.75,
+      "y": 3.1,
+      "z": 1.8,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.35,
+      "y": 3.1,
+      "z": 1.8,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -2.4,
+      "y": 1.8,
+      "z": 1.8,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.35,
+      "y": 0.5,
+      "z": 1.8,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 0.75,
+      "y": 0.5,
+      "z": 1.8,
+      "w": 0.7,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.8,
+      "y": 0.2,
+      "z": -2.4,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0.45,
+      "z": -2.35,
+      "w": 1.2,
+      "h": 0.22,
+      "d": 0.55,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -2.8,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

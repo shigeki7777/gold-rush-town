@@ -1,0 +1,257 @@
+{
+  "id": "grade-d-shanty",
+  "name": "Grade D · Shanty",
+  "category": "building",
+  "variant": "role-log-cabin-grade-d-shanty",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke grade-d-shanty: patched mismatched walls, a barrel stove and a Grade-D marker. Distinct log-cabin landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "wood.base",
+    "roof.wood",
+    "light.window",
+    "ground.dirt",
+    "canvas.dirty",
+    "metal.iron",
+    "metal.steel",
+    "grade.D",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3.4,
+      "y": 0,
+      "z": -3.4,
+      "w": 6.8,
+      "h": 1,
+      "d": 6.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 1,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 1,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.6,
+      "y": 2,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.6,
+      "y": 2,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 3,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 3,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.3,
+      "y": 4,
+      "z": -3.7,
+      "w": 6.6,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -2.55,
+      "y": 4.6,
+      "z": -3.7,
+      "w": 5.1,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.8,
+      "y": 5.2,
+      "z": -3.7,
+      "w": 3.6,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.05,
+      "y": 5.8,
+      "z": -3.7,
+      "w": 2.1,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -3.3,
+      "w": 2.4,
+      "h": 3.6,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0.6,
+      "y": 2,
+      "z": -3.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.4,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -3.5,
+      "y": 0.18,
+      "z": -6.2,
+      "w": 7,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -2.4,
+      "y": 0.3,
+      "z": -5,
+      "w": 1,
+      "h": 1.6,
+      "d": 0.2,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -1.4,
+      "y": 1,
+      "z": -5,
+      "w": 0.8,
+      "h": 1.2,
+      "d": 0.18,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2.2,
+      "y": 0.3,
+      "z": -5,
+      "w": 0.9,
+      "h": 1.2,
+      "d": 0.9,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.5,
+      "y": 1.5,
+      "z": -5,
+      "w": 0.3,
+      "h": 1.4,
+      "d": 0.3,
+      "mat": "metal.steel"
+    },
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -4.2,
+      "w": 1,
+      "h": 0.7,
+      "d": 0.2,
+      "mat": "grade.D"
+    }
+  ],
+  "signs": [
+    {
+      "x": -1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GRADE D",
+      "subtitle": "SHANTY",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "RAGGED",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

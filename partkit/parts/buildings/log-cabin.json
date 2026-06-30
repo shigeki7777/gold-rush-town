@@ -1,0 +1,329 @@
+{
+  "id": "log-cabin",
+  "name": "Log Cabin",
+  "category": "building",
+  "variant": "role-log-cabin-log-cabin",
+  "footprint": [
+    4,
+    4
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke log-cabin: a split-log woodpile and an axe buried in a chopping stump. Distinct log-cabin landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "wood.base",
+    "roof.wood",
+    "light.window",
+    "stone.dark",
+    "ground.dirt",
+    "nature.trunk",
+    "nature.branch",
+    "metal.steel",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4.4,
+      "y": 0,
+      "z": -4.4,
+      "w": 8.8,
+      "h": 1,
+      "d": 8.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -4,
+      "w": 8,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.6,
+      "y": 1,
+      "z": -4.6,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.6,
+      "y": 1,
+      "z": 4.1,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "z": -4,
+      "w": 8,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.6,
+      "y": 2,
+      "z": -4.6,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.6,
+      "y": 2,
+      "z": 4.1,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4,
+      "y": 3,
+      "z": -4,
+      "w": 8,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.6,
+      "y": 3,
+      "z": -4.6,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.6,
+      "y": 3,
+      "z": 4.1,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": -4,
+      "w": 8,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.6,
+      "y": 4,
+      "z": -4.6,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.6,
+      "y": 4,
+      "z": 4.1,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -4,
+      "w": 8,
+      "h": 0.95,
+      "d": 8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.6,
+      "y": 5,
+      "z": -4.6,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.6,
+      "y": 5,
+      "z": 4.1,
+      "w": 9.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.3,
+      "y": 6,
+      "z": -4.7,
+      "w": 8.6,
+      "h": 1.15,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -3.3,
+      "y": 6.8,
+      "z": -4.7,
+      "w": 6.6,
+      "h": 1.15,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -2.3,
+      "y": 7.6,
+      "z": -4.7,
+      "w": 4.6,
+      "h": 1.15,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.3,
+      "y": 8.4,
+      "z": -4.7,
+      "w": 2.6,
+      "h": 1.15,
+      "d": 9.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -4.3,
+      "w": 2.4,
+      "h": 3.6,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1.6,
+      "y": 2,
+      "z": -4.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.4,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 3.8,
+      "y": 0,
+      "z": 0,
+      "w": 1.6,
+      "h": 11.2,
+      "d": 1.6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 3.6,
+      "y": 11.2,
+      "z": -0.2,
+      "w": 2,
+      "h": 1,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -4.5,
+      "y": 0.18,
+      "z": -7.2,
+      "w": 9,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.6,
+      "y": 0.3,
+      "z": -6.2,
+      "w": 1.6,
+      "h": 1.2,
+      "d": 1,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -3.6,
+      "y": 1.5,
+      "z": -6.2,
+      "w": 1.6,
+      "h": 0.5,
+      "d": 1,
+      "mat": "nature.branch"
+    },
+    {
+      "x": 2.6,
+      "y": 0,
+      "z": -6.2,
+      "w": 1,
+      "h": 0.9,
+      "d": 1,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": 2.9,
+      "y": 0.9,
+      "z": -6.3,
+      "w": 0.5,
+      "h": 0.4,
+      "d": 0.18,
+      "mat": "metal.steel"
+    },
+    {
+      "x": 3,
+      "y": 0.9,
+      "z": -6.2,
+      "w": 0.15,
+      "h": 1,
+      "d": 0.15,
+      "mat": "wood.base"
+    }
+  ],
+  "signs": [
+    {
+      "x": -2.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "LOG",
+      "subtitle": "CABIN",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 2.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "HOME",
+      "subtitle": "STEAD",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

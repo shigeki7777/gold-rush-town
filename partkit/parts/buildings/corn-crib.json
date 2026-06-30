@@ -1,0 +1,213 @@
+{
+  "id": "corn-crib",
+  "name": "Corn Crib",
+  "category": "building",
+  "variant": "role-gable-corn-crib",
+  "footprint": [
+    3,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke corn-crib: corn crib — a slatted crib heaped with drying corn. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.shingle",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "flower.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3.5,
+      "y": 0,
+      "z": -5.5,
+      "w": 7,
+      "h": 1,
+      "d": 11,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -5,
+      "w": 6,
+      "h": 5,
+      "d": 10,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.3,
+      "y": 6,
+      "z": -5.7,
+      "w": 6.6,
+      "h": 1.25,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.55,
+      "y": 6.9,
+      "z": -5.7,
+      "w": 5.1,
+      "h": 1.25,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.8,
+      "y": 7.8,
+      "z": -5.7,
+      "w": 3.6,
+      "h": 1.25,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.05,
+      "y": 8.7,
+      "z": -5.7,
+      "w": 2.1,
+      "h": 1.25,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.4,
+      "y": 9.6,
+      "z": -5.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 11.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -5.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.3,
+      "y": 2.5,
+      "z": -3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 2.9,
+      "y": 2.5,
+      "z": -3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -3.3,
+      "y": 2.5,
+      "z": 3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 2.9,
+      "y": 2.5,
+      "z": 3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -3.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 7,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3,
+      "y": 0.6,
+      "z": -7.6,
+      "w": 4,
+      "h": 2.2,
+      "d": 1.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2.8,
+      "y": 0.9,
+      "z": -7.55,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.9,
+      "mat": "flower.gold"
+    },
+    {
+      "x": -2.8,
+      "y": 1.4,
+      "z": -7.55,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.9,
+      "mat": "flower.gold"
+    },
+    {
+      "x": 3.4,
+      "y": 0,
+      "z": -7.4,
+      "w": 0.2,
+      "h": 2.6,
+      "d": 0.2,
+      "mat": "wood.dark"
+    }
+  ],
+  "signs": [
+    {
+      "x": -1.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "CORN",
+      "subtitle": "CRIB",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 1.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "FEED",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

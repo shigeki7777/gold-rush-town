@@ -1,0 +1,141 @@
+{
+  "id": "sapling",
+  "name": "Sapling",
+  "category": "nature",
+  "variant": "role-nature-sapling",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: sapling with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.trunk",
+    "nature.leafBase",
+    "nature.leafLight",
+    "nature.leafDark",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.3,
+      "y": 0,
+      "z": -0.3,
+      "w": 0.6,
+      "h": 3,
+      "d": 0.6,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -1.8,
+      "y": 2.4,
+      "z": -1.8,
+      "w": 3.6,
+      "h": 3.6,
+      "d": 3.6,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -0.18,
+      "y": 3.23,
+      "z": -1.84,
+      "w": 2.59,
+      "h": 2.59,
+      "d": 2.59,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -2.23,
+      "y": 3.12,
+      "z": -0.54,
+      "w": 2.59,
+      "h": 2.59,
+      "d": 2.59,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -0.76,
+      "y": 4.27,
+      "z": -0.83,
+      "w": 2.3,
+      "h": 2.3,
+      "d": 2.3,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -1.62,
+      "y": 4.24,
+      "z": -1.8,
+      "w": 2.09,
+      "h": 2.09,
+      "d": 2.09,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -0.32,
+      "y": 2.62,
+      "z": -0.18,
+      "w": 2.16,
+      "h": 2.16,
+      "d": 2.16,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -2.09,
+      "y": 2.83,
+      "z": -1.84,
+      "w": 2.02,
+      "h": 2.02,
+      "d": 2.02,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -0.81,
+      "y": 5.01,
+      "z": -1.08,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 1.8,
+      "mat": "nature.leafLight"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

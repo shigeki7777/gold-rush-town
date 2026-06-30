@@ -1,0 +1,208 @@
+{
+  "id": "miner",
+  "name": "Miner",
+  "category": "character",
+  "variant": "role-character-miner",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.3,
+  "description": "Purpose-built character: miner as an active Gold Rush Town role/NPC with visible job accessory, role tag and grounded base.",
+  "palette_tokens": [
+    "role.prospectorDk",
+    "person.boot",
+    "role.miner",
+    "person.skin",
+    "person.hair",
+    "person.hat",
+    "wood.base",
+    "metal.steel",
+    "wood.dark",
+    "person.badge",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.62,
+      "y": 0,
+      "z": -0.3,
+      "w": 0.52,
+      "h": 2.2,
+      "d": 0.62,
+      "mat": "role.prospectorDk"
+    },
+    {
+      "x": 0.1,
+      "y": 0,
+      "z": -0.3,
+      "w": 0.52,
+      "h": 2.2,
+      "d": 0.62,
+      "mat": "role.prospectorDk"
+    },
+    {
+      "x": -0.66,
+      "y": 0,
+      "z": -0.42,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 0.82,
+      "mat": "person.boot"
+    },
+    {
+      "x": 0.06,
+      "y": 0,
+      "z": -0.42,
+      "w": 0.6,
+      "h": 0.5,
+      "d": 0.82,
+      "mat": "person.boot"
+    },
+    {
+      "x": -0.72,
+      "y": 2.2,
+      "z": -0.42,
+      "w": 1.44,
+      "h": 2.3,
+      "d": 0.84,
+      "mat": "role.miner"
+    },
+    {
+      "x": -1.12,
+      "y": 2.2,
+      "z": -0.36,
+      "w": 0.42,
+      "h": 2,
+      "d": 0.72,
+      "mat": "role.miner"
+    },
+    {
+      "x": 0.7,
+      "y": 2.2,
+      "z": -0.36,
+      "w": 0.42,
+      "h": 2,
+      "d": 0.72,
+      "mat": "role.miner"
+    },
+    {
+      "x": -1.1,
+      "y": 1.9,
+      "z": -0.34,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.66,
+      "mat": "person.skin"
+    },
+    {
+      "x": 0.72,
+      "y": 1.9,
+      "z": -0.34,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.66,
+      "mat": "person.skin"
+    },
+    {
+      "x": -0.28,
+      "y": 4.5,
+      "z": -0.28,
+      "w": 0.56,
+      "h": 0.32,
+      "d": 0.56,
+      "mat": "person.skin"
+    },
+    {
+      "x": -0.55,
+      "y": 4.8,
+      "z": -0.5,
+      "w": 1.1,
+      "h": 1.1,
+      "d": 1,
+      "mat": "person.skin"
+    },
+    {
+      "x": -0.58,
+      "y": 5.62,
+      "z": -0.55,
+      "w": 1.16,
+      "h": 0.3,
+      "d": 1.1,
+      "mat": "person.hair"
+    },
+    {
+      "x": -0.97,
+      "y": 5.86,
+      "z": -0.92,
+      "w": 1.94,
+      "h": 0.25,
+      "d": 1.84,
+      "mat": "person.hat"
+    },
+    {
+      "x": -0.55,
+      "y": 6.06,
+      "z": -0.5,
+      "w": 1.1,
+      "h": 0.78,
+      "d": 1,
+      "mat": "person.hat"
+    },
+    {
+      "x": 0.95,
+      "y": 1.5,
+      "z": -0.3,
+      "w": 0.18,
+      "h": 3.1,
+      "d": 0.18,
+      "mat": "wood.base"
+    },
+    {
+      "x": 0.78,
+      "y": 4.4,
+      "z": -0.4,
+      "w": 0.55,
+      "h": 0.85,
+      "d": 0.5,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -0.8,
+      "y": 0.02,
+      "z": -0.95,
+      "w": 1.6,
+      "h": 0.16,
+      "d": 0.45,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.35,
+      "y": 0.18,
+      "z": -0.92,
+      "w": 0.7,
+      "h": 0.12,
+      "d": 0.32,
+      "mat": "person.badge",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.05,
+      "z": -1.28,
+      "w": 1.75,
+      "h": 0.62,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

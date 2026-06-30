@@ -1,0 +1,94 @@
+{
+  "id": "tailings-pile",
+  "name": "Tailings Pile",
+  "category": "nature",
+  "variant": "role-landmark-tailings-pile",
+  "footprint": [
+    2,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built Gold Rush Town landmark: tailings-pile with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "ground.dirt",
+    "ground.diggings",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "w": 6,
+      "h": 0.8,
+      "d": 4,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -2.3,
+      "y": 0.7,
+      "z": -1.6,
+      "w": 4.6,
+      "h": 0.8,
+      "d": 3.2,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -1.6,
+      "y": 1.4,
+      "z": -1.2,
+      "w": 3.2,
+      "h": 0.8,
+      "d": 2.4,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -0.9,
+      "y": 2.1,
+      "z": -0.8,
+      "w": 1.8,
+      "h": 0.8,
+      "d": 1.6,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -1.8,
+      "y": 0.2,
+      "z": -2.4,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0.45,
+      "z": -2.35,
+      "w": 1.2,
+      "h": 0.22,
+      "d": 0.55,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -2.8,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

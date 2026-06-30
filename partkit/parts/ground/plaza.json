@@ -1,0 +1,173 @@
+{
+  "id": "plaza",
+  "name": "Plaza Paving",
+  "category": "ground",
+  "variant": "role-ground-plaza",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built ground tile: plaza with clearer Gold Rush Town navigation/terrain role.",
+  "palette_tokens": [
+    "masonry.cobble",
+    "stone.light",
+    "stone.base"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "w": 4,
+      "h": 0.4,
+      "d": 4,
+      "mat": "masonry.cobble"
+    },
+    {
+      "x": -1.9,
+      "y": 0.4,
+      "z": -1.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.9,
+      "y": 0.4,
+      "z": -0.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.9,
+      "y": 0.4,
+      "z": 0.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.9,
+      "y": 0.4,
+      "z": 1.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": -1.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": -0.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": 0.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": 1.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.1,
+      "y": 0.4,
+      "z": -1.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.1,
+      "y": 0.4,
+      "z": -0.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.1,
+      "y": 0.4,
+      "z": 0.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.1,
+      "y": 0.4,
+      "z": 1.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.1,
+      "y": 0.4,
+      "z": -1.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.1,
+      "y": 0.4,
+      "z": -0.9,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": 1.1,
+      "y": 0.4,
+      "z": 0.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.1,
+      "y": 0.4,
+      "z": 1.1,
+      "w": 0.8,
+      "h": 0.12,
+      "d": 0.8,
+      "mat": "stone.light"
+    }
+  ]
+}

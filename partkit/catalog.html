@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Gold Rush Town — Parts Catalog (owner)</title>
+<link rel="stylesheet" href="catalog.css" />
+</head>
+<body>
+  <header id="bar">
+    <div class="brand">GOLD RUSH TOWN · <span>PARTS CATALOG</span></div>
+    <div class="sub">owner review · decoupled from the live town · single art language (Wild-21 + gold)</div>
+  </header>
+
+  <main id="app">
+    <aside id="menu">
+      <div class="sheetHandle"></div>
+      <div class="menuHead">PARTS</div>
+      <div id="partFilters"><!-- category filter chips --></div>
+      <div id="partList"><!-- build menu (SimCity style) --></div>
+      <div class="menuNote">1 part = 1 file. Author/edit a single part with Claude/ChatGPT, review it here, then place it in the town.</div>
+    </aside>
+
+    <section id="stage">
+      <canvas id="cv"></canvas>
+      <div id="stageHud">
+        <span id="loadMsg">loading…</span>
+        <div class="ctrls">drag = rotate · wheel = zoom · <button id="spinBtn">pause spin</button></div>
+      </div>
+    </section>
+
+    <aside id="info">
+      <div class="sheetHandle"></div>
+      <div id="infoBody"><!-- selected part info --></div>
+    </aside>
+  </main>
+
+  <!-- mobile-only chrome (hidden on desktop via CSS) -->
+  <div id="scrim"></div>
+  <div id="mtools">
+    <button id="btnParts" class="mbtn primary">☰ 部品 <span class="ct" id="mPartsCount"></span></button>
+    <span class="grow"></span>
+    <button id="btnInfo" class="mbtn">ℹ︎ 情報</button>
+  </div>
+
+  <script src="three.min.js"></script>
+  <script src="palette.js"></script>
+  <script src="part-renderer.js"></script>
+  <script src="catalog.js"></script>
+</body>
+</html>

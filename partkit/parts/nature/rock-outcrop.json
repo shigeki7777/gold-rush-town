@@ -1,0 +1,211 @@
+{
+  "id": "rock-outcrop",
+  "name": "Rock Outcrop",
+  "category": "nature",
+  "variant": "role-nature-rock-outcrop",
+  "footprint": [
+    3,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: rock-outcrop with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "stone.dark",
+    "wood.dark",
+    "nature.leafBase",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4,
+      "y": 0,
+      "z": -2.5,
+      "w": 8,
+      "h": 1.6,
+      "d": 5,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3.5,
+      "y": -0.4,
+      "z": -2,
+      "w": 4,
+      "h": 4,
+      "d": 4,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.7,
+      "y": 0.52,
+      "z": -2.04,
+      "w": 2.88,
+      "h": 2.88,
+      "d": 2.88,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3.98,
+      "y": 0.4,
+      "z": -0.6,
+      "w": 2.88,
+      "h": 2.88,
+      "d": 2.88,
+      "mat": "stone.base"
+    },
+    {
+      "x": -2.34,
+      "y": 1.68,
+      "z": -0.92,
+      "w": 2.56,
+      "h": 2.56,
+      "d": 2.56,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.3,
+      "y": 1.64,
+      "z": -2,
+      "w": 2.32,
+      "h": 2.32,
+      "d": 2.32,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.86,
+      "y": -0.16,
+      "z": -0.2,
+      "w": 2.4,
+      "h": 2.4,
+      "d": 2.4,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -3.82,
+      "y": 0.08,
+      "z": -2.04,
+      "w": 2.24,
+      "h": 2.24,
+      "d": 2.24,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -2.4,
+      "y": 2.5,
+      "z": -1.2,
+      "w": 2,
+      "h": 2,
+      "d": 2,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.4,
+      "y": -0.2,
+      "z": -2.1,
+      "w": 3.2,
+      "h": 3.2,
+      "d": 3.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.84,
+      "y": 0.54,
+      "z": -2.13,
+      "w": 2.3,
+      "h": 2.3,
+      "d": 2.3,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.02,
+      "y": 0.44,
+      "z": -0.98,
+      "w": 2.3,
+      "h": 2.3,
+      "d": 2.3,
+      "mat": "stone.base"
+    },
+    {
+      "x": 1.33,
+      "y": 1.46,
+      "z": -1.24,
+      "w": 2.05,
+      "h": 2.05,
+      "d": 2.05,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.56,
+      "y": 1.43,
+      "z": -2.1,
+      "w": 1.86,
+      "h": 1.86,
+      "d": 1.86,
+      "mat": "stone.light"
+    },
+    {
+      "x": 1.71,
+      "y": -0.01,
+      "z": -0.66,
+      "w": 1.92,
+      "h": 1.92,
+      "d": 1.92,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 0.14,
+      "y": 0.18,
+      "z": -2.13,
+      "w": 1.79,
+      "h": 1.79,
+      "d": 1.79,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 1.28,
+      "y": 2.12,
+      "z": -1.46,
+      "w": 1.6,
+      "h": 1.6,
+      "d": 1.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

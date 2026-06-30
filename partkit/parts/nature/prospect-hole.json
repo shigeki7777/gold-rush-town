@@ -1,0 +1,177 @@
+{
+  "id": "prospect-hole",
+  "name": "Prospect Hole",
+  "category": "nature",
+  "variant": "role-landmark-prospect-hole",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.4,
+  "description": "Purpose-built Gold Rush Town landmark: prospect-hole with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "ground.diggings",
+    "shadow.deep",
+    "wood.base",
+    "metal.steel",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": 1.6,
+      "y": 0,
+      "z": -0.4,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": 1.22,
+      "y": 0,
+      "z": 0.78,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": 0.22,
+      "y": 0,
+      "z": 1.5,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -1.02,
+      "y": 0,
+      "z": 1.5,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -2.02,
+      "y": 0,
+      "z": 0.78,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -2.4,
+      "y": 0,
+      "z": -0.4,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -2.02,
+      "y": 0,
+      "z": -1.58,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -1.02,
+      "y": 0,
+      "z": -2.3,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": 0.22,
+      "y": 0,
+      "z": -2.3,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": 1.22,
+      "y": 0,
+      "z": -1.58,
+      "w": 0.8,
+      "h": 0.7,
+      "d": 0.8,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -1.3,
+      "y": 0,
+      "z": -1.3,
+      "w": 2.6,
+      "h": 0.2,
+      "d": 2.6,
+      "mat": "shadow.deep"
+    },
+    {
+      "x": 1.6,
+      "y": 0,
+      "z": -0.3,
+      "w": 0.18,
+      "h": 3,
+      "d": 0.18,
+      "mat": "wood.base"
+    },
+    {
+      "x": 1.2,
+      "y": 2.9,
+      "z": -0.4,
+      "w": 1.2,
+      "h": 0.3,
+      "d": 0.3,
+      "mat": "metal.steel"
+    },
+    {
+      "x": -1.8,
+      "y": 0.2,
+      "z": -2.4,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0.45,
+      "z": -2.35,
+      "w": 1.2,
+      "h": 0.22,
+      "d": 0.55,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -2.8,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

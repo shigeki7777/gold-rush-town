@@ -1,0 +1,94 @@
+{
+  "id": "wheelbarrow",
+  "name": "Wheelbarrow",
+  "category": "prop",
+  "variant": "role-prop-wheelbarrow",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built prop asset: wheelbarrow with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "metal.iron",
+    "wood.base",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.8,
+      "y": 0.7,
+      "z": -0.7,
+      "w": 1.6,
+      "h": 0.8,
+      "d": 1.4,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 1,
+      "y": 0.9,
+      "z": -0.6,
+      "w": 0.2,
+      "h": 1.2,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": 1,
+      "y": 0.9,
+      "z": 0.4,
+      "w": 0.2,
+      "h": 1.2,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.1,
+      "y": 0,
+      "z": -0.2,
+      "w": 0.3,
+      "h": 1,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

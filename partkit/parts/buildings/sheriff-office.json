@@ -1,0 +1,278 @@
+{
+  "id": "sheriff-office",
+  "name": "Sheriff's Office",
+  "category": "building",
+  "variant": "role-stone-civic-sheriff-office",
+  "footprint": [
+    5,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke SHERIFF: law & order — a tin-star emblem, a hitch rail, a wanted board, barred window. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "masonry.brick",
+    "masonry.mortar",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "wood.base",
+    "canvas.dirty",
+    "canvas.light",
+    "metal.iron",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -6.4,
+      "y": 0,
+      "z": -7,
+      "w": 12.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "masonry.brick"
+    },
+    {
+      "x": -5.7,
+      "y": 0.6,
+      "z": -6.3,
+      "w": 11.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "masonry.brick"
+    },
+    {
+      "x": -5,
+      "y": 1.2,
+      "z": -5.6,
+      "w": 10,
+      "h": 0.6,
+      "d": 2,
+      "mat": "masonry.brick"
+    },
+    {
+      "x": -5,
+      "y": 1.6,
+      "z": -5,
+      "w": 10,
+      "h": 8,
+      "d": 10,
+      "mat": "masonry.brick"
+    },
+    {
+      "x": -4.15,
+      "y": 1.6,
+      "z": -6.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": 3.05,
+      "y": 1.6,
+      "z": -6.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": -5.6,
+      "y": 8.6,
+      "z": -7,
+      "w": 11.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": -5.5,
+      "y": 10,
+      "z": -7,
+      "w": 11,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": -4.12,
+      "y": 10.8,
+      "z": -7,
+      "w": 8.25,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": -2.75,
+      "y": 11.6,
+      "z": -7,
+      "w": 5.5,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": -1.37,
+      "y": 12.4,
+      "z": -7,
+      "w": 2.75,
+      "h": 1.1,
+      "d": 1.4,
+      "mat": "masonry.mortar"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -5.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -5.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -5.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 11,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -1,
+      "y": 8.4,
+      "z": -7,
+      "w": 2,
+      "h": 2,
+      "d": 0.3,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 2.4,
+      "y": 0,
+      "z": -7.9,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -7.9,
+      "w": 0.2,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2.4,
+      "y": 1.2,
+      "z": -7.9,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.18,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.2,
+      "y": 0,
+      "z": -7.8,
+      "w": 0.2,
+      "h": 3,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.7,
+      "y": 2,
+      "z": -7.8,
+      "w": 1.6,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.5,
+      "y": 2.3,
+      "z": -7.9,
+      "w": 0.5,
+      "h": 0.6,
+      "d": 0.12,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -3.9,
+      "y": 2.4,
+      "z": -7.9,
+      "w": 0.5,
+      "h": 0.6,
+      "d": 0.12,
+      "mat": "canvas.light"
+    },
+    {
+      "x": 3,
+      "y": 2.4,
+      "z": -7.8,
+      "w": 1.4,
+      "h": 1.6,
+      "d": 0.2,
+      "mat": "metal.iron"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 10.88,
+      "z": -7.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "SHERIFF",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -3.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "SHERIFF",
+      "subtitle": "OFFICE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 3.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "LAW &",
+      "subtitle": "ORDER",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

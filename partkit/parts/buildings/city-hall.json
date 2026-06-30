@@ -1,0 +1,360 @@
+{
+  "id": "city-hall",
+  "name": "City Hall",
+  "category": "building",
+  "variant": "role-stone-civic-city-hall",
+  "footprint": [
+    7,
+    7
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke CITY HALL: town seat — flag, civic seal, notice board and plaza urns. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "wood.light",
+    "flower.red",
+    "accent.teal",
+    "wood.base",
+    "canvas.light",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.4,
+      "y": 0,
+      "z": -9,
+      "w": 16.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7.7,
+      "y": 0.6,
+      "z": -8.3,
+      "w": 15.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.2,
+      "z": -7.6,
+      "w": 14,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.6,
+      "z": -7,
+      "w": 14,
+      "h": 8,
+      "d": 14,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.15,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.91,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.67,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.57,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 2.81,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 5.05,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.6,
+      "y": 8.6,
+      "z": -9,
+      "w": 15.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.5,
+      "y": 10,
+      "z": -9,
+      "w": 15,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.62,
+      "y": 11.12,
+      "z": -9,
+      "w": 11.25,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.75,
+      "y": 12.24,
+      "z": -9,
+      "w": 7.5,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.87,
+      "y": 13.36,
+      "z": -9,
+      "w": 3.75,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -7.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -7.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -3,
+      "y": 14.08,
+      "z": 0,
+      "w": 6,
+      "h": 1.5,
+      "d": 6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.3,
+      "y": 15.38,
+      "z": -0.5,
+      "w": 4.6,
+      "h": 1.5,
+      "d": 4.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 16.68,
+      "z": -1,
+      "w": 3.2,
+      "h": 1.5,
+      "d": 3.2,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.9,
+      "y": 17.98,
+      "z": -1.5,
+      "w": 1.8,
+      "h": 1.5,
+      "d": 1.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.6,
+      "y": 19.58,
+      "z": -0.4,
+      "w": 1.2,
+      "h": 2.4,
+      "d": 1.2,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -7.5,
+      "y": 0.18,
+      "z": -10.2,
+      "w": 15,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -9.8,
+      "w": 0.2,
+      "h": 7,
+      "d": 0.2,
+      "mat": "wood.light"
+    },
+    {
+      "x": 5.1,
+      "y": 5.4,
+      "z": -9.85,
+      "w": 1.8,
+      "h": 1,
+      "d": 0.15,
+      "mat": "flower.red"
+    },
+    {
+      "x": 5.1,
+      "y": 5.4,
+      "z": -9.9,
+      "w": 0.8,
+      "h": 0.5,
+      "d": 0.16,
+      "mat": "accent.teal"
+    },
+    {
+      "x": -0.9,
+      "y": 10,
+      "z": -9.1,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 0.3,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -5.4,
+      "y": 0,
+      "z": -9.8,
+      "w": 0.2,
+      "h": 3,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.9,
+      "y": 2,
+      "z": -9.8,
+      "w": 1.6,
+      "h": 1.4,
+      "d": 0.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -5.6,
+      "y": 2.3,
+      "z": -9.9,
+      "w": 0.5,
+      "h": 0.6,
+      "d": 0.1,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -2.6,
+      "y": 0,
+      "z": -9.9,
+      "w": 0.9,
+      "h": 1.2,
+      "d": 0.9,
+      "mat": "stone.light"
+    },
+    {
+      "x": 2.6,
+      "y": 0,
+      "z": -9.9,
+      "w": 0.9,
+      "h": 1.2,
+      "d": 0.9,
+      "mat": "stone.light"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.39,
+      "z": -9.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "CITY HALL",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -10.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "CITY",
+      "subtitle": "HALL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -10.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "SEAT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

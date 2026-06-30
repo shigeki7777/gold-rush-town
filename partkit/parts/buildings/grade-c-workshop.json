@@ -1,0 +1,232 @@
+{
+  "id": "grade-c-workshop",
+  "name": "Grade C · Workshop",
+  "category": "building",
+  "variant": "role-gable-grade-c-workshop",
+  "footprint": [
+    4,
+    5
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke grade-c-workshop: Grade-C shop — a small bench, a barrel and a C plate. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.shingle",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "grade.C",
+    "coal.ash",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4.5,
+      "y": 0,
+      "z": -5.5,
+      "w": 9,
+      "h": 1,
+      "d": 11,
+      "mat": "stone.base"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -5,
+      "w": 8,
+      "h": 6,
+      "d": 10,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.3,
+      "y": 7,
+      "z": -5.7,
+      "w": 8.6,
+      "h": 0.91,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.63,
+      "y": 7.56,
+      "z": -5.7,
+      "w": 7.27,
+      "h": 0.91,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.97,
+      "y": 8.12,
+      "z": -5.7,
+      "w": 5.93,
+      "h": 0.91,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.3,
+      "y": 8.68,
+      "z": -5.7,
+      "w": 4.6,
+      "h": 0.91,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.63,
+      "y": 9.24,
+      "z": -5.7,
+      "w": 3.27,
+      "h": 0.91,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.97,
+      "y": 9.8,
+      "z": -5.7,
+      "w": 1.93,
+      "h": 0.91,
+      "d": 11.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.4,
+      "y": 10.36,
+      "z": -5.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 11.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -5.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.3,
+      "y": 2.5,
+      "z": -3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 3.9,
+      "y": 2.5,
+      "z": -3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -4.3,
+      "y": 2.5,
+      "z": 3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 3.9,
+      "y": 2.5,
+      "z": 3,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -4.5,
+      "y": 0.18,
+      "z": -8.2,
+      "w": 9,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3,
+      "y": 0.5,
+      "z": -7.4,
+      "w": 1.6,
+      "h": 0.7,
+      "d": 0.9,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2.4,
+      "y": 0.3,
+      "z": -7.4,
+      "w": 0.9,
+      "h": 1.1,
+      "d": 0.9,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -6.4,
+      "w": 1,
+      "h": 0.8,
+      "d": 0.2,
+      "mat": "grade.C"
+    },
+    {
+      "x": -1.2,
+      "y": 0.3,
+      "z": -7.4,
+      "w": 0.8,
+      "h": 0.5,
+      "d": 0.7,
+      "mat": "coal.ash"
+    }
+  ],
+  "signs": [
+    {
+      "x": -2.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GRADE C",
+      "subtitle": "SHOP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 2.8,
+      "y": 3.4,
+      "z": -8.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "FAIR",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

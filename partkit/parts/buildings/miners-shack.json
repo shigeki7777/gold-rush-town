@@ -1,0 +1,295 @@
+{
+  "id": "miners-shack",
+  "name": "Miner's Shack",
+  "category": "building",
+  "variant": "role-log-cabin-miners-shack",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke miners-shack: a gold pan on a stump, a leaning pick and a gold-flecked ore pile. Distinct log-cabin landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "wood.base",
+    "roof.wood",
+    "light.window",
+    "ground.dirt",
+    "metal.iron",
+    "accent.gold",
+    "metal.steel",
+    "stone.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3.4,
+      "y": 0,
+      "z": -3.4,
+      "w": 6.8,
+      "h": 1,
+      "d": 6.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 1,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 1,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.6,
+      "y": 2,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.6,
+      "y": 2,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 3,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.6,
+      "y": 3,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -3,
+      "w": 6,
+      "h": 0.95,
+      "d": 6,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.6,
+      "y": 4,
+      "z": -3.6,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.6,
+      "y": 4,
+      "z": 3.1,
+      "w": 7.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.3,
+      "y": 5,
+      "z": -3.7,
+      "w": 6.6,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -2.55,
+      "y": 5.6,
+      "z": -3.7,
+      "w": 5.1,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.8,
+      "y": 6.2,
+      "z": -3.7,
+      "w": 3.6,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.05,
+      "y": 6.8,
+      "z": -3.7,
+      "w": 2.1,
+      "h": 0.95,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -3.3,
+      "w": 2.4,
+      "h": 3.6,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 0.6,
+      "y": 2,
+      "z": -3.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.4,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -3.5,
+      "y": 0.18,
+      "z": -6.2,
+      "w": 7,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -2.6,
+      "y": 0.6,
+      "z": -5,
+      "w": 1.2,
+      "h": 0.2,
+      "d": 1.2,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -2.4,
+      "y": 0.8,
+      "z": -5,
+      "w": 0.8,
+      "h": 0.15,
+      "d": 0.8,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 2.2,
+      "y": 0,
+      "z": -5,
+      "w": 0.15,
+      "h": 2.4,
+      "d": 0.15,
+      "mat": "wood.base"
+    },
+    {
+      "x": 1.9,
+      "y": 2.2,
+      "z": -5.1,
+      "w": 0.9,
+      "h": 0.25,
+      "d": 0.18,
+      "mat": "metal.steel"
+    },
+    {
+      "x": 2.6,
+      "y": 0.3,
+      "z": -5.2,
+      "w": 1,
+      "h": 0.7,
+      "d": 1,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 2.8,
+      "y": 0.9,
+      "z": -5.2,
+      "w": 0.4,
+      "h": 0.3,
+      "d": 0.4,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": -1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "CLAIM",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "PAY",
+      "subtitle": "DIRT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

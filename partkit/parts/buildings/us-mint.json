@@ -1,0 +1,341 @@
+{
+  "id": "us-mint",
+  "name": "U.S. Mint",
+  "category": "building",
+  "variant": "role-stone-civic-us-mint",
+  "footprint": [
+    7,
+    7
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke U.S. MINT: coinage — gold-bar pallet, a posted guard and a coin emblem. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "role.lawman",
+    "accent.goldDeep",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.4,
+      "y": 0,
+      "z": -9,
+      "w": 16.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7.7,
+      "y": 0.6,
+      "z": -8.3,
+      "w": 15.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.2,
+      "z": -7.6,
+      "w": 14,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1.6,
+      "z": -7,
+      "w": 14,
+      "h": 8,
+      "d": 14,
+      "mat": "stone.base"
+    },
+    {
+      "x": -6.15,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.91,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.67,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.57,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 2.81,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 5.05,
+      "y": 1.6,
+      "z": -8.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.6,
+      "y": 8.6,
+      "z": -9,
+      "w": 15.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.5,
+      "y": 10,
+      "z": -9,
+      "w": 15,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.62,
+      "y": 11.12,
+      "z": -9,
+      "w": 11.25,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.75,
+      "y": 12.24,
+      "z": -9,
+      "w": 7.5,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.87,
+      "y": 13.36,
+      "z": -9,
+      "w": 3.75,
+      "h": 1.42,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -7.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -7.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -3,
+      "y": 14.08,
+      "z": 0,
+      "w": 6,
+      "h": 1.5,
+      "d": 6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.3,
+      "y": 15.38,
+      "z": -0.5,
+      "w": 4.6,
+      "h": 1.5,
+      "d": 4.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 16.68,
+      "z": -1,
+      "w": 3.2,
+      "h": 1.5,
+      "d": 3.2,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.9,
+      "y": 17.98,
+      "z": -1.5,
+      "w": 1.8,
+      "h": 1.5,
+      "d": 1.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.6,
+      "y": 19.58,
+      "z": -0.4,
+      "w": 1.2,
+      "h": 2.4,
+      "d": 1.2,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -7.5,
+      "y": 0.18,
+      "z": -10.2,
+      "w": 15,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -4,
+      "y": 0.4,
+      "z": -9.8,
+      "w": 2.4,
+      "h": 0.5,
+      "d": 1.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.8,
+      "y": 0.9,
+      "z": -9.75,
+      "w": 2,
+      "h": 0.4,
+      "d": 1,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -3.6,
+      "y": 1.3,
+      "z": -9.7,
+      "w": 1.6,
+      "h": 0.35,
+      "d": 0.8,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -9.8,
+      "w": 1.2,
+      "h": 2.2,
+      "d": 1,
+      "mat": "stone.base"
+    },
+    {
+      "x": 4.2,
+      "y": 1,
+      "z": -9.95,
+      "w": 0.8,
+      "h": 1.6,
+      "d": 0.5,
+      "mat": "role.lawman"
+    },
+    {
+      "x": -0.9,
+      "y": 10,
+      "z": -9.1,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 0.3,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -0.6,
+      "y": 10.3,
+      "z": -9.2,
+      "w": 1.2,
+      "h": 1.2,
+      "d": 0.2,
+      "mat": "accent.goldDeep"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.39,
+      "z": -9.3,
+      "w": 8,
+      "h": 1.8,
+      "face": "front",
+      "title": "U.S. MINT",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -10.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "U.S.",
+      "subtitle": "MINT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -10.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GOLD",
+      "subtitle": "COIN",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

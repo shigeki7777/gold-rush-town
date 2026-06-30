@@ -1,0 +1,82 @@
+{
+  "id": "bridge-deck",
+  "name": "Bridge Deck",
+  "category": "ground",
+  "variant": "role-ground-bridge-deck",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built ground tile: bridge-deck with clearer Gold Rush Town navigation/terrain role.",
+  "palette_tokens": [
+    "wood.base",
+    "wood.dark"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "w": 4,
+      "h": 0.4,
+      "d": 4,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2,
+      "y": 0.4,
+      "z": -1.94,
+      "w": 4,
+      "h": 0.18,
+      "d": 0.88,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2,
+      "y": 0.4,
+      "z": -0.94,
+      "w": 4,
+      "h": 0.18,
+      "d": 0.88,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2,
+      "y": 0.4,
+      "z": 0.06,
+      "w": 4,
+      "h": 0.18,
+      "d": 0.88,
+      "mat": "wood.base"
+    },
+    {
+      "x": -2,
+      "y": 0.4,
+      "z": 1.06,
+      "w": 4,
+      "h": 0.18,
+      "d": 0.88,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2,
+      "y": 0.6,
+      "z": -2,
+      "w": 0.3,
+      "h": 1,
+      "d": 4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 1.7,
+      "y": 0.6,
+      "z": -2,
+      "w": 0.3,
+      "h": 1,
+      "d": 4,
+      "mat": "wood.dark"
+    }
+  ]
+}

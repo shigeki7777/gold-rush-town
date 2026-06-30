@@ -1,0 +1,232 @@
+{
+  "id": "gatehouse",
+  "name": "Gate House",
+  "category": "building",
+  "variant": "role-gable-gatehouse",
+  "footprint": [
+    4,
+    4
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke gatehouse: gate house — a town-limit gate arch and a hung lantern. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.shingle",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "light.lamp",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -4.5,
+      "y": 0,
+      "z": -4.5,
+      "w": 9,
+      "h": 1,
+      "d": 9,
+      "mat": "stone.base"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -4,
+      "w": 8,
+      "h": 6,
+      "d": 8,
+      "mat": "wood.base"
+    },
+    {
+      "x": -4.3,
+      "y": 7,
+      "z": -4.7,
+      "w": 8.6,
+      "h": 0.91,
+      "d": 9.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -3.63,
+      "y": 7.56,
+      "z": -4.7,
+      "w": 7.27,
+      "h": 0.91,
+      "d": 9.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.97,
+      "y": 8.12,
+      "z": -4.7,
+      "w": 5.93,
+      "h": 0.91,
+      "d": 9.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -2.3,
+      "y": 8.68,
+      "z": -4.7,
+      "w": 4.6,
+      "h": 0.91,
+      "d": 9.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -1.63,
+      "y": 9.24,
+      "z": -4.7,
+      "w": 3.27,
+      "h": 0.91,
+      "d": 9.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.97,
+      "y": 9.8,
+      "z": -4.7,
+      "w": 1.93,
+      "h": 0.91,
+      "d": 9.4,
+      "mat": "roof.shingle"
+    },
+    {
+      "x": -0.4,
+      "y": 10.36,
+      "z": -4.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 9.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -4.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.3,
+      "y": 2.5,
+      "z": -2,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 3.9,
+      "y": 2.5,
+      "z": -2,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -4.3,
+      "y": 2.5,
+      "z": 2,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 3.9,
+      "y": 2.5,
+      "z": 2,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -4.5,
+      "y": 0.18,
+      "z": -7.2,
+      "w": 9,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -6.8,
+      "w": 0.5,
+      "h": 3.4,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -6.8,
+      "w": 0.5,
+      "h": 3.4,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 3.2,
+      "z": -6.8,
+      "w": 6.5,
+      "h": 0.5,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.3,
+      "y": 3,
+      "z": -6.85,
+      "w": 0.6,
+      "h": 0.6,
+      "d": 0.5,
+      "mat": "light.lamp",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": -2.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GATE",
+      "subtitle": "HOUSE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 2.8,
+      "y": 3.4,
+      "z": -7.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "LIMITS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

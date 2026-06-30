@@ -1,0 +1,105 @@
+{
+  "id": "campfire",
+  "name": "Campfire",
+  "category": "prop",
+  "variant": "role-prop-campfire",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built prop asset: campfire with Gold Rush Town role cue (PHOTO/SPOT), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "stone.base",
+    "nature.trunk",
+    "coal.ember",
+    "wood.dark",
+    "light.lamp",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "w": 2,
+      "h": 0.3,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.6,
+      "y": 0.3,
+      "z": -0.4,
+      "w": 1,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": 0.5,
+      "y": 0.3,
+      "z": 0.3,
+      "w": 1,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": 0.2,
+      "y": 0.3,
+      "z": -0.6,
+      "w": 1,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -0.5,
+      "y": 0.5,
+      "z": -0.5,
+      "w": 1,
+      "h": 1,
+      "d": 1,
+      "mat": "coal.ember",
+      "emissive": true
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "light.lamp",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "PHOTO",
+      "subtitle": "SPOT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

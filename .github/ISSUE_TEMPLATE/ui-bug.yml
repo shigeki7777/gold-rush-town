@@ -1,0 +1,21 @@
+name: "🐞 UI / visual bug"
+description: Something in the town's look or UI is broken or off.
+labels: ["bug", "ui", "community"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      placeholder: e.g. "the saloon sign is misaligned" / "night palette washes out grade-A buildings"
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where (part id / page / screenshot)
+      placeholder: part id, the catalog vs the live town, a screenshot, your browser/device.
+  - type: input
+    id: device
+    attributes:
+      label: Browser / device
+      placeholder: e.g. Chrome desktop, Safari iPhone

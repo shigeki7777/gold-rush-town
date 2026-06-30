@@ -1,0 +1,225 @@
+{
+  "id": "grade-d-claim-shack",
+  "name": "Grade D · Claim Shack",
+  "category": "building",
+  "variant": "role-gable-grade-d-claim-shack",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke grade-d-claim-shack: Grade-D shack — leaning patched boards, a barrel stove and a D plate. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.wood",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "canvas.dirty",
+    "metal.iron",
+    "metal.steel",
+    "grade.D",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3.5,
+      "y": 0,
+      "z": -3.5,
+      "w": 7,
+      "h": 1,
+      "d": 7,
+      "mat": "stone.base"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "w": 6,
+      "h": 3,
+      "d": 6,
+      "mat": "wood.base"
+    },
+    {
+      "x": -3.3,
+      "y": 4,
+      "z": -3.7,
+      "w": 6.6,
+      "h": 0.98,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -2.55,
+      "y": 4.63,
+      "z": -3.7,
+      "w": 5.1,
+      "h": 0.98,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.8,
+      "y": 5.26,
+      "z": -3.7,
+      "w": 3.6,
+      "h": 0.98,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.05,
+      "y": 5.89,
+      "z": -3.7,
+      "w": 2.1,
+      "h": 0.98,
+      "d": 7.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -0.4,
+      "y": 6.52,
+      "z": -3.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 7.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -3.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3.3,
+      "y": 2.5,
+      "z": -1,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 2.9,
+      "y": 2.5,
+      "z": -1,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -3.3,
+      "y": 2.5,
+      "z": 1,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 2.9,
+      "y": 2.5,
+      "z": 1,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -3.5,
+      "y": 0.18,
+      "z": -6.2,
+      "w": 7,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -2.4,
+      "y": 0.3,
+      "z": -5.4,
+      "w": 1,
+      "h": 1.4,
+      "d": 0.18,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.3,
+      "y": 0.6,
+      "z": -5.4,
+      "w": 0.9,
+      "h": 1,
+      "d": 0.18,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": 2,
+      "y": 0.3,
+      "z": -5.4,
+      "w": 0.8,
+      "h": 1,
+      "d": 0.8,
+      "mat": "metal.iron"
+    },
+    {
+      "x": 2.3,
+      "y": 1.3,
+      "z": -5.4,
+      "w": 0.3,
+      "h": 1.2,
+      "d": 0.3,
+      "mat": "metal.steel"
+    },
+    {
+      "x": 0,
+      "y": 2.2,
+      "z": -4.2,
+      "w": 0.9,
+      "h": 0.7,
+      "d": 0.2,
+      "mat": "grade.D"
+    }
+  ],
+  "signs": [
+    {
+      "x": -1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GRADE D",
+      "subtitle": "SHACK",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "WEAK",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

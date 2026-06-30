@@ -1,0 +1,356 @@
+{
+  "id": "hunting-lodge",
+  "name": "Hunting Lodge",
+  "category": "building",
+  "variant": "role-log-cabin-hunting-lodge",
+  "footprint": [
+    7,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke hunting-lodge: a wide antler rack, a stretched deer hide and a rifle rack. Distinct log-cabin landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.dark",
+    "wood.base",
+    "roof.wood",
+    "light.window",
+    "stone.dark",
+    "ground.dirt",
+    "raw.tan",
+    "raw.umber",
+    "metal.iron",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -7.4,
+      "y": 0,
+      "z": -6.4,
+      "w": 14.8,
+      "h": 1,
+      "d": 12.8,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7,
+      "y": 1,
+      "z": -6,
+      "w": 14,
+      "h": 0.95,
+      "d": 12,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7.6,
+      "y": 1,
+      "z": -6.6,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7.6,
+      "y": 1,
+      "z": 6.1,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7,
+      "y": 2,
+      "z": -6,
+      "w": 14,
+      "h": 0.95,
+      "d": 12,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.6,
+      "y": 2,
+      "z": -6.6,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.6,
+      "y": 2,
+      "z": 6.1,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7,
+      "y": 3,
+      "z": -6,
+      "w": 14,
+      "h": 0.95,
+      "d": 12,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7.6,
+      "y": 3,
+      "z": -6.6,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7.6,
+      "y": 3,
+      "z": 6.1,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7,
+      "y": 4,
+      "z": -6,
+      "w": 14,
+      "h": 0.95,
+      "d": 12,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.6,
+      "y": 4,
+      "z": -6.6,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.6,
+      "y": 4,
+      "z": 6.1,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7,
+      "y": 5,
+      "z": -6,
+      "w": 14,
+      "h": 0.95,
+      "d": 12,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7.6,
+      "y": 5,
+      "z": -6.6,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7.6,
+      "y": 5,
+      "z": 6.1,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -7,
+      "y": 6,
+      "z": -6,
+      "w": 14,
+      "h": 0.95,
+      "d": 12,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.6,
+      "y": 6,
+      "z": -6.6,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.6,
+      "y": 6,
+      "z": 6.1,
+      "w": 15.2,
+      "h": 0.9,
+      "d": 0.5,
+      "mat": "wood.base"
+    },
+    {
+      "x": -7.3,
+      "y": 7,
+      "z": -6.7,
+      "w": 14.6,
+      "h": 1.75,
+      "d": 13.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -5.55,
+      "y": 8.4,
+      "z": -6.7,
+      "w": 11.1,
+      "h": 1.75,
+      "d": 13.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -3.8,
+      "y": 9.8,
+      "z": -6.7,
+      "w": 7.6,
+      "h": 1.75,
+      "d": 13.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -2.05,
+      "y": 11.2,
+      "z": -6.7,
+      "w": 4.1,
+      "h": 1.75,
+      "d": 13.4,
+      "mat": "roof.wood"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -6.3,
+      "w": 2.4,
+      "h": 3.6,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4.6,
+      "y": 2,
+      "z": -6.2,
+      "w": 1.4,
+      "h": 1.4,
+      "d": 0.4,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 6.8,
+      "y": 0,
+      "z": 0,
+      "w": 1.6,
+      "h": 14.6,
+      "d": 1.6,
+      "mat": "stone.dark"
+    },
+    {
+      "x": 6.6,
+      "y": 14.6,
+      "z": -0.2,
+      "w": 2,
+      "h": 1,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -7.5,
+      "y": 0.18,
+      "z": -9.2,
+      "w": 15,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -1.4,
+      "y": 3.4,
+      "z": -7.4,
+      "w": 2.8,
+      "h": 1,
+      "d": 0.4,
+      "mat": "raw.tan"
+    },
+    {
+      "x": 3,
+      "y": 0.3,
+      "z": -8.2,
+      "w": 1.6,
+      "h": 1.8,
+      "d": 0.2,
+      "mat": "raw.umber"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -8,
+      "w": 0.2,
+      "h": 2,
+      "d": 0.2,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -4.2,
+      "y": 1.4,
+      "z": -8.05,
+      "w": 0.6,
+      "h": 0.14,
+      "d": 0.14,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -4.2,
+      "y": 1.8,
+      "z": -8.05,
+      "w": 0.6,
+      "h": 0.14,
+      "d": 0.14,
+      "mat": "metal.iron"
+    }
+  ],
+  "signs": [
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "HUNTING",
+      "subtitle": "LODGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -9.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GAME",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

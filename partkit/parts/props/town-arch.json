@@ -1,0 +1,97 @@
+{
+  "id": "town-arch",
+  "name": "Welcome Arch",
+  "category": "prop",
+  "variant": "role-prop-town-arch",
+  "footprint": [
+    5,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built prop asset: town-arch with Gold Rush Town role cue (PHOTO/SPOT), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.base",
+    "light.lamp",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -5,
+      "y": 0,
+      "z": -0.4,
+      "w": 0.6,
+      "h": 7,
+      "d": 0.8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 4.4,
+      "y": 0,
+      "z": -0.4,
+      "w": 0.6,
+      "h": 7,
+      "d": 0.8,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -5.4,
+      "y": 7,
+      "z": -0.6,
+      "w": 11,
+      "h": 2.4,
+      "d": 1.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "light.lamp",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 8.2,
+      "z": -0.7,
+      "w": 9,
+      "h": 1.8,
+      "face": "front",
+      "title": "GOLD RUSH",
+      "subtitle": "",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "PHOTO",
+      "subtitle": "SPOT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

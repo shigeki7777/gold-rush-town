@@ -1,0 +1,168 @@
+{
+  "id": "surveyor-tent",
+  "name": "Surveyor's Tent",
+  "category": "building",
+  "variant": "role-tent-surveyor-tent",
+  "footprint": [
+    3,
+    3
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke surveyor-tent: a brass transit on a tripod and a rolled-map table. Distinct tent landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "ground.dirt",
+    "canvas.light",
+    "canvas.base",
+    "canvas.shade",
+    "wood.dark",
+    "metal.brass",
+    "wood.base",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "w": 6,
+      "h": 0.4,
+      "d": 6,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -3.25,
+      "y": 0.4,
+      "z": -3.3,
+      "w": 6.5,
+      "h": 1.3,
+      "d": 6.6,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -2.65,
+      "y": 1.3,
+      "z": -3.3,
+      "w": 5.3,
+      "h": 1.3,
+      "d": 6.6,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -2.05,
+      "y": 2.2,
+      "z": -3.3,
+      "w": 4.1,
+      "h": 1.3,
+      "d": 6.6,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -1.45,
+      "y": 3.1,
+      "z": -3.3,
+      "w": 2.9,
+      "h": 1.3,
+      "d": 6.6,
+      "mat": "canvas.base"
+    },
+    {
+      "x": -0.85,
+      "y": 4,
+      "z": -3.3,
+      "w": 1.7,
+      "h": 1.3,
+      "d": 6.6,
+      "mat": "canvas.light"
+    },
+    {
+      "x": -0.9,
+      "y": 0.4,
+      "z": -3.2,
+      "w": 1.8,
+      "h": 2.7,
+      "d": 0.3,
+      "mat": "canvas.shade"
+    },
+    {
+      "x": -3.5,
+      "y": 0.18,
+      "z": -6.2,
+      "w": 7,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -1.4,
+      "y": 0,
+      "z": -5,
+      "w": 0.16,
+      "h": 2.6,
+      "d": 0.16,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0,
+      "z": -5,
+      "w": 0.16,
+      "h": 2.6,
+      "d": 0.16,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -5.4,
+      "w": 0.16,
+      "h": 2.6,
+      "d": 0.16,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.3,
+      "y": 2.6,
+      "z": -5,
+      "w": 1,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "metal.brass"
+    },
+    {
+      "x": 2.2,
+      "y": 0.6,
+      "z": -5.2,
+      "w": 1.6,
+      "h": 0.2,
+      "d": 1,
+      "mat": "wood.base"
+    },
+    {
+      "x": 2.3,
+      "y": 0.8,
+      "z": -5.2,
+      "w": 1.4,
+      "h": 0.1,
+      "d": 0.9,
+      "mat": "canvas.light"
+    }
+  ],
+  "signs": [
+    {
+      "x": -1.8,
+      "y": 3.4,
+      "z": -6.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "SURVEY",
+      "subtitle": "TENT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

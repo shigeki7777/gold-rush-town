@@ -1,0 +1,101 @@
+{
+  "id": "dead-tree",
+  "name": "Dead Snag",
+  "category": "nature",
+  "variant": "role-nature-dead-tree",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: dead-tree with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.dead",
+    "wood.dark",
+    "nature.leafBase",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.7,
+      "y": 0,
+      "z": -0.7,
+      "w": 1.4,
+      "h": 8,
+      "d": 1.4,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -2.4,
+      "y": 6,
+      "z": -0.35,
+      "w": 2.6,
+      "h": 0.7,
+      "d": 0.7,
+      "mat": "nature.dead"
+    },
+    {
+      "x": 1,
+      "y": 7.5,
+      "z": -0.35,
+      "w": 2.8,
+      "h": 0.7,
+      "d": 0.7,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -0.6,
+      "y": 9,
+      "z": -0.35,
+      "w": 0.7,
+      "h": 3,
+      "d": 0.7,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -2,
+      "y": 9.5,
+      "z": -0.35,
+      "w": 0.6,
+      "h": 2,
+      "d": 0.6,
+      "mat": "nature.dead"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "pine-young",
+  "name": "Young Pine",
+  "category": "nature",
+  "variant": "role-nature-pine-young",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: pine-young with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.trunk",
+    "nature.pine",
+    "nature.leafDark",
+    "wood.dark",
+    "nature.leafBase",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.63,
+      "y": 0,
+      "z": -0.63,
+      "w": 1.26,
+      "h": 2.8,
+      "d": 1.26,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -2.45,
+      "y": 2.1,
+      "z": -2.45,
+      "w": 4.9,
+      "h": 1.68,
+      "d": 4.9,
+      "mat": "nature.pine"
+    },
+    {
+      "x": -2.06,
+      "y": 3.92,
+      "z": -2.06,
+      "w": 4.13,
+      "h": 1.68,
+      "d": 4.13,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -1.68,
+      "y": 5.74,
+      "z": -1.68,
+      "w": 3.36,
+      "h": 1.68,
+      "d": 3.36,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -1.29,
+      "y": 7.56,
+      "z": -1.29,
+      "w": 2.59,
+      "h": 1.68,
+      "d": 2.59,
+      "mat": "nature.pine"
+    },
+    {
+      "x": -0.91,
+      "y": 9.38,
+      "z": -0.91,
+      "w": 1.82,
+      "h": 1.68,
+      "d": 1.82,
+      "mat": "nature.pine"
+    },
+    {
+      "x": -0.35,
+      "y": 11.2,
+      "z": -0.35,
+      "w": 0.7,
+      "h": 1.4,
+      "d": 0.7,
+      "mat": "nature.pine"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

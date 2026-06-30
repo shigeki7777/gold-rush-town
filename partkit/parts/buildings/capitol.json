@@ -1,0 +1,353 @@
+{
+  "id": "capitol",
+  "name": "Territorial Capitol",
+  "category": "building",
+  "variant": "role-stone-civic-capitol",
+  "footprint": [
+    9,
+    8
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke capitol: seat of government — twin flags, a gilt eagle and a row of plaza urns. Distinct stone-civic landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "stone.light",
+    "wood.dark",
+    "accent.gold",
+    "ground.dirt",
+    "wood.light",
+    "flower.red",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -10.4,
+      "y": 0,
+      "z": -10,
+      "w": 20.8,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -9.7,
+      "y": 0.6,
+      "z": -9.3,
+      "w": 19.4,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -9,
+      "y": 1.2,
+      "z": -8.6,
+      "w": 18,
+      "h": 0.6,
+      "d": 2,
+      "mat": "stone.base"
+    },
+    {
+      "x": -9,
+      "y": 1.6,
+      "z": -8,
+      "w": 18,
+      "h": 8,
+      "d": 16,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8.15,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -5.98,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -3.81,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.64,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0.54,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 2.71,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 4.88,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 7.05,
+      "y": 1.6,
+      "z": -9.6,
+      "w": 1.1,
+      "h": 7,
+      "d": 1.1,
+      "mat": "stone.light"
+    },
+    {
+      "x": -9.6,
+      "y": 8.6,
+      "z": -10,
+      "w": 19.2,
+      "h": 1.4,
+      "d": 2.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -9.5,
+      "y": 10,
+      "z": -10,
+      "w": 19,
+      "h": 1.74,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -7.12,
+      "y": 11.44,
+      "z": -10,
+      "w": 14.25,
+      "h": 1.74,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -4.75,
+      "y": 12.88,
+      "z": -10,
+      "w": 9.5,
+      "h": 1.74,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.37,
+      "y": 14.32,
+      "z": -10,
+      "w": 4.75,
+      "h": 1.74,
+      "d": 1.4,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 1.6,
+      "z": -8.4,
+      "w": 3.2,
+      "h": 6,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.8,
+      "y": 1.6,
+      "z": -8.5,
+      "w": 3.6,
+      "h": 6.4,
+      "d": 0.3,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -3,
+      "y": 15.36,
+      "z": 0,
+      "w": 6,
+      "h": 1.5,
+      "d": 6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -2.3,
+      "y": 16.66,
+      "z": -0.5,
+      "w": 4.6,
+      "h": 1.5,
+      "d": 4.6,
+      "mat": "stone.light"
+    },
+    {
+      "x": -1.6,
+      "y": 17.96,
+      "z": -1,
+      "w": 3.2,
+      "h": 1.5,
+      "d": 3.2,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.9,
+      "y": 19.26,
+      "z": -1.5,
+      "w": 1.8,
+      "h": 1.5,
+      "d": 1.8,
+      "mat": "stone.light"
+    },
+    {
+      "x": -0.6,
+      "y": 20.86,
+      "z": -0.4,
+      "w": 1.2,
+      "h": 2.4,
+      "d": 1.2,
+      "mat": "accent.gold"
+    },
+    {
+      "x": -9.5,
+      "y": 0.18,
+      "z": -11.2,
+      "w": 19,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -6.5,
+      "y": 0,
+      "z": -10.8,
+      "w": 0.25,
+      "h": 8,
+      "d": 0.25,
+      "mat": "wood.light"
+    },
+    {
+      "x": -6.4,
+      "y": 6,
+      "z": -10.85,
+      "w": 1.8,
+      "h": 1,
+      "d": 0.15,
+      "mat": "flower.red"
+    },
+    {
+      "x": 6.5,
+      "y": 0,
+      "z": -10.8,
+      "w": 0.25,
+      "h": 8,
+      "d": 0.25,
+      "mat": "wood.light"
+    },
+    {
+      "x": 6.6,
+      "y": 6,
+      "z": -10.85,
+      "w": 1.8,
+      "h": 1,
+      "d": 0.15,
+      "mat": "flower.red"
+    },
+    {
+      "x": -1.2,
+      "y": 12,
+      "z": -10.1,
+      "w": 2.4,
+      "h": 1.6,
+      "d": 0.4,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -3.2,
+      "y": 0,
+      "z": -10.9,
+      "w": 1,
+      "h": 1.4,
+      "d": 1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -10.9,
+      "w": 1,
+      "h": 1.4,
+      "d": 1,
+      "mat": "stone.light"
+    },
+    {
+      "x": 3.2,
+      "y": 0,
+      "z": -10.9,
+      "w": 1,
+      "h": 1.4,
+      "d": 1,
+      "mat": "stone.light"
+    }
+  ],
+  "signs": [
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -11.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "TERRITORIAL",
+      "subtitle": "CAPITOL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -11.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "SEAT OF",
+      "subtitle": "GOV'T",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

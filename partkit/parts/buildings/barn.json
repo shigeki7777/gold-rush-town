@@ -1,0 +1,332 @@
+{
+  "id": "barn",
+  "name": "Hay Barn",
+  "category": "building",
+  "variant": "bespoke-hay-barn-loft",
+  "footprint": [
+    8,
+    10
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke Hay Barn: steep roof, hayloft door, wagon-height entry, hay bales, side lean-to, and farmyard massing. Bespoke architecture pass: barn has a distinct silhouette and role-specific yard/frontage.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.tile",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "nature.leafBase",
+    "roof.wood",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.5,
+      "y": 0,
+      "z": -10.5,
+      "w": 17,
+      "h": 1,
+      "d": 21,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": -10,
+      "w": 16,
+      "h": 7,
+      "d": 20,
+      "mat": "wood.base"
+    },
+    {
+      "x": -8.3,
+      "y": 8,
+      "z": -10.7,
+      "w": 16.6,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -7.57,
+      "y": 8.87,
+      "z": -10.7,
+      "w": 15.15,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -6.85,
+      "y": 9.75,
+      "z": -10.7,
+      "w": 13.69,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -6.12,
+      "y": 10.62,
+      "z": -10.7,
+      "w": 12.24,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -5.39,
+      "y": 11.49,
+      "z": -10.7,
+      "w": 10.78,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -4.66,
+      "y": 12.36,
+      "z": -10.7,
+      "w": 9.33,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -3.94,
+      "y": 13.24,
+      "z": -10.7,
+      "w": 7.87,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -3.21,
+      "y": 14.11,
+      "z": -10.7,
+      "w": 6.42,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -2.48,
+      "y": 14.98,
+      "z": -10.7,
+      "w": 4.96,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -1.75,
+      "y": 15.85,
+      "z": -10.7,
+      "w": 3.51,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -1.03,
+      "y": 16.73,
+      "z": -10.7,
+      "w": 2.05,
+      "h": 1.22,
+      "d": 21.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -0.4,
+      "y": 17.6,
+      "z": -10.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 21.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -10.4,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -10.5,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.3,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": -8,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": -8,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": 8,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": 8,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -2.2,
+      "y": 8.8,
+      "z": -12.4,
+      "w": 4.4,
+      "h": 3,
+      "d": 0.45,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.5,
+      "y": 9.4,
+      "z": -12.55,
+      "w": 3,
+      "h": 0.35,
+      "d": 0.25,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -7,
+      "y": 0.5,
+      "z": -12.7,
+      "w": 1.4,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -5.5,
+      "y": 0.5,
+      "z": -12.7,
+      "w": 1.4,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 5.5,
+      "y": 0.5,
+      "z": -12.7,
+      "w": 1.4,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 7,
+      "y": 0.5,
+      "z": -12.7,
+      "w": 1.4,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 7.5,
+      "y": 0.7,
+      "z": -8,
+      "w": 4,
+      "h": 3,
+      "d": 5.5,
+      "mat": "roof.wood"
+    },
+    {
+      "x": 7.8,
+      "y": 0.8,
+      "z": -12.1,
+      "w": 2.4,
+      "h": 0.45,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 0.18,
+      "z": -13,
+      "w": 6,
+      "h": 0.28,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -12.92,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.78,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 11.84,
+      "z": -10.8,
+      "w": 8,
+      "h": 2.2,
+      "face": "front",
+      "title": "HAY BARN",
+      "subtitle": "LOFT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "z": -13.35,
+      "w": 4.2,
+      "h": 1.05,
+      "face": "front",
+      "title": "HAY",
+      "subtitle": "LOFT",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

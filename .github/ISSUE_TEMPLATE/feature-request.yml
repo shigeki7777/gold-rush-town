@@ -1,0 +1,32 @@
+name: "✨ Feature request"
+description: Ask for a new town feature. Visual ones the community builds; backend ones SaSame builds.
+labels: ["feature-request", "community"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What feature would you like?
+      placeholder: e.g. "a day/night toggle", "fireflies at night", "a way to filter buildings by grade colour"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why — what would it make better?
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is it visual or does it need backend?
+      description: Not sure? That's fine — pick "Not sure" and we'll sort it.
+      options:
+        - "Visual / frontend (the community can build this here)"
+        - "Needs backend / data / money (SaSame builds the backend; community can build the front)"
+        - "Not sure"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >
+        SaSame provides the backend (functions, data, money); the community builds the frontend.
+        Backend-touching requests are implemented privately by SaSame and exposed via the public API,
+        then the community can design the UI for them.

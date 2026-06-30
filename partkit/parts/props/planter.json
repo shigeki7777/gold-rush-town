@@ -1,0 +1,106 @@
+{
+  "id": "planter",
+  "name": "Flower Planter",
+  "category": "prop",
+  "variant": "role-prop-planter",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.3,
+  "description": "Purpose-built prop asset: planter with Gold Rush Town role cue (TOWN/PROP), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.base",
+    "nature.leafDark",
+    "flower.red",
+    "flower.gold",
+    "flower.white",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.4,
+      "y": 0,
+      "z": -0.6,
+      "w": 2.8,
+      "h": 1,
+      "d": 1.2,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1.2,
+      "y": 1,
+      "z": -0.4,
+      "w": 2.4,
+      "h": 0.5,
+      "d": 0.8,
+      "mat": "nature.leafDark"
+    },
+    {
+      "x": -0.9,
+      "y": 1.4,
+      "z": -0.2,
+      "w": 0.5,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "flower.red"
+    },
+    {
+      "x": -0.1,
+      "y": 1.4,
+      "z": -0.2,
+      "w": 0.5,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "flower.gold"
+    },
+    {
+      "x": 0.7,
+      "y": 1.4,
+      "z": -0.2,
+      "w": 0.5,
+      "h": 0.7,
+      "d": 0.5,
+      "mat": "flower.white"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.95,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.92,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.18,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "TOWN",
+      "subtitle": "PROP",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

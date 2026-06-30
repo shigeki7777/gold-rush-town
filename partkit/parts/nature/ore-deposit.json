@@ -1,0 +1,159 @@
+{
+  "id": "ore-deposit",
+  "name": "Ore Deposit",
+  "category": "nature",
+  "variant": "role-landmark-ore-deposit",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.4,
+  "description": "Purpose-built Gold Rush Town landmark: ore-deposit with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "stone.dark",
+    "stone.base",
+    "coal.base",
+    "metal.copper",
+    "wood.dark",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -2.2,
+      "y": -0.8,
+      "z": -2.2,
+      "w": 4.4,
+      "h": 4.4,
+      "d": 4.4,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -0.22,
+      "y": 0.21,
+      "z": -2.24,
+      "w": 3.17,
+      "h": 3.17,
+      "d": 3.17,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -2.73,
+      "y": 0.08,
+      "z": -0.66,
+      "w": 3.17,
+      "h": 3.17,
+      "d": 3.17,
+      "mat": "stone.dark"
+    },
+    {
+      "x": -0.92,
+      "y": 1.49,
+      "z": -1.01,
+      "w": 2.82,
+      "h": 2.82,
+      "d": 2.82,
+      "mat": "stone.base"
+    },
+    {
+      "x": -1.98,
+      "y": 1.44,
+      "z": -2.2,
+      "w": 2.55,
+      "h": 2.55,
+      "d": 2.55,
+      "mat": "stone.base"
+    },
+    {
+      "x": -0.4,
+      "y": -0.54,
+      "z": -0.22,
+      "w": 2.64,
+      "h": 2.64,
+      "d": 2.64,
+      "mat": "coal.base"
+    },
+    {
+      "x": -2.55,
+      "y": -0.27,
+      "z": -2.24,
+      "w": 2.46,
+      "h": 2.46,
+      "d": 2.46,
+      "mat": "coal.base"
+    },
+    {
+      "x": -0.99,
+      "y": 2.39,
+      "z": -1.32,
+      "w": 2.2,
+      "h": 2.2,
+      "d": 2.2,
+      "mat": "stone.base"
+    },
+    {
+      "x": 0.7,
+      "y": 2.2,
+      "z": 0.8,
+      "w": 0.6,
+      "h": 0.6,
+      "d": 0.45,
+      "mat": "metal.copper"
+    },
+    {
+      "x": -0.9,
+      "y": 1.6,
+      "z": 1,
+      "w": 0.6,
+      "h": 0.6,
+      "d": 0.45,
+      "mat": "metal.copper"
+    },
+    {
+      "x": 1.2,
+      "y": 1.2,
+      "z": 0.2,
+      "w": 0.6,
+      "h": 0.6,
+      "d": 0.45,
+      "mat": "metal.copper"
+    },
+    {
+      "x": -1.8,
+      "y": 0.2,
+      "z": -2.4,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0.45,
+      "z": -2.35,
+      "w": 1.2,
+      "h": 0.22,
+      "d": 0.55,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -2.8,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

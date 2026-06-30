@@ -1,0 +1,92 @@
+{
+  "id": "bell",
+  "name": "Mounted Bell",
+  "category": "attachment",
+  "variant": "role-attachment-bell",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.5,
+  "description": "Purpose-built attachment asset: bell with Gold Rush Town role cue (BUILD/DETAIL), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "wood.dark",
+    "wood.base",
+    "metal.brass",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.2,
+      "y": 4,
+      "z": -1.2,
+      "w": 2.4,
+      "h": 0.6,
+      "d": 2.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 4,
+      "d": 0.4,
+      "mat": "wood.base"
+    },
+    {
+      "x": 0.6,
+      "y": 0,
+      "z": -0.1,
+      "w": 0.4,
+      "h": 4,
+      "d": 0.4,
+      "mat": "wood.base"
+    },
+    {
+      "x": -1,
+      "y": 2.6,
+      "z": -1,
+      "w": 2,
+      "h": 2,
+      "d": 2,
+      "mat": "metal.brass"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.85,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.82,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "wood.base"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -2.08,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "BUILD",
+      "subtitle": "DETAIL",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

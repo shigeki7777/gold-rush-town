@@ -1,0 +1,32 @@
+name: "🎨 Design proposal"
+description: Propose a new part, a redesign, or a visual/palette improvement.
+labels: ["design", "community"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want to design or improve?
+      placeholder: e.g. "A new 'photographer studio' building part" or "warmer night palette"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [New part, Redesign existing part, Palette / colours, Styling / CSS, Other visual]
+    validations:
+      required: true
+  - type: textarea
+    id: refs
+    attributes:
+      label: References / mockups (optional)
+      placeholder: Sketches, screenshots, or links that show the look you're going for.
+  - type: checkboxes
+    id: rails
+    attributes:
+      label: Honesty check
+      options:
+        - label: "This is purely visual/design — it doesn't touch money, functions, claims, or the backend."
+          required: true
+        - label: "No fake crowds and no 'safe/verified/best/endorsed' language (grades are measurements)."
+          required: true

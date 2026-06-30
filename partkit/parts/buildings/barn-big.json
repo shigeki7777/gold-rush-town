@@ -1,0 +1,322 @@
+{
+  "id": "barn-big",
+  "name": "Great Barn",
+  "category": "building",
+  "variant": "role-gable-barn-big",
+  "footprint": [
+    10,
+    12
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke barn-big: great barn — stacked hay bales and a standing pitchfork. Distinct gable landmark, not a generic role bucket.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.tile",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "ground.dirt",
+    "nature.leafBase",
+    "metal.steel",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -10.5,
+      "y": 0,
+      "z": -12.5,
+      "w": 21,
+      "h": 1,
+      "d": 25,
+      "mat": "stone.base"
+    },
+    {
+      "x": -10,
+      "y": 1,
+      "z": -12,
+      "w": 20,
+      "h": 7,
+      "d": 24,
+      "mat": "wood.base"
+    },
+    {
+      "x": -10.3,
+      "y": 8,
+      "z": -12.7,
+      "w": 20.6,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -9.59,
+      "y": 8.86,
+      "z": -12.7,
+      "w": 19.17,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -8.87,
+      "y": 9.71,
+      "z": -12.7,
+      "w": 17.74,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -8.16,
+      "y": 10.57,
+      "z": -12.7,
+      "w": 16.31,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -7.44,
+      "y": 11.43,
+      "z": -12.7,
+      "w": 14.89,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -6.73,
+      "y": 12.29,
+      "z": -12.7,
+      "w": 13.46,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -6.01,
+      "y": 13.14,
+      "z": -12.7,
+      "w": 12.03,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -5.3,
+      "y": 14,
+      "z": -12.7,
+      "w": 10.6,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -4.59,
+      "y": 14.86,
+      "z": -12.7,
+      "w": 9.17,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -3.87,
+      "y": 15.71,
+      "z": -12.7,
+      "w": 7.74,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -3.16,
+      "y": 16.57,
+      "z": -12.7,
+      "w": 6.31,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -2.44,
+      "y": 17.43,
+      "z": -12.7,
+      "w": 4.89,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -1.73,
+      "y": 18.29,
+      "z": -12.7,
+      "w": 3.46,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -1.01,
+      "y": 19.14,
+      "z": -12.7,
+      "w": 2.03,
+      "h": 1.21,
+      "d": 25.4,
+      "mat": "roof.tile"
+    },
+    {
+      "x": -0.4,
+      "y": 20,
+      "z": -12.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 25.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -12.4,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2.25,
+      "y": 1,
+      "z": -12.5,
+      "w": 4.5,
+      "h": 6.5,
+      "d": 0.3,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -10.3,
+      "y": 2.5,
+      "z": -10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 9.9,
+      "y": 2.5,
+      "z": -10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -10.3,
+      "y": 2.5,
+      "z": 10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 9.9,
+      "y": 2.5,
+      "z": 10,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -10.5,
+      "y": 0.18,
+      "z": -15.2,
+      "w": 21,
+      "h": 0.34,
+      "d": 1.2,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -4,
+      "y": 0.3,
+      "z": -14.6,
+      "w": 1.6,
+      "h": 1.2,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -2.2,
+      "y": 0.3,
+      "z": -14.6,
+      "w": 1.6,
+      "h": 1,
+      "d": 1.2,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": -3.2,
+      "y": 1.6,
+      "z": -14.55,
+      "w": 1.6,
+      "h": 1,
+      "d": 1.1,
+      "mat": "nature.leafBase"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -14.4,
+      "w": 0.15,
+      "h": 3,
+      "d": 0.15,
+      "mat": "wood.base"
+    },
+    {
+      "x": 2.78,
+      "y": 2.9,
+      "z": -14.5,
+      "w": 0.6,
+      "h": 0.4,
+      "d": 0.16,
+      "mat": "metal.steel"
+    }
+  ],
+  "signs": [
+    {
+      "x": -4.4,
+      "y": 3.4,
+      "z": -15.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "GREAT",
+      "subtitle": "BARN",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 4.4,
+      "y": 3.4,
+      "z": -15.3,
+      "w": 2.5,
+      "h": 1,
+      "face": "front",
+      "title": "HAY",
+      "subtitle": "GRAIN",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

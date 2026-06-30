@@ -1,0 +1,171 @@
+{
+  "id": "pay-dirt",
+  "name": "Pay Dirt Mound",
+  "category": "nature",
+  "variant": "role-landmark-pay-dirt",
+  "footprint": [
+    1,
+    1
+  ],
+  "voxel": 0.4,
+  "description": "Purpose-built Gold Rush Town landmark: pay-dirt with clearer public-facing purpose, photo-spot cues, and role signage.",
+  "palette_tokens": [
+    "ground.diggings",
+    "ground.dirt",
+    "nature.trunk",
+    "accent.gold",
+    "metal.iron",
+    "wood.dark",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -1.8,
+      "y": -0.8,
+      "z": -1.8,
+      "w": 3.6,
+      "h": 3.6,
+      "d": 3.6,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -0.18,
+      "y": 0.03,
+      "z": -1.84,
+      "w": 2.59,
+      "h": 2.59,
+      "d": 2.59,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -2.23,
+      "y": -0.08,
+      "z": -0.54,
+      "w": 2.59,
+      "h": 2.59,
+      "d": 2.59,
+      "mat": "ground.diggings"
+    },
+    {
+      "x": -0.76,
+      "y": 1.07,
+      "z": -0.83,
+      "w": 2.3,
+      "h": 2.3,
+      "d": 2.3,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -1.62,
+      "y": 1.04,
+      "z": -1.8,
+      "w": 2.09,
+      "h": 2.09,
+      "d": 2.09,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": -0.32,
+      "y": -0.58,
+      "z": -0.18,
+      "w": 2.16,
+      "h": 2.16,
+      "d": 2.16,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -2.09,
+      "y": -0.37,
+      "z": -1.84,
+      "w": 2.02,
+      "h": 2.02,
+      "d": 2.02,
+      "mat": "nature.trunk"
+    },
+    {
+      "x": -0.81,
+      "y": 1.81,
+      "z": -1.08,
+      "w": 1.8,
+      "h": 1.8,
+      "d": 1.8,
+      "mat": "ground.dirt"
+    },
+    {
+      "x": 0.5,
+      "y": 1.6,
+      "z": 0.6,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -0.7,
+      "y": 1.6,
+      "z": 0.4,
+      "w": 0.4,
+      "h": 0.4,
+      "d": 0.4,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.4,
+      "y": 0,
+      "z": -1.4,
+      "w": 1.6,
+      "h": 0.25,
+      "d": 1.6,
+      "mat": "metal.iron"
+    },
+    {
+      "x": -1.1,
+      "y": 0.25,
+      "z": -1.1,
+      "w": 1,
+      "h": 0.12,
+      "d": 1,
+      "mat": "accent.gold",
+      "emissive": true
+    },
+    {
+      "x": -1.8,
+      "y": 0.2,
+      "z": -2.4,
+      "w": 3.6,
+      "h": 0.2,
+      "d": 0.7,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.6,
+      "y": 0.45,
+      "z": -2.35,
+      "w": 1.2,
+      "h": 0.22,
+      "d": 0.55,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 2.6,
+      "z": -2.8,
+      "w": 3.6,
+      "h": 1.05,
+      "face": "front",
+      "title": "DIG",
+      "subtitle": "SITE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "train-depot",
+  "name": "Railroad Depot",
+  "category": "building",
+  "variant": "bespoke-train-depot-platform",
+  "footprint": [
+    8,
+    6
+  ],
+  "voxel": 0.5,
+  "description": "Bespoke Train Depot: long low roofline, full passenger platform, baggage bay, route board, and telegraph mast. Bespoke architecture pass: train-depot has a distinct silhouette and role-specific yard/frontage.",
+  "palette_tokens": [
+    "stone.base",
+    "wood.base",
+    "roof.tin",
+    "wood.trim",
+    "wood.dark",
+    "light.window",
+    "canvas.dirty",
+    "accent.gold",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -8.5,
+      "y": 0,
+      "z": -6.5,
+      "w": 17,
+      "h": 1,
+      "d": 13,
+      "mat": "stone.base"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": -6,
+      "w": 16,
+      "h": 6,
+      "d": 12,
+      "mat": "wood.base"
+    },
+    {
+      "x": -8.3,
+      "y": 7,
+      "z": -6.7,
+      "w": 16.6,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -7.57,
+      "y": 7.61,
+      "z": -6.7,
+      "w": 15.15,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -6.85,
+      "y": 8.22,
+      "z": -6.7,
+      "w": 13.69,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -6.12,
+      "y": 8.83,
+      "z": -6.7,
+      "w": 12.24,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -5.39,
+      "y": 9.44,
+      "z": -6.7,
+      "w": 10.78,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -4.66,
+      "y": 10.05,
+      "z": -6.7,
+      "w": 9.33,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -3.94,
+      "y": 10.67,
+      "z": -6.7,
+      "w": 7.87,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -3.21,
+      "y": 11.28,
+      "z": -6.7,
+      "w": 6.42,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -2.48,
+      "y": 11.89,
+      "z": -6.7,
+      "w": 4.96,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -1.75,
+      "y": 12.5,
+      "z": -6.7,
+      "w": 3.51,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -1.03,
+      "y": 13.11,
+      "z": -6.7,
+      "w": 2.05,
+      "h": 0.96,
+      "d": 13.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -0.4,
+      "y": 13.72,
+      "z": -6.7,
+      "w": 0.8,
+      "h": 0.8,
+      "d": 13.4,
+      "mat": "wood.trim"
+    },
+    {
+      "x": -1.3,
+      "y": 1,
+      "z": -6.4,
+      "w": 2.6,
+      "h": 5,
+      "d": 0.6,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": -4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": -4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": -1.33,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": -1.33,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": 1.33,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": 1.33,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -8.3,
+      "y": 2.5,
+      "z": 4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": 7.9,
+      "y": 2.5,
+      "z": 4,
+      "w": 0.4,
+      "h": 2.6,
+      "d": 1.8,
+      "mat": "light.window",
+      "emissive": true
+    },
+    {
+      "x": -11,
+      "y": 0.35,
+      "z": -7.8,
+      "w": 22,
+      "h": 0.45,
+      "d": 3,
+      "mat": "wood.base"
+    },
+    {
+      "x": -11,
+      "y": 5.9,
+      "z": -8.2,
+      "w": 22,
+      "h": 0.5,
+      "d": 3.4,
+      "mat": "roof.tin"
+    },
+    {
+      "x": -10,
+      "y": 0.8,
+      "z": -8,
+      "w": 0.4,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -6,
+      "y": 0.8,
+      "z": -8,
+      "w": 0.4,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -2,
+      "y": 0.8,
+      "z": -8,
+      "w": 0.4,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 2,
+      "y": 0.8,
+      "z": -8,
+      "w": 0.4,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 6,
+      "y": 0.8,
+      "z": -8,
+      "w": 0.4,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 10,
+      "y": 0.8,
+      "z": -8,
+      "w": 0.4,
+      "h": 5,
+      "d": 0.4,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -8,
+      "y": 0.8,
+      "z": -9.2,
+      "w": 2.4,
+      "h": 1.3,
+      "d": 1.1,
+      "mat": "canvas.dirty"
+    },
+    {
+      "x": -4.8,
+      "y": 0.8,
+      "z": -9.2,
+      "w": 2.2,
+      "h": 1.1,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 7.5,
+      "y": 0.8,
+      "z": -9,
+      "w": 3,
+      "h": 0.35,
+      "d": 1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 10.5,
+      "y": 0.8,
+      "z": -8.8,
+      "w": 0.32,
+      "h": 8,
+      "d": 0.32,
+      "mat": "wood.dark"
+    },
+    {
+      "x": 8.4,
+      "y": 7.4,
+      "z": -8.8,
+      "w": 4.2,
+      "h": 0.35,
+      "d": 0.35,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -3,
+      "y": 0.18,
+      "z": -9.7,
+      "w": 6,
+      "h": 0.28,
+      "d": 1.1,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -1.4,
+      "y": 0.5,
+      "z": -9.62,
+      "w": 2.8,
+      "h": 0.18,
+      "d": 0.78,
+      "mat": "accent.gold",
+      "emissive": true
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 9.69,
+      "z": -6.8,
+      "w": 8,
+      "h": 2.2,
+      "face": "front",
+      "title": "DEPOT",
+      "subtitle": "ARRIVALS",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "z": -10.05,
+      "w": 4.2,
+      "h": 1.05,
+      "face": "front",
+      "title": "TRAIN",
+      "subtitle": "TIMES",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}

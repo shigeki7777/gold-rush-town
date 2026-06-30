@@ -1,0 +1,111 @@
+{
+  "id": "joshua-tree",
+  "name": "Joshua Tree",
+  "category": "nature",
+  "variant": "role-nature-joshua-tree",
+  "footprint": [
+    2,
+    2
+  ],
+  "voxel": 0.35,
+  "description": "Purpose-built nature asset: joshua-tree with Gold Rush Town role cue (SCENE/EDGE), grounded base detail, and catalog-readable purpose signage.",
+  "palette_tokens": [
+    "nature.cactus",
+    "flower.white",
+    "wood.dark",
+    "nature.leafBase",
+    "sign.board",
+    "sign.frame",
+    "sign.text"
+  ],
+  "origin": "base-center-ground",
+  "boxes": [
+    {
+      "x": -0.8,
+      "y": 0,
+      "z": -0.8,
+      "w": 1.6,
+      "h": 11,
+      "d": 1.6,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": -2.6,
+      "y": 4,
+      "z": -0.5,
+      "w": 1,
+      "h": 3,
+      "d": 1,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": -2.6,
+      "y": 6.5,
+      "z": -0.5,
+      "w": 1,
+      "h": 3.5,
+      "d": 1,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": 1.6,
+      "y": 5.5,
+      "z": -0.5,
+      "w": 1,
+      "h": 2.5,
+      "d": 1,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": 1.6,
+      "y": 7.5,
+      "z": -0.5,
+      "w": 1,
+      "h": 3,
+      "d": 1,
+      "mat": "nature.cactus"
+    },
+    {
+      "x": -0.5,
+      "y": 11,
+      "z": -0.5,
+      "w": 1,
+      "h": 0.6,
+      "d": 1,
+      "mat": "flower.white"
+    },
+    {
+      "x": -1.15,
+      "y": 0.05,
+      "z": -1.75,
+      "w": 2.3,
+      "h": 0.18,
+      "d": 0.5,
+      "mat": "wood.dark"
+    },
+    {
+      "x": -0.55,
+      "y": 0.23,
+      "z": -1.72,
+      "w": 1.1,
+      "h": 0.14,
+      "d": 0.38,
+      "mat": "nature.leafBase"
+    }
+  ],
+  "signs": [
+    {
+      "x": 0,
+      "y": 1.35,
+      "z": -1.98,
+      "w": 2.25,
+      "h": 0.78,
+      "face": "front",
+      "title": "SCENE",
+      "subtitle": "EDGE",
+      "bg": "sign.board",
+      "frame": "sign.frame",
+      "fg": "sign.text"
+    }
+  ]
+}
