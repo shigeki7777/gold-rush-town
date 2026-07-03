@@ -10,17 +10,14 @@ Thanks for helping design the town! This is the **design / visual layer**. Here'
 - The **palette** (`partkit/palette.js`) — the shared colour language.
 - **Styling** (`*.css`) and visual/UX polish.
 - New part designs, better geometry, nicer details.
-- Visual shells for index boards, town newspapers, telegraph boards, signage, and dashboards.
-- Mobile usability and accessibility improvements.
 
 🚫 **Out of scope (SaSame's private backend — not in this repo):**
-- Anything about official **money, pricing, payments, claims, ownership, settlement, trust,
-  certification outcomes, index calculation, or economy rules.**
+- Anything about **money, pricing, payments, claims, ownership, settlement, or the economy.**
 - Server code, APIs, secrets, keys, wallets, databases.
 
-If a change you want needs the backend (a new function, a new economy rule, a data endpoint,
-official GRX values, or a trust/certification rule), **don't try to build it here** — open a
-*SaSame-side feature request* issue and SaSame builds the backend side. You build the front.
+If a change you want needs the backend (a new function, a new economy rule, a data endpoint),
+**don't try to build it here** — open a *feature request* issue and SaSame builds the backend
+side. You build the front.
 
 ## The leak-guard (please don't fight it)
 
@@ -43,8 +40,6 @@ node dev-server.mjs        # open http://localhost:8080/  — browse all 402 par
 - Re-render in the catalog to check it. If you use the generator, run the part-kit's
   `generate-parts.mjs` and `catalog-verify.mjs` (headless render check, zero JS errors).
 - See [`DESIGN-SYSTEM.md`](./DESIGN-SYSTEM.md) for the art language, scale, and the voxel grid.
-- See [`docs/community-ui-governance.md`](./docs/community-ui-governance.md) for how community
-  UI work stays compatible with Gold Rush's economy/index/trust rules.
 
 ## Honesty rules (non-negotiable — they're the town's whole identity)
 
@@ -52,9 +47,15 @@ The town shows the agent economy **as it really is**. Your designs must keep tha
 - No fake crowds, fake activity, or inflated counts.
 - No "verified / safe / trusted / best / endorsed" language on parts — grades are *measurements*,
   not endorsements.
-- No visual pattern that implies Gold, Scrip, sponsorship, or payment can buy trust, certification,
-  ranking, or index placement.
 - No content that impersonates a real company/product as if SaSame vouches for it.
+
+## Scope boundary
+
+This repository contains public-facing design and non-sensitive community components for the
+Gold Rush experience only. Internal business logic, monetization design, compliance review,
+moderation policy, telemetry, and private operating specifications are maintained in SaSame
+private repositories — please don't file issues or PRs here that contain internal
+implementation planning; they will be moved to private tracking.
 
 ## PR flow
 
@@ -63,4 +64,4 @@ The town shows the agent economy **as it really is**. Your designs must keep tha
 3. SaSame reviews for **look + safety**, then ships it to the live town. Merged design changes
    are applied upstream and synced back here.
 
-Questions? `#builders` on [Discord](https://discord.gg/bAKtSKqKT). Have fun — this town is ours to build.
+Questions? `#builders` on [Discord](https://discord.gg/AYQUhPHafP). Have fun — this town is ours to build.
