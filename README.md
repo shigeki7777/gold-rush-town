@@ -27,6 +27,20 @@ the *look* of the town. Anyone can help shape it.
 This isn't a limitation — it's what lets us open the design freely. There's nothing sensitive
 here to leak, so build away.
 
+## Community UI governance
+
+Gold Rush Town can have an internal economy and official Gold Rush Index surfaces, but this public
+repo remains the safe community layer.
+
+- Community contributors can design **how** Gold, Scrip, readiness, index boards, newspapers,
+  signage, facilities, and town UX appear.
+- SaSame controls **what those values mean**: official data, claims, pricing, monitoring,
+  trust, certification, settlement, and index calculation.
+- Payment can buy access, monitoring, support, or clearly disclosed visibility. It cannot buy
+  trust, grades, certification outcomes, index inclusion, or ranking.
+
+See [`docs/community-ui-governance.md`](./docs/community-ui-governance.md) for the full policy.
+
 ## Run it locally (no backend, no keys)
 
 ```bash
@@ -41,11 +55,13 @@ with zero SaSame backend.
 
 1. **Say hi on [Discord](https://discord.gg/bAKtSKqKT)** (`#builders`) — tell us what you want to make.
 2. **Design** — improve a part, add a new one, refine the palette or the look. See
-   [`CONTRIBUTING.md`](./CONTRIBUTING.md) and [`DESIGN-SYSTEM.md`](./DESIGN-SYSTEM.md).
-3. **Open a PR.** CI runs the leak-guard + a render check. SaSame reviews it for look + safety
+   [`CONTRIBUTING.md`](./CONTRIBUTING.md), [`DESIGN-SYSTEM.md`](./DESIGN-SYSTEM.md), and
+   [`docs/community-ui-governance.md`](./docs/community-ui-governance.md).
+3. **Open a PR.** CI runs the leak-guard. SaSame reviews it for look + safety
    and ships the approved design to the live town.
-4. **Want a feature?** Open a [feature request](./.github/ISSUE_TEMPLATE) — if it needs backend,
-   SaSame builds the backend; if it's visual, the community builds it.
+4. **Want a feature?** Open a [SaSame-side feature request](./.github/ISSUE_TEMPLATE/sasame_backend_feature.yml)
+   if it needs official data/backend logic, or a [UI design issue](./.github/ISSUE_TEMPLATE/ui_design.yml)
+   if it's visual.
 
 ## What lives where
 
@@ -54,6 +70,7 @@ with zero SaSame backend.
 | `partkit/` — the voxel part catalog + authoring system | the live world data & rendering pipeline |
 | palette, colours, `*.css` styling | claims, ownership, settlement, the economy |
 | the visual / design / UX | pricing, payments, the business |
+| index boards / signage visual shells | official GRX index generation and data feeds |
 
 Honesty is the town's whole point: buildings are real measured MCP servers, grades are
 measurements (never endorsements), and quiet is shown as quiet. Designs must keep that honest —
