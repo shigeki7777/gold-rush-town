@@ -1,0 +1,50 @@
+name: SaSame-side feature request
+about: Request a feature that needs SaSame private data, official feeds, economy rules, or backend implementation.
+title: "SaSame feature: "
+labels: ["feature-request", "sasame-side"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this when the change cannot be built safely in the public community design layer.
+
+        Public contributors can design the front. SaSame implements official data, trust, economy, and index behavior on the private side.
+  - type: textarea
+    id: request
+    attributes:
+      label: What should SaSame implement?
+      description: Describe the behavior, data feed, or system feature needed.
+    validations:
+      required: true
+  - type: textarea
+    id: frontend
+    attributes:
+      label: What can the community design layer prepare?
+      description: Describe the visual shell, signage, UI, or town representation that can be built publicly without private logic.
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Official data feed
+        - Gold Rush Index display
+        - Alpha signal display
+        - Town economy display
+        - Claim or certification display
+        - Monitoring display
+        - Other SaSame-side feature
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Policy checks
+      options:
+        - label: This does not ask the public repo to calculate official trust, certification, ranking, or index values.
+          required: true
+        - label: This does not require the public repo to contain private keys, private data, or official system logic.
+          required: true
+        - label: This preserves the separation between paid access and measured trust.
+          required: true
