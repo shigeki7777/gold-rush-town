@@ -5,7 +5,7 @@
     "art_language": "palette.js (Wild-21 + SaSame gold) — fine-voxel, single coherent kit",
     "schema_version": "1.0.0",
     "generated": true,
-    "part_count": 404
+    "part_count": 407
   },
   "categories": [
     "ground",
@@ -2430,6 +2430,27 @@
       "name": "Info Kiosk",
       "category": "prop",
       "file": "parts/props/info-kiosk.json",
+      "status": "ready"
+    },
+    {
+      "id": "ledger-board",
+      "name": "Ledger Board",
+      "category": "prop",
+      "file": "parts/props/ledger-board.json",
+      "status": "ready"
+    },
+    {
+      "id": "price-board",
+      "name": "Price Board",
+      "category": "prop",
+      "file": "parts/props/price-board.json",
+      "status": "ready"
+    },
+    {
+      "id": "passport-kiosk",
+      "name": "Passport Kiosk",
+      "category": "prop",
+      "file": "parts/props/passport-kiosk.json",
       "status": "ready"
     },
     {
