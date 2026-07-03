@@ -1,0 +1,55 @@
+name: UI design contribution
+about: Propose a voxel part, palette, styling, or UX improvement for the public community design layer.
+title: "Design: "
+labels: ["design", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape Gold Rush Town. Keep this issue focused on the public visual/design layer.
+  - type: textarea
+    id: change
+    attributes:
+      label: What visual or design change do you want to make?
+      description: Describe the part, palette, styling, UX, or catalog change.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this improve the town?
+      description: Explain the visual role, readability, or user experience improvement.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Voxel part
+        - Palette token
+        - CSS styling
+        - Catalog UX
+        - Mobile UX
+        - Index board or signage visual shell
+        - Other visual layer
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: Reference or preview
+      description: Add screenshots, sketches, links, or a rough description.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Guardrails
+      options:
+        - label: This is purely visual/design and does not add private system logic.
+          required: true
+        - label: This will not imply that contribution, sponsorship, or payment changes measured trust, certification, or ranking.
+          required: true
+        - label: This keeps the town honest with no fake crowds, fake activity, or fake safe/best/endorsed badges.
+          required: true
