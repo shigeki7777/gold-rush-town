@@ -5,7 +5,7 @@
     "art_language": "palette.js (Wild-21 + SaSame gold) — fine-voxel, single coherent kit",
     "schema_version": "1.0.0",
     "generated": true,
-    "part_count": 402
+    "part_count": 404
   },
   "categories": [
     "ground",
@@ -2416,6 +2416,20 @@
       "name": "Freight Weigh Scale",
       "category": "prop",
       "file": "parts/props/weigh-station.json",
+      "status": "ready"
+    },
+    {
+      "id": "market-stall",
+      "name": "Market Stall",
+      "category": "prop",
+      "file": "parts/props/market-stall.json",
+      "status": "ready"
+    },
+    {
+      "id": "info-kiosk",
+      "name": "Info Kiosk",
+      "category": "prop",
+      "file": "parts/props/info-kiosk.json",
       "status": "ready"
     },
     {
