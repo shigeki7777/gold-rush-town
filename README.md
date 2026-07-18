@@ -2,9 +2,13 @@
 
 **Live town:** https://live-vps.sasame.online/world/ · **Discord:** https://discord.gg/AYQUhPHafP
 
-Gold Rush Town is a walkable, honest map of the AI-agent (MCP) economy: every building
-is a real, independently-measured MCP server. This repo is the **community design layer** —
-the *look* of the town. Anyone can help shape it.
+Gold Rush Town is a **public demonstration/engagement station of the SaSame MCP Factory** — a walkable, honest map of the AI-agent (MCP) economy built on the Factory's observation and identity data: every building is a real, independently-measured MCP server. It is not an independent product; it's how the Factory's inspection data becomes something explorable. This repo is the **community design layer** — the *look* of the town. Anyone can help shape it.
+
+## Part of SaSame MCP Factory
+
+SaSame is one modular **MCP Factory**: a production, distribution, inspection and continuous-observation system for Model Context Protocol servers. The Factory turns its own observation and identity data (readiness grades, claims, tool surfaces) into this public, explorable town — a demonstration surface, not a separate business.
+
+Sibling stations in the Factory: [sasame-mcp-observatory](https://github.com/shigeki7777/sasame-mcp-observatory) (inspection/observation station) · [sasame-mcp](https://github.com/shigeki7777/sasame-mcp) (public MCP entry point) · [mcp-readiness](https://github.com/shigeki7777/mcp-readiness) (forkable local inspection CLI). Public site: https://srl-sasame.com.
 
 ```
    ┌──────────────────────────────────────┐        ┌────────────────────────────────────┐
